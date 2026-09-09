@@ -73,6 +73,8 @@ landsat:
   cloud_pct_max: 80
   indices: [NDVI, NDMI, NBR, BSI, MNDWI]
 lidar:
+  enabled: false  # Optional bonus; SAR + optical are the primary MVP.
+  required: false
   pre_before: '2023-02-13'
   post_after: '2023-02-15'
   late_post_days: 120

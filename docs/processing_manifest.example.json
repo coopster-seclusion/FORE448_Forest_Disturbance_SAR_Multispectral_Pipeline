@@ -1,0 +1,157 @@
+{
+  "_example_only": "Replace all values with verified selected sources; this file does not authorize processing",
+  "config_sha256": "REPLACE_WITH_CFG_FINGERPRINT",
+  "scene_ids": [],
+  "registration": {
+    "rmse_pixels": null,
+    "assessment_file": "data/registration_assessment.json",
+    "resolution_m": 30
+  },
+  "sar_product": {
+    "30m": "OPERA_RTC",
+    "10m": "HYP3_GAMMA"
+  },
+  "hyp3_parameters": {},
+  "sar_valid_mask_provenance": "",
+  "sar": {
+    "30m": {
+      "pre": {
+        "vv": "data/raw/sentinel1/30m/pre/vv.tif",
+        "vh": "data/raw/sentinel1/30m/pre/vh.tif",
+        "mask": "data/raw/sentinel1/30m/pre/mask.tif",
+        "units": "gamma0_power"
+      },
+      "post": {
+        "vv": "data/raw/sentinel1/30m/post/vv.tif",
+        "vh": "data/raw/sentinel1/30m/post/vh.tif",
+        "mask": "data/raw/sentinel1/30m/post/mask.tif",
+        "units": "gamma0_power"
+      }
+    },
+    "10m": {
+      "pre": {
+        "vv": "data/raw/sentinel1/10m/pre/vv.tif",
+        "vh": "data/raw/sentinel1/10m/pre/vh.tif",
+        "mask": "data/raw/sentinel1/10m/pre/mask.tif",
+        "units": "gamma0_power"
+      },
+      "post": {
+        "vv": "data/raw/sentinel1/10m/post/vv.tif",
+        "vh": "data/raw/sentinel1/10m/post/vh.tif",
+        "mask": "data/raw/sentinel1/10m/post/mask.tif",
+        "units": "gamma0_power"
+      }
+    }
+  },
+  "optical": {
+    "30m": {
+      "pre": {
+        "scene_ids": [],
+        "processing": "QA_masked_scaled_SR_median_indices",
+        "indices": {
+          "NDVI": {
+            "path": "data/raw/optical/30m/pre.tif",
+            "band": 1
+          },
+          "NDMI": {
+            "path": "data/raw/optical/30m/pre.tif",
+            "band": 2
+          },
+          "NBR": {
+            "path": "data/raw/optical/30m/pre.tif",
+            "band": 3
+          },
+          "BSI": {
+            "path": "data/raw/optical/30m/pre.tif",
+            "band": 4
+          },
+          "MNDWI": {
+            "path": "data/raw/optical/30m/pre.tif",
+            "band": 5
+          }
+        }
+      },
+      "post": {
+        "scene_ids": [],
+        "processing": "QA_masked_scaled_SR_median_indices",
+        "indices": {
+          "NDVI": {
+            "path": "data/raw/optical/30m/post.tif",
+            "band": 1
+          },
+          "NDMI": {
+            "path": "data/raw/optical/30m/post.tif",
+            "band": 2
+          },
+          "NBR": {
+            "path": "data/raw/optical/30m/post.tif",
+            "band": 3
+          },
+          "BSI": {
+            "path": "data/raw/optical/30m/post.tif",
+            "band": 4
+          },
+          "MNDWI": {
+            "path": "data/raw/optical/30m/post.tif",
+            "band": 5
+          }
+        }
+      }
+    },
+    "10m": {
+      "pre": {
+        "scene_ids": [],
+        "processing": "QA_masked_scaled_SR_median_indices",
+        "indices": {
+          "NDVI": {
+            "path": "data/raw/optical/10m/pre.tif",
+            "band": 1
+          },
+          "NDMI": {
+            "path": "data/raw/optical/10m/pre.tif",
+            "band": 2
+          },
+          "NBR": {
+            "path": "data/raw/optical/10m/pre.tif",
+            "band": 3
+          },
+          "BSI": {
+            "path": "data/raw/optical/10m/pre.tif",
+            "band": 4
+          },
+          "MNDWI": {
+            "path": "data/raw/optical/10m/pre.tif",
+            "band": 5
+          }
+        }
+      },
+      "post": {
+        "scene_ids": [],
+        "processing": "QA_masked_scaled_SR_median_indices",
+        "indices": {
+          "NDVI": {
+            "path": "data/raw/optical/10m/post.tif",
+            "band": 1
+          },
+          "NDMI": {
+            "path": "data/raw/optical/10m/post.tif",
+            "band": 2
+          },
+          "NBR": {
+            "path": "data/raw/optical/10m/post.tif",
+            "band": 3
+          },
+          "BSI": {
+            "path": "data/raw/optical/10m/post.tif",
+            "band": 4
+          },
+          "MNDWI": {
+            "path": "data/raw/optical/10m/post.tif",
+            "band": 5
+          }
+        }
+      }
+    }
+  },
+  "terrain": {}
+}

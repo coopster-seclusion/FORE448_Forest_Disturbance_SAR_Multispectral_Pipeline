@@ -133,6 +133,9 @@ def inventory_asf(c, aoi):
                     **timestamp_fields(p.get("startTime"),c)))
     return rows
 
+def ee_asset_id(collection,scene_id):
+    return scene_id if scene_id.startswith(collection+"/") else collection+"/"+scene_id
+
 def initialize_ee():
     import ee
     project_id = os.getenv("GEE_PROJECT") or os.getenv("GOOGLE_CLOUD_PROJECT")
@@ -167,6 +170,7 @@ def inventory_ee(c, aoi):
                     result["features"].extend(batch["features"])
                 for f in result["features"]:
                     p=f["properties"];g=shape(f["geometry"])
+                    p["scene_id"]=ee_asset_id(collection,p["scene_id"])
                     d=datetime.fromtimestamp(p["acquired_ms"]/1000,timezone.utc).isoformat()
                     rows.append(dict(sensor=sensor,product="SR",epoch=epoch,scene_id=p["scene_id"],
                         cloud_cover_pct=p.get("cloud_cover_pct"),valid_pixel_count=p.get("valid_pixel_count"),valid_fraction=p.get("valid_fraction"),
@@ -317,37 +321,25 @@ def select_lidar(rows,aoi,c):
     return selected
 
 def select_pilot(c):
-    import numpy as np
-    catchment=geometry(c.path(c["aoi"]["catchment"]))
-    forests=validate_forest(c,catchment)
-    rows=read_inventory(c); domain=project(catchment,target=c["crs"])
-    x0,y0,x1,y1=domain.bounds;side=c["aoi"]["pilot_side_m"];step=c["aoi"]["candidate_step_m"]
-    results=[];failures=[]
-    for x in np.arange(x0,x1,step):
-        for y in np.arange(y0,y1,step):
-            candidate=box(x,y,x+side,y+side).intersection(domain)
-            if candidate.geom_type!="Polygon" or candidate.area<1e6: continue
-            aoi=project(candidate,c["crs"],"EPSG:4326")
-            fractions={k:coverage(g,aoi,c["crs"]) for k,g in forests.items()}
-            if sum(fractions.values())<c["aoi"]["min_forest_fraction"] or min(fractions.values())<c["aoi"]["min_forest_type_fraction"]: continue
-            try:
-                validate_aoi(c,aoi)
-                chosen=select_lidar(rows,aoi,c)
-                for product in ("OPERA_RTC","S1_GRD"): chosen+=select_sar(rows,aoi,c,product)
-                for sensor in ("sentinel2","landsat"): chosen+=select_optical(rows,aoi,c,sensor,allow_network=True)
-            except ConfigError as exc:
-                failures.append(str(exc));continue
-            # Pre-event forest mix + evidence coverage. Terrain diversity is reviewed with aerials later.
-            score=sum(fractions.values())+2*min(fractions.values())
-            results.append((score,aoi,chosen,fractions))
-    if not results:
-        raise ConfigError("No pilot passes inventory guardrails. "+"; ".join(sorted(set(failures))[:6]))
-    score,aoi,chosen,fractions=max(results,key=lambda x:x[0])
-    props={"selection":"inventory_verified", "forest_fractions":fractions,"score":score,"config_sha256":c.fingerprint,
-           "justification":"Highest forest cover and forest-type balance among contiguous catchment windows meeting dated LiDAR, SAR pairing and optical coverage checks; review disturbance diversity with aerial imagery."}
-    save_geometry(c.path(c["aoi"]["study_area"]),aoi,props)
-    pd.DataFrame(chosen).drop_duplicates(subset=["scene_id"]).to_csv(c.path(c["inventory"]["selected_path"]),index=False)
-    return props
+    ranked=rank_candidates(c);rows=read_inventory(c);failures=[]
+    for candidate in ranked:
+        aoi=shape(candidate["geometry"]);chosen=[]
+        try:
+            if c["lidar"].get("required",False):chosen+=select_lidar(rows,aoi,c)
+            elif c["lidar"].get("enabled",False):
+                try:chosen+=select_lidar(rows,aoi,c)
+                except ConfigError:pass
+            for product in ("OPERA_RTC","S1_GRD"):chosen+=select_sar(rows,aoi,c,product)
+            for sensor in ("sentinel2","landsat"):chosen+=select_optical(rows,aoi,c,sensor,allow_network=True)
+        except ConfigError as exc:
+            failures.append(str(exc));continue
+        props={**candidate["properties"],"status":"SAR_OPTICAL_INVENTORY_VERIFIED", "selection":"inventory_verified_sar_optical",
+               "config_sha256":c.fingerprint,"lidar_required":c["lidar"].get("required",False),
+               "justification":"Highest ranked contiguous forest-mix candidate passing same-orbit SAR and pilot-specific optical composite overlap. LiDAR is optional; manual interpretation and registration remain required before validated reporting."}
+        save_geometry(c.path(c["aoi"]["study_area"]),aoi,props)
+        pd.DataFrame(chosen).drop_duplicates(subset=["scene_id"]).to_csv(c.path(c["inventory"]["selected_path"]),index=False)
+        return props
+    raise ConfigError("No pilot passes inventory guardrails. "+"; ".join(sorted(set(failures))[:6]))
 
 
 def rank_candidates(c):
@@ -359,6 +351,7 @@ def rank_candidates(c):
     for x in np.arange(x0,x1,step):
         for y in np.arange(y0,y1,step):
             candidate=box(x,y,x+side,y+side).intersection(domain)
+            if candidate.geom_type=="MultiPolygon":candidate=max(candidate.geoms,key=lambda g:g.area)
             if candidate.geom_type!="Polygon" or candidate.area<5e6:continue
             aoi=project(candidate,c["crs"],"EPSG:4326");validate_aoi(c,aoi)
             fractions={k:coverage(g,aoi,c["crs"]) for k,g in forests.items()}
@@ -367,7 +360,7 @@ def rank_candidates(c):
             for epoch in ("pre","post"):
                 for product in ("DEM","DSM"):
                     spatial.append(union_coverage([r for r in rows if r["sensor"]=="lidar" and r["epoch"]==epoch and r["product"]==product],aoi,c))
-            score=sum(fractions.values())+2*min(fractions.values())+min(spatial)
+            score=sum(fractions.values())+2*min(fractions.values())+(min(spatial) if c["lidar"].get("required",False) else 0)
             props={"status":"CANDIDATE_ONLY_NOT_APPROVED_FOR_PROCESSING","score":score,"area_km2":candidate.area/1e6,"forest_fractions":fractions,"minimum_lidar_spatial_coverage":min(spatial),"caveat":"LiDAR spatial coverage does not establish tile capture dates; source datasets may have different capture periods."}
             ranked.append((score,aoi,props))
     require(ranked,"No forest-dense contiguous candidate found")
