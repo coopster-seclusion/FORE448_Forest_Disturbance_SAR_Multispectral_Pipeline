@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "fore448-forest-disturbance"
+version = "0.1.0"
+description = "Inventory-first event mapping of forest disturbance"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+[project.scripts]
+fore448 = "pipeline.cli:main"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

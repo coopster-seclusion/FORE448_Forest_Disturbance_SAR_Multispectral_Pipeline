@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.netrc
+_netrc
+*credentials*.json
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+work/

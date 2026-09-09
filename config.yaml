@@ -1,0 +1,115 @@
+schema_version: 1
+site_name: esk-pilot
+event_name: Cyclone Gabrielle
+event:
+  start: '2023-02-13'
+  end: '2023-02-15'
+  preferred_sar_date_local: '2023-02-14'
+timezone: Pacific/Auckland
+storage_root: 'G:/My Drive/FORE448/Group Project'
+aoi:
+  # Search envelope only, NOT an asserted catchment boundary or selected pilot.
+  search_bbox: [176.60, -39.43, 176.90, -39.20]
+  catchment: aoi/esk_catchment.geojson
+  study_area: aoi/study_area.geojson
+  forest_mask: aoi/forest_mask.geojson
+  stable_reference: aoi/stable_reference.geojson
+  drainage: aoi/drainage.geojson
+  forest_types: [plantation, native]
+  max_area_km2: 100
+  pilot_side_m: 7000
+  candidate_step_m: 3500
+  min_forest_fraction: 0.35
+  min_forest_type_fraction: 0.02
+crs: EPSG:2193
+inventory:
+  path: data/data_inventory.csv
+  min_coverage: 0.9
+  max_scenes: 500
+  max_linz_items: 10000
+  metadata_cache: data/metadata
+  selected_path: data/selected_inventory.csv
+  report: outputs/inventory_status.json
+  # Collection metadata discovered from public LINZ STAC, never raster downloads.
+  linz_catalogs:
+    elevation: https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json
+    imagery: https://nz-imagery.s3-ap-southeast-2.amazonaws.com/catalog.json
+  linz_patterns:
+    - hawkes-bay/hawkes-bay_2020-2021/
+    - hawkes-bay/hawkes-bay_2023/
+    - hawkes-bay/gisborne-and-hawkes-bay-cyclone-gabrielle-river-flood_2023/
+    - hawkes-bay/hawkes-bay_2021-2022_
+    - hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_
+tiers:
+  '30m': {resolution_m: 30, sar_product: OPERA_RTC, optical_sensor: landsat}
+  '10m': {resolution_m: 10, sar_product: HYP3_GAMMA, optical_sensor: sentinel2}
+sentinel1:
+  polarizations: [VV, VH]
+  orbit_direction: null
+  relative_orbit: null
+  pre: ['2023-01-01', '2023-02-10']
+  post: ['2023-02-14', '2023-02-21']
+  fallback_ends: ['2023-03-15']
+  opera_collection: OPERA_L2_RTC-S1_V1
+  hyp3: {resolution: 10, radiometry: gamma0, scale: power, dem_name: copernicus, speckle_filter: false, include_dem: true, include_scattering_area: true}
+  max_jobs: 6
+  texture_size: 3
+sentinel2:
+  collection: COPERNICUS/S2_SR_HARMONIZED
+  pre: ['2023-01-05', '2023-02-10']
+  post: ['2023-02-19', '2023-02-21']
+  fallback_ends: ['2023-02-28', '2023-03-15']
+  bands: {blue: B2, green: B3, red: B4, nir: B8, swir1: B11, swir2: B12}
+  cloud_pct_max: 80
+  scl_mask_classes: [0, 1, 3, 8, 9, 10, 11]
+  indices: [NDVI, NDMI, NBR, BSI, MNDWI]
+  swir_effective_resolution_m: 20
+landsat:
+  collections: [LANDSAT/LC08/C02/T1_L2, LANDSAT/LC09/C02/T1_L2]
+  pre: ['2023-01-01', '2023-02-10']
+  post: ['2023-02-19', '2023-03-31']
+  fallback_ends: ['2023-04-30']
+  bands: {blue: SR_B2, green: SR_B3, red: SR_B4, nir: SR_B5, swir1: SR_B6, swir2: SR_B7}
+  cloud_pct_max: 80
+  indices: [NDVI, NDMI, NBR, BSI, MNDWI]
+lidar:
+  pre_before: '2023-02-13'
+  post_after: '2023-02-15'
+  late_post_days: 120
+  source_resolution_m: 1
+  canopy_heights_m: [2, 5, 10]
+  min_valid_fraction: 0.8
+  vertical_datum: NZVD2016
+  allow_dem_difference: false
+  # Paths and dated source IDs belong in data/processing_manifest.json after inventory.
+alignment:
+  origin: [0, 0]
+  min_valid_fraction: 0.8
+  max_registration_rmse_pixels: 0.5
+  allow_s2_swir_resampling: true
+thresholds:
+  method: stable_median_mad
+  sigma_multiplier: 3
+  min_reference_pixels: 100
+  floors: {dchm: 2.0, dcover: 0.15, dvv_db: 1.5, dvh_db: 1.5, dNDVI: 0.1, dNDMI: 0.1, dNBR: 0.1, dBSI: 0.1, dMNDWI: 0.1, ddem: 0.3}
+  weights: {lidar: 0.5, sar: 0.25, optical: 0.25}
+  min_evidence_score: 0.6
+  flood_max_slope_deg: 5
+  flood_max_drainage_distance_m: 150
+  landslide_min_slope_deg: 15
+  sensitivity_factors: [0.8, 1.0, 1.2]
+validation:
+  sample_count: 200
+  random_seed: 448
+  min_per_stratum: 5
+  samples: aoi/validation_samples.geojson
+  min_class_samples_for_metrics: 10
+  machine_learning: false
+  slope_bins: [0, 5, 15, 30, 90]
+paths:
+  data: data
+  outputs: outputs
+  processing_manifest: data/processing_manifest.json
+reproducibility:
+  software_version: '0.1.0'
+  reference_commit: a2fc114a639a0adb8da1eedda6708f8fc5219e81
