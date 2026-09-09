@@ -1,0 +1,55 @@
+[
+  {
+    "valid_fraction": 1,
+    "valid_pixel_count": 173594.4392156862,
+    "scene_ids": [
+      "COPERNICUS/S2_SR_HARMONIZED/20230115T221559_20230115T221600_T60HVB",
+      "COPERNICUS/S2_SR_HARMONIZED/20230120T221601_20230120T221559_T60HVB",
+      "COPERNICUS/S2_SR_HARMONIZED/20230125T221559_20230125T221602_T60HVB",
+      "COPERNICUS/S2_SR_HARMONIZED/20230204T221559_20230204T221601_T60HVB",
+      "COPERNICUS/S2_SR_HARMONIZED/20230209T221601_20230209T221603_T60HVB"
+    ],
+    "scale_m": 10,
+    "source": "Earth Engine union of QA-valid selected-scene masks",
+    "created_utc": "2026-09-09T23:11:37.205992+00:00"
+  },
+  {
+    "valid_fraction": 1,
+    "valid_pixel_count": 173594.4392156862,
+    "scene_ids": [
+      "COPERNICUS/S2_SR_HARMONIZED/20230219T221601_20230219T221601_T60HVB"
+    ],
+    "scale_m": 10,
+    "source": "Earth Engine union of QA-valid selected-scene masks",
+    "created_utc": "2026-09-09T23:11:42.609303+00:00"
+  },
+  {
+    "valid_fraction": 1,
+    "valid_pixel_count": 19287.76078431373,
+    "scene_ids": [
+      "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230119",
+      "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230204",
+      "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230203"
+    ],
+    "scale_m": 30,
+    "source": "Earth Engine union of QA-valid selected-scene masks",
+    "created_utc": "2026-09-09T23:11:47.671041+00:00"
+  },
+  {
+    "valid_fraction": 1,
+    "valid_pixel_count": 19287.76078431373,
+    "scene_ids": [
+      "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230220",
+      "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230308",
+      "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230324",
+      "LANDSAT/LC08/C02/T1_L2/LC08_072087_20230315",
+      "LANDSAT/LC09/C02/T1_L2/LC09_071087_20230228",
+      "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230219",
+      "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230307",
+      "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230323"
+    ],
+    "scale_m": 30,
+    "source": "Earth Engine union of QA-valid selected-scene masks",
+    "created_utc": "2026-09-09T23:11:52.853972+00:00"
+  }
+]

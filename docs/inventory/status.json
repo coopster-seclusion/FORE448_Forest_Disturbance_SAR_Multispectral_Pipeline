@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-09T23:07:13.381586+00:00",
+  "config_sha256": "9e5e8200188e8647bca8557f7e19ba690892f510846d9254d3224219a395f42a",
+  "status": "sar_optical_pilot_selected",
+  "record_count": 505,
+  "issues": [],
+  "providers_requested": [
+    "asf",
+    "ee",
+    "linz"
+  ],
+  "blockers": [
+    "Prepare selected SAR/optical rasters and measured registration assessment",
+    "Screen stable-reference polygons before calibration",
+    "Interpret stratified LINZ validation samples before reporting accuracy"
+  ],
+  "source_inventory_config_sha256": "15ea81872215101c186854d89792054999278d4897fb3a9c514b1411274b1917",
+  "lidar_optional": true,
+  "optional_lidar_notes": [
+    "Tile capture dates and vertical datum remain unresolved; not an MVP blocker"
+  ]
+}

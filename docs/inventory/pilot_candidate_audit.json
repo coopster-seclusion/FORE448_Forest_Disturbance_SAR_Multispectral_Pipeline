@@ -1,0 +1,97 @@
+{
+  "candidate": {
+    "status": "CANDIDATE_ONLY_NOT_APPROVED_FOR_PROCESSING",
+    "score": 1.5206349477853793,
+    "area_km2": 13.464067305456734,
+    "forest_fractions": {
+      "plantation": 0.3938057152974965,
+      "native": 0.04227641082929428
+    },
+    "minimum_lidar_spatial_coverage": 1.0,
+    "caveat": "LiDAR spatial coverage does not establish tile capture dates; source datasets may have different capture periods.",
+    "rank": 1
+  },
+  "checks": {
+    "lidar": {
+      "status": "optional_not_required",
+      "reason": "No usable dated pre LiDAR DEM/DSM tile pairs; collection dates cannot substitute for tile dates"
+    },
+    "opera": {
+      "status": "passed",
+      "scene_ids": [
+        "OPERA_L2_RTC-S1_T081-173738-IW3_20230121T070743Z_20250120T081453Z_S1A_30_v1.0",
+        "OPERA_L2_RTC-S1_T081-173738-IW3_20230214T070742Z_20250122T211513Z_S1A_30_v1.0",
+        "OPERA_L2_RTC-S1_T081-173737-IW3_20230121T070740Z_20250120T081453Z_S1A_30_v1.0",
+        "OPERA_L2_RTC-S1_T081-173737-IW3_20230214T070739Z_20250122T211513Z_S1A_30_v1.0"
+      ],
+      "dates_utc": [
+        "2023-01-21T07:07:43+00:00",
+        "2023-02-14T07:07:42+00:00",
+        "2023-01-21T07:07:40+00:00",
+        "2023-02-14T07:07:39+00:00"
+      ]
+    },
+    "hyp3_grd": {
+      "status": "passed",
+      "scene_ids": [
+        "S1A_IW_GRDH_1SDV_20230121T070737_20230121T070802_046878_059F11_60E1",
+        "S1A_IW_GRDH_1SDV_20230214T070736_20230214T070801_047228_05AAC4_9F82"
+      ],
+      "dates_utc": [
+        "2023-01-21T07:07:37+00:00",
+        "2023-02-14T07:07:36+00:00"
+      ]
+    },
+    "sentinel2": {
+      "status": "passed",
+      "scene_ids": [
+        "COPERNICUS/S2_SR_HARMONIZED/20230115T221559_20230115T221600_T60HVB",
+        "COPERNICUS/S2_SR_HARMONIZED/20230120T221601_20230120T221559_T60HVB",
+        "COPERNICUS/S2_SR_HARMONIZED/20230125T221559_20230125T221602_T60HVB",
+        "COPERNICUS/S2_SR_HARMONIZED/20230204T221559_20230204T221601_T60HVB",
+        "COPERNICUS/S2_SR_HARMONIZED/20230209T221601_20230209T221603_T60HVB",
+        "COPERNICUS/S2_SR_HARMONIZED/20230219T221601_20230219T221601_T60HVB"
+      ],
+      "dates_utc": [
+        "2023-01-15T22:16:54.814000+00:00",
+        "2023-01-20T22:16:53.344000+00:00",
+        "2023-01-25T22:16:56.152000+00:00",
+        "2023-02-04T22:16:55.614000+00:00",
+        "2023-02-09T22:16:56.895000+00:00",
+        "2023-02-19T22:16:55.376000+00:00"
+      ]
+    },
+    "landsat": {
+      "status": "passed",
+      "scene_ids": [
+        "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230119",
+        "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230204",
+        "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230203",
+        "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230220",
+        "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230308",
+        "LANDSAT/LC08/C02/T1_L2/LC08_071087_20230324",
+        "LANDSAT/LC08/C02/T1_L2/LC08_072087_20230315",
+        "LANDSAT/LC09/C02/T1_L2/LC09_071087_20230228",
+        "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230219",
+        "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230307",
+        "LANDSAT/LC09/C02/T1_L2/LC09_072087_20230323"
+      ],
+      "dates_utc": [
+        "2023-01-19T21:54:22.796000+00:00",
+        "2023-02-04T21:54:26.970000+00:00",
+        "2023-02-03T22:00:44.789000+00:00",
+        "2023-02-20T21:54:13.700000+00:00",
+        "2023-03-08T21:54:02.815000+00:00",
+        "2023-03-24T21:53:54.397000+00:00",
+        "2023-03-15T22:00:12.506000+00:00",
+        "2023-02-28T21:54:20.133000+00:00",
+        "2023-02-19T22:00:37.131000+00:00",
+        "2023-03-07T22:00:25.376000+00:00",
+        "2023-03-23T22:00:19.797000+00:00"
+      ]
+    }
+  },
+  "provisional": true,
+  "scope": "SAR/optical primary; LiDAR optional",
+  "selected_study_area": "aoi/study_area.geojson"
+}

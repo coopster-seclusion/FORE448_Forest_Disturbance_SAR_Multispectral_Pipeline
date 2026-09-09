@@ -1,0 +1,16 @@
+sensor,product,epoch,records
+aerial,AERIAL,post,234
+aerial,AERIAL,pre,47
+aerial,AERIAL_NIR,pre,17
+landsat,SR,post,27
+landsat,SR,pre,9
+lidar,DEM,post,26
+lidar,DEM,pre,17
+lidar,DSM,post,26
+lidar,DSM,pre,17
+sentinel1,OPERA_RTC,post,21
+sentinel1,OPERA_RTC,pre,29
+sentinel1,S1_GRD,post,9
+sentinel1,S1_GRD,pre,13
+sentinel2,SR,post,5
+sentinel2,SR,pre,8
