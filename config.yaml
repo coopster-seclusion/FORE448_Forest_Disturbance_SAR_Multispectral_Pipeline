@@ -115,3 +115,33 @@ paths:
 reproducibility:
   software_version: '0.1.0'
   reference_commit: a2fc114a639a0adb8da1eedda6708f8fc5219e81
+
+# Configuration-first descriptive refactor. Legacy workflow settings above remain intact.
+forest_change:
+  enabled_sensors: [landsat, sentinel2]
+  stacks: data/stacks/forest_change
+  outputs: outputs/forest_change
+  optical:
+    rgb_limits: [0.0, 0.3]
+    rgb_gamma: 1.4
+    index_limits: [-1.0, 1.0]
+    change_limit: 0.5
+    change_bins: [-.inf, -0.3, -0.1, 0.0, 0.1, 0.3, .inf]
+  temporal:
+    start: '2023-01-01'
+    end_exclusive: '2023-04-01'
+    patches_per_type: 2
+    patch_radius_m: 120
+    min_clear_fraction: 0.5
+    max_scenes: 100
+    patches: aoi/forest_change_patches.geojson
+  sar:
+    smoothing_footprint_m: 90
+    minimum_kernel_support: 0.8
+    minimum_power: 1.0e-8
+    db_limits: [-25, 0]
+    change_db_limit: 6
+    normalized_limit: 0.6
+    dates: ['2023-01-21', '2023-02-14']
+    phases: [pre_event, during_event]
+    transects: aoi/forest_change_transects.geojson

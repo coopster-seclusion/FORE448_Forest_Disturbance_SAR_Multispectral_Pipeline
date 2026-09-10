@@ -1,12 +1,10 @@
-"""Run every notebook's safe default cells without installing a global kernel."""
+"""Validate notebook JSON and Python syntax without retrieval or output mutations."""
 from pathlib import Path
-import os
+import ast
 import nbformat
 root=Path(__file__).resolve().parents[1]
-os.chdir(root)
-for p in sorted((root/"notebooks").glob("*.ipynb")):
+for p in sorted((root/'notebooks').rglob('*.ipynb')):
     nb=nbformat.read(p,as_version=4);nbformat.validate(nb)
-    env={"display":lambda *args:None,"__name__":"__main__"}
     for cell in nb.cells:
-        if cell.cell_type=="code":exec(compile(cell.source,str(p),"exec"),env)
-    print("PASS",p.name)
+        if cell.cell_type=='code':ast.parse(cell.source,filename=str(p))
+    print('PASS',p.relative_to(root))
