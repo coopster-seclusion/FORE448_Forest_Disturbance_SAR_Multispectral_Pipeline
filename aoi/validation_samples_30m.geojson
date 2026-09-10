@@ -1,0 +1,5805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7900981855807,
+          -39.18897558814851
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-187-83",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 187,
+        "col": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79528500816278,
+          -39.19502137215301
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-210-97",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 210,
+        "col": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7840163412875,
+          -39.17917569016301
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-150-67",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 150,
+        "col": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79098183620368,
+          -39.19894463296663
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-224-84",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 224,
+        "col": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.80624953997062,
+          -39.19871633108379
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-225-128",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 225,
+        "col": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79704731055074,
+          -39.19550429177468
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-212-102",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 212,
+        "col": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79862299438713,
+          -39.19896560023805
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-225-106",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 225,
+        "col": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78261644601776,
+          -39.185436096630916
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-173-62",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 173,
+        "col": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77669524943113,
+          -39.18508802083649
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-171-45",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 171,
+        "col": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7854171141651,
+          -39.17940033950345
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-151-71",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 151,
+        "col": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79336295990944,
+          -39.19157130640194
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-197-92",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 197,
+        "col": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78170777203812,
+          -39.19438264412676
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-206-58",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 206,
+        "col": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77616138578318,
+          -39.194562795217955
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-206-42",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 206,
+        "col": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76919946812615,
+          -39.19424812274135
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-204-22",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 204,
+        "col": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7857938328831,
+          -39.18641360386709
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-177-71",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 177,
+        "col": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7859677473981,
+          -39.18965049122976
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-189-71",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 189,
+        "col": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79702827707013,
+          -39.18226455070026
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-163-104",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 163,
+        "col": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7821974563688,
+          -39.184098654836774
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-168-61",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 168,
+        "col": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76700369364798,
+          -39.19864264872352
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-220-15",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 220,
+        "col": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78325371280926,
+          -39.19730471728018
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-217-62",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 217,
+        "col": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7869654654864,
+          -39.19529247320489
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-210-73",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 210,
+        "col": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77643506837452,
+          -39.1802326330104
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-153-45",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 153,
+        "col": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7826897788614,
+          -39.1932698711488
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-202-61",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 202,
+        "col": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76982059932277,
+          -39.19287693307697
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-199-24",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 199,
+        "col": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7724348872955,
+          -39.19630496316968
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-212-31",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 212,
+        "col": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.8024071558736,
+          -39.19830155800328
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-223-117",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 223,
+        "col": 117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78117291538166,
+          -39.19088726736613
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-193-57",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 193,
+        "col": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7793674134732,
+          -39.1895948680805
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-188-52",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 188,
+        "col": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78628666342615,
+          -39.19558477835933
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-211-71",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 211,
+        "col": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77441367750095,
+          -39.194349294540366
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-205-37",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 205,
+        "col": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7838021422724,
+          -39.19458476054305
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-207-64",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 207,
+        "col": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7725793082644,
+          -39.19251730004684
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-198-32",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 198,
+        "col": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78476962571665,
+          -39.19320223066613
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-202-67",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 202,
+        "col": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79666716397446,
+          -39.182006123018176
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-162-103",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 162,
+        "col": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77815350767546,
+          -39.17990663374483
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-152-50",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 152,
+        "col": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.80442882791354,
+          -39.197154620887595
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-219-123",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 219,
+        "col": 123
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79680243504197,
+          -39.19740376260338
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-219-101",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 219,
+        "col": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79326130154072,
+          -39.18968313920999
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-190-92",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 190,
+        "col": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7729692880785,
+          -39.19331529272282
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-201-33",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 201,
+        "col": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76891054157204,
+          -39.1953383350388
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-208-21",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 208,
+        "col": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77743227833508,
+          -39.19235983829039
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-198-46",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 198,
+        "col": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79958522918506,
+          -39.18461298216085
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-172-111",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 172,
+        "col": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79802441340956,
+          -39.18142140375656
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-160-107",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 160,
+        "col": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78330965217475,
+          -39.185413558104074
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-173-64",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 173,
+        "col": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7740957740612,
+          -39.188414924705306
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-183-37",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 183,
+        "col": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78767049451594,
+          -39.18256955519322
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-163-77",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 163,
+        "col": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77357588961615,
+          -39.19167434244697
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-195-35",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 195,
+        "col": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77940964572915,
+          -39.177433923543504
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-143-54",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 143,
+        "col": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78264452786533,
+          -39.17949050756808
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-151-63",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 151,
+        "col": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79151368455717,
+          -39.18946989217094
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-189-87",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 189,
+        "col": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77816796692937,
+          -39.18017637713716
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-153-50",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 153,
+        "col": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77694146060367,
+          -39.19615874919069
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-212-44",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 212,
+        "col": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78514525179492,
+          -39.19373043484453
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-204-68",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 204,
+        "col": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79134302181734,
+          -39.19920307449072
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-225-85",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 225,
+        "col": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7959201595703,
+          -39.19391980498503
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-206-99",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 206,
+        "col": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78712498570707,
+          -39.19825961149537
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-221-73",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 221,
+        "col": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78791696992468,
+          -39.187155137962876
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-180-77",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 180,
+        "col": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79122512183054,
+          -39.19056014276678
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-193-86",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 193,
+        "col": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78813449492773,
+          -39.19120123631897
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-195-77",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 195,
+        "col": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7793246479183,
+          -39.195270719679954
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-209-51",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 209,
+        "col": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77084598213102,
+          -39.199058601754686
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-222-26",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 222,
+        "col": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7752226234413,
+          -39.19648474946552
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-213-39",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 213,
+        "col": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7849713497665,
+          -39.190493546669096
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-192-68",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 192,
+        "col": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.796986892997,
+          -39.18794034432211
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-184-103",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 184,
+        "col": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78733973713597,
+          -39.18933562605913
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-188-75",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 188,
+        "col": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7920054784184,
+          -39.19215598192214
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-199-88",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 199,
+        "col": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78079733498296,
+          -39.190359047946714
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-191-56",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 191,
+        "col": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7863723529364,
+          -39.19071817298044
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-193-72",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 193,
+        "col": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78565134401424,
+          -39.1966863007419
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-215-69",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 215,
+        "col": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77864581071708,
+          -39.195562981741865
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-210-49",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 210,
+        "col": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78807648397873,
+          -39.19012227713207
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-191-77",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 191,
+        "col": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79857453053492,
+          -39.18518640665631
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-174-108",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 174,
+        "col": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78355586913423,
+          -39.18999916178334
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-190-64",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 190,
+        "col": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7723631620243,
+          -39.16253062920376
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-87-36",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 87,
+        "col": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78390356519077,
+          -39.19647294683762
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-214-64",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 214,
+        "col": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78515974489477,
+          -39.194000175415134
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-205-68",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 205,
+        "col": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77886165802326,
+          -39.18663895661115
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-177-51",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 177,
+        "col": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78931791230642,
+          -39.18737973165737
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-181-81",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 181,
+        "col": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77429826740584,
+          -39.19867644187342
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-221-36",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 221,
+        "col": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7866307321381,
+          -39.18260339831274
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-163-74",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 163,
+        "col": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78560785550357,
+          -39.19587707981299
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-212-69",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 212,
+        "col": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7870089686657,
+          -39.196101692943046
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-213-73",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 213,
+        "col": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77081710038297,
+          -39.19851911214396
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-220-26",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 220,
+        "col": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79928226407682,
+          -39.18543350986088
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-175-110",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 175,
+        "col": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78444981168025,
+          -39.18078286743286
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-156-68",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 156,
+        "col": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79534313947525,
+          -39.19610032141318
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-214-97",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 214,
+        "col": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7860269971948,
+          -39.197214500589006
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-217-70",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 217,
+        "col": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77623368361813,
+          -39.195911511716545
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-211-42",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 211,
+        "col": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78370072888154,
+          -39.192696573414295
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-200-64",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 200,
+        "col": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7877747984797,
+          -39.1974278213177
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-218-75",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 218,
+        "col": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79981795005912,
+          -39.18892876372977
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-188-111",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 188,
+        "col": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78279116726318,
+          -39.1951580603
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-209-61",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 209,
+        "col": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78738462820783,
+          -39.196629888096865
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-215-74",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 215,
+        "col": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77012375544746,
+          -39.19854158259997
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-220-24",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 220,
+        "col": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78139008249497,
+          -39.19493339470953
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-208-57",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 208,
+        "col": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76729265958218,
+          -39.1975524395539
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-216-16",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 216,
+        "col": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79213256999353,
+          -39.18161357794814
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-160-90",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 160,
+        "col": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7804225093167,
+          -39.19631590053515
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-213-54",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 213,
+        "col": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77538165647036,
+          -39.199451927437494
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-224-39",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 224,
+        "col": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.776190304335,
+          -39.195102281868415
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-208-42",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 208,
+        "col": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78313781812884,
+          -39.19514678870423
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-209-62",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 209,
+        "col": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7984920771149,
+          -39.19653797445924
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-216-106",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 216,
+        "col": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79623340856074,
+          -39.18039900563854
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-156-102",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 156,
+        "col": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78016196779632,
+          -39.19146054298555
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-195-54",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 195,
+        "col": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79502345586977,
+          -39.19016609710618
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-192-97",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 192,
+        "col": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7804348741039,
+          -39.17713040576041
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-142-57",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 142,
+        "col": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78146248124816,
+          -39.196282102973065
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-213-57",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 213,
+        "col": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77390807812213,
+          -39.19139335491864
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-194-36",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 194,
+        "col": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7778801712446,
+          -39.19423678347715
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-205-47",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 205,
+        "col": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79881934213282,
+          -39.18328693341357
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-167-109",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 167,
+        "col": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77142378811195,
+          -39.19687816962033
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-214-28",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 214,
+        "col": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77457266442212,
+          -39.19731647637204
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-216-37",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 216,
+        "col": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78336961993332,
+          -39.199462644766626
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-225-62",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 225,
+        "col": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76694599055395,
+          -39.19756366457891
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-216-15",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 216,
+        "col": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79821574812877,
+          -39.19141298216627
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-197-106",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 197,
+        "col": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7878748797989,
+          -39.19283096075176
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-201-76",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 201,
+        "col": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7774029158979,
+          -39.18533526109477
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-172-47",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 172,
+        "col": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7666570191464,
+          -39.19865387314849
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-220-14",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 220,
+        "col": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77590148505803,
+          -39.1961925063094
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-212-41",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 212,
+        "col": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7984000654604,
+          -39.181949564132
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-162-108",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 162,
+        "col": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78050937047746,
+          -39.19793435182649
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-219-54",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 219,
+        "col": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78674797586012,
+          -39.19124637221482
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-195-73",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 195,
+        "col": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7690551547999,
+          -39.19155066665811
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-194-22",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 194,
+        "col": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79043195523795,
+          -39.19517958643891
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-210-83",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 210,
+        "col": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78481087635527,
+          -39.181041335624386
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-157-69",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 157,
+        "col": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77559819984793,
+          -39.19701298691358
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-215-40",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 215,
+        "col": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78175121350003,
+          -39.19519186891524
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-209-58",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 209,
+        "col": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78072496419858,
+          -39.18901033727327
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-186-56",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 186,
+        "col": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79370958890686,
+          -39.19156000421324
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-197-93",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 197,
+        "col": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78694962396295,
+          -39.18853768807227
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C1-185-74",
+        "forest_type": "plantation",
+        "predicted_class": 1,
+        "stratum_population": 4402,
+        "stratum_sample": 130,
+        "inclusion_probability": 0.029532030895047707,
+        "design_weight": 33.86153846153846,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 185,
+        "col": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78505949049867,
+          -39.19859704167836
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C2-222-67",
+        "forest_type": "plantation",
+        "predicted_class": 2,
+        "stratum_population": 3,
+        "stratum_sample": 3,
+        "inclusion_probability": 1.0,
+        "design_weight": 1.0,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 222,
+        "col": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78369970488893,
+          -39.18621151151137
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C2-176-65",
+        "forest_type": "plantation",
+        "predicted_class": 2,
+        "stratum_population": 3,
+        "stratum_sample": 3,
+        "inclusion_probability": 1.0,
+        "design_weight": 1.0,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 176,
+        "col": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7922668415184,
+          -39.19701127230877
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C2-217-88",
+        "forest_type": "plantation",
+        "predicted_class": 2,
+        "stratum_population": 3,
+        "stratum_sample": 3,
+        "inclusion_probability": 1.0,
+        "design_weight": 1.0,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 217,
+        "col": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79750567120183,
+          -39.18468087473063
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C3-172-105",
+        "forest_type": "plantation",
+        "predicted_class": 3,
+        "stratum_population": 83,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.060240963855421686,
+        "design_weight": 16.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 172,
+        "col": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79854545107145,
+          -39.18464693307282
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C3-172-108",
+        "forest_type": "plantation",
+        "predicted_class": 3,
+        "stratum_population": 83,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.060240963855421686,
+        "design_weight": 16.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 172,
+        "col": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79770690545118,
+          -39.1819721907709
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C3-162-106",
+        "forest_type": "plantation",
+        "predicted_class": 3,
+        "stratum_population": 83,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.060240963855421686,
+        "design_weight": 16.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 162,
+        "col": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77860183478666,
+          -39.18826867099786
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C3-183-50",
+        "forest_type": "plantation",
+        "predicted_class": 3,
+        "stratum_population": 83,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.060240963855421686,
+        "design_weight": 16.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 183,
+        "col": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77828414399156,
+          -39.188819413381864
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C3-185-49",
+        "forest_type": "plantation",
+        "predicted_class": 3,
+        "stratum_population": 83,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.060240963855421686,
+        "design_weight": 16.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 185,
+        "col": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79740392692037,
+          -39.18279271438195
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-165-105",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 165,
+        "col": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78234313703848,
+          -39.19328114096244
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-202-60",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 202,
+        "col": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.781721396073,
+          -39.18816731661468
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-183-59",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 183,
+        "col": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77724427823688,
+          -39.18885317722389
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-185-46",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 185,
+        "col": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79137027768002,
+          -39.19325753017706
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-203-86",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 203,
+        "col": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7979272850576,
+          -39.19250324441539
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-201-105",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 201,
+        "col": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78628414428982,
+          -39.182614677296165
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-163-73",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 163,
+        "col": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7816634894426,
+          -39.187088348856506
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-179-59",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 179,
+        "col": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78011855032824,
+          -39.1906513161913
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-192-54",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 192,
+        "col": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77496222732947,
+          -39.185144260673944
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-171-40",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 171,
+        "col": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7930744202239,
+          -39.192661560299975
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-201-91",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 201,
+        "col": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7828336537865,
+          -39.18948222100895
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-188-62",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 188,
+        "col": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7884811242081,
+          -39.1911899497737
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-195-78",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 195,
+        "col": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79045931404008,
+          -39.18923403543066
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-188-84",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 188,
+        "col": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77644983466132,
+          -39.186987476501734
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-178-44",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 178,
+        "col": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79656982845984,
+          -39.19308797220307
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-203-101",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 203,
+        "col": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77793752226742,
+          -39.18883066902435
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-185-48",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 185,
+        "col": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79807270719527,
+          -39.195200609946205
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-211-105",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 211,
+        "col": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78177848457165,
+          -39.182761210512766
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-163-60",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 163,
+        "col": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79406877079904,
+          -39.18533342314568
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-174-95",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 174,
+        "col": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7926987430548,
+          -39.19213338431268
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-199-90",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 199,
+        "col": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79687285148626,
+          -39.19226744924763
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-200-102",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 200,
+        "col": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7859955190257,
+          -39.18370491850069
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-167-72",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 167,
+        "col": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77569879450056,
+          -39.18593099955968
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-174-42",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 174,
+        "col": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78137400291178,
+          -39.18169350598154
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-159-59",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 159,
+        "col": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7845222324594,
+          -39.1821315742017
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-161-68",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 161,
+        "col": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79478902337166,
+          -39.1793652747529
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-152-98",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 152,
+        "col": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78195219231708,
+          -39.18599811494658
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-175-60",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 175,
+        "col": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77735916058896,
+          -39.178040933236474
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-145-48",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 145,
+        "col": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77864523118023,
+          -39.18907789954194
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-186-50",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 186,
+        "col": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79804362120643,
+          -39.19466113697651
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-209-105",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 209,
+        "col": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77665224170602,
+          -39.190763885284035
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-192-44",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 192,
+        "col": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79463124587357,
+          -39.18288317417841
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-165-97",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 165,
+        "col": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78364177204142,
+          -39.18513254585972
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-172-65",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 172,
+        "col": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79109621803477,
+          -39.194617519418905
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-208-85",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 208,
+        "col": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79032872293857,
+          -39.18680638259614
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-179-84",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 179,
+        "col": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7791353896252,
+          -39.17879389575623
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-148-53",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 148,
+        "col": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77458672604544,
+          -39.18461601700314
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-169-39",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 169,
+        "col": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.79830063028103,
+          -39.18654640598722
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-179-107",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 179,
+        "col": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.78843910350557,
+          -39.19686576757866
+        ]
+      },
+      "properties": {
+        "sample_id": "F1-C5-216-77",
+        "forest_type": "plantation",
+        "predicted_class": 5,
+        "stratum_population": 1384,
+        "stratum_sample": 40,
+        "inclusion_probability": 0.028901734104046242,
+        "design_weight": 34.6,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 216,
+        "col": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7736913054054,
+          -39.18086207846982
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-155-37",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 155,
+        "col": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76255832064888,
+          -39.17392683873904
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-128-6",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 128,
+        "col": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76790079300918,
+          -39.1764561040327
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-138-21",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 138,
+        "col": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76150919593712,
+          -39.147749955718496
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-31-7",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 31,
+        "col": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76430734383732,
+          -39.16117020840796
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-81-13",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 81,
+        "col": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77259379837383,
+          -39.179816815214096
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-151-34",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 151,
+        "col": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77156849243423,
+          -39.180120267276315
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-152-31",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 152,
+        "col": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.7683338786038,
+          -39.17806336076016
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-144-22",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 144,
+        "col": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77532293564326,
+          -39.17243254106905
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-124-43",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 124,
+        "col": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77112088601132,
+          -39.17824328160767
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-145-30",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 145,
+        "col": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77187176853877,
+          -39.17929979658104
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-149-32",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 149,
+        "col": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76742575938374,
+          -39.16106929487526
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-81-22",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 81,
+        "col": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76862276482575,
+          -39.17697315037755
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-140-23",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 140,
+        "col": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76917262088187,
+          -39.16128294290706
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-82-27",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 82,
+        "col": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76842199126972,
+          -39.160226396586964
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C1-78-25",
+        "forest_type": "native",
+        "predicted_class": 1,
+        "stratum_population": 541,
+        "stratum_sample": 15,
+        "inclusion_probability": 0.027726432532347505,
+        "design_weight": 36.06666666666667,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 78,
+        "col": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77194394515627,
+          -39.18064852329389
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C2-154-32",
+        "forest_type": "native",
+        "predicted_class": 2,
+        "stratum_population": 1,
+        "stratum_sample": 1,
+        "inclusion_probability": 1.0,
+        "design_weight": 1.0,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 154,
+        "col": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76226934802335,
+          -39.175017038458755
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C3-132-5",
+        "forest_type": "native",
+        "predicted_class": 3,
+        "stratum_population": 1,
+        "stratum_sample": 1,
+        "inclusion_probability": 1.0,
+        "design_weight": 1.0,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 132,
+        "col": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76765515079327,
+          -39.178355553434734
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C5-145-20",
+        "forest_type": "native",
+        "predicted_class": 5,
+        "stratum_population": 84,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.05952380952380952,
+        "design_weight": 16.8,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 145,
+        "col": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76016660956086,
+          -39.148603984814834
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C5-34-3",
+        "forest_type": "native",
+        "predicted_class": 5,
+        "stratum_population": 84,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.05952380952380952,
+        "design_weight": 16.8,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 34,
+        "col": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77530849124244,
+          -39.17216279643152
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C5-123-43",
+        "forest_type": "native",
+        "predicted_class": 5,
+        "stratum_population": 84,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.05952380952380952,
+        "design_weight": 16.8,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 123,
+        "col": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.77195838106093,
+          -39.18091826858547
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C5-155-32",
+        "forest_type": "native",
+        "predicted_class": 5,
+        "stratum_population": 84,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.05952380952380952,
+        "design_weight": 16.8,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 155,
+        "col": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.76314063251868,
+          -39.14580571336071
+        ]
+      },
+      "properties": {
+        "sample_id": "F2-C5-24-12",
+        "forest_type": "native",
+        "predicted_class": 5,
+        "stratum_population": 84,
+        "stratum_sample": 5,
+        "inclusion_probability": 0.05952380952380952,
+        "design_weight": 16.8,
+        "reference_class": null,
+        "interpreter": null,
+        "pre_image_id": null,
+        "post_image_id": null,
+        "pre_capture_date": null,
+        "post_capture_date": null,
+        "confidence": null,
+        "notes": null,
+        "row": 24,
+        "col": 12
+      }
+    }
+  ]
+}
