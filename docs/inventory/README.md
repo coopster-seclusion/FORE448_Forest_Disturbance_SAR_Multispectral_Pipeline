@@ -1,6 +1,6 @@
 # Live inventory review
 
-Metadata queries completed at **2026-09-09T23:07:13.381586+00:00** with **505 records and no provider errors**. The snapshot contains metadata and vector context only. No raw sensor rasters were downloaded, no HyP3 jobs were submitted and no observed disturbance map was produced.
+Metadata queries completed at **2026-09-09T23:07:13.381586+00:00** with **505 records and no provider errors**. The snapshot remains the source-of-truth inventory. The selected pilot has since been processed locally at both 30 m and 10 m; outputs are retained on the mounted Google Drive and remain unvalidated until the manual reference step is complete.
 
 ![Provisional Esk pilot context](pilot_context.png)
 
@@ -12,11 +12,11 @@ HBRC’s main-catchment polygon is 267.855 km², larger than the approximate 252
 
 ## Sensor overlap verified for the candidate
 
-- **SAR:** ascending relative orbit **81**, VV/VH. Two OPERA bursts pair **21 January 2023** with **14 February 2023**, at approximately **20:07 NZDT** on the event day. The matching pair of GRD scene IDs is available for a two-job HyP3 plan; 10 m RTC outputs have not been generated. Exact IDs are in [the audit](pilot_candidate_audit.json).
+- **SAR:** ascending relative orbit **81**, VV/VH. Two OPERA bursts pair **21 January 2023** with **14 February 2023**, at approximately **20:07 NZDT** on the event day. The matching GRD pair was submitted as two authenticated HyP3 jobs and the resulting 10 m RTC files were downloaded locally. Exact IDs are in [the audit](pilot_candidate_audit.json) and the processing manifest.
 - **Sentinel-2:** five usable pre-event scene candidates (15/20/25 January and 4/9 February UTC) and **19 February 2023 UTC / 20 February NZDT** post-event. Their pilot-specific QA union passes the 90% requirement. This is a composite assessment, not a claim that every individual pre-event scene is clear.
 - **Landsat 8/9:** three pre-event scenes and eight post-event scenes from the configured preferred windows pass the pilot composite check. The post composite spans **19 February–24 March UTC**. It must not be labelled a single event-day observation. See [pilot QA counts/fractions](pilot_optical_coverage.json).
 - **LiDAR:** the pre 2020–2021, regional post 2023–2024 and event-specific 2023 DEM/DSM footprints overlap. Every selected-catchment LiDAR item in this snapshot repeats a collection capture interval. No exact tile flight date was inferred.
-- **Aerial:** pre-event rural RGB/NIR and post-event Cyclone Gabrielle tile metadata are inventoried for later manual interpretation. Labels have not been created.
+- **Aerial:** pre-event rural RGB/NIR and post-event Cyclone Gabrielle tile metadata are inventoried for manual interpretation. The selected pilot’s 200-point sample currently has pre-aerial overlap but no post-aerial tile overlap, so manual accuracy is correctly blocked pending an appropriate post-event reference source.
 
 ## Records
 
@@ -56,8 +56,8 @@ The late regional post data can include harvesting, silviculture and regrowth. E
 
 **LiDAR is an optional bonus and is disabled by default. Its unresolved metadata does not block this selected SAR/optical pilot.**
 
-1. Retrieve the selected OPERA/HyP3 and optical products, prepare bounded mosaics, measure registration residuals and screen stable-reference polygons. SAR/optical stages are implemented; no real raster processing result is asserted in this inventory review.
-2. Run the 30 m baseline and 10 m tier, then manually interpret stratified LINZ references. No real accuracy, disturbed-area total or calibrated real-data threshold is available yet.
+1. Review the local 30 m and 10 m SAR/optical outputs, their bounded mosaics, registration assessments and stable-reference screening. The `outputs/10m` report package contains the current observed signature map and area table.
+2. Resolve a post-event aerial reference source for the selected pilot, then manually interpret the stratified LINZ sample. The review package records the zero post-aerial match rather than silently substituting an uncovered tile. No accuracy estimate is available yet.
 3. If LiDAR is added later, verify its per-tile dates and vertical datum using the optional override contract. No further LiDAR retrieval or investigation is required for the MVP.
 
 [Selected inventory](selected_inventory.csv) · [Selected study polygon](../../aoi/study_area.geojson)

@@ -11,6 +11,8 @@ def main(argv=None):
     sub.add_parser("check-config")
     inv=sub.add_parser("inventory");inv.add_argument("--providers",nargs="+",choices=["asf","linz","ee"],default=["asf","ee","linz"])
     sub.add_parser("select-pilot")
+    prep=sub.add_parser("prepare-validation", help="add overlapping LINZ aerial metadata to the manual sample")
+    prep.add_argument("--tier",choices=["30m","10m"],default="10m")
     run=sub.add_parser("run");run.add_argument("stage",choices=["lidar","sar","optical","align","map","validate","report"]);run.add_argument("--tier",choices=["30m","10m"],default="30m")
     sub.add_parser("demo")
     args=p.parse_args(argv)
@@ -26,6 +28,9 @@ def main(argv=None):
         elif args.command=="demo":
             from .demo import run_demo
             result=run_demo(c)
+        elif args.command=="prepare-validation":
+            from .validation_package import prepare
+            result=prepare(c,args.tier)
         else:
             from .workflow import run_stage
             result=run_stage(c,args.stage,args.tier)
