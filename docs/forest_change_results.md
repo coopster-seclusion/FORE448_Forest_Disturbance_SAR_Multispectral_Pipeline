@@ -45,6 +45,11 @@ areas and CSV tables are saved in the run directory.
 
 ## Acquisition context
 
+**Owner review, 10 September 2026:** the fixed forest-patch charts/data do not look
+correct and require investigation. The cause is unresolved; patch-related
+interpretations below are provisional pending the
+[documented audit](forest_change_handoff.md#2-investigate-fixed-forest-patch-charts-and-data).
+
 Each sensor's table has 18 acquisitions x four patches = 72 records, from 1 January
 through 31 March 2023. Fully cloudy acquisitions remain as zero-support records.
 Four saved examples were selected geographically, without inspecting their change
@@ -69,6 +74,11 @@ patch examples mostly retain high index values immediately after Gabrielle;
 this does not contradict localized declines elsewhere in the AOI.
 
 ## Separate during-event SAR comparisons
+
+**Next-session requirement:** add a genuinely post-event acquisition for the main
+SAR benchmark, matched as closely as practical to optical timing. The existing
+pre/during pair remains a separate experiment; see the
+[handoff and selection requirements](forest_change_handoff.md#3-add-genuinely-post-event-sar-with-optical-timing-as-a-selection-priority).
 
 The existing pair is 21 January to **14 February 2023 (during-event)**. On common
 raw/smoothed forest support, mean dB log-ratios are:

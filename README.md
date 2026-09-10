@@ -9,6 +9,10 @@ See [the recorded design](docs/forest_change_refactor.md),
 [run methods and reproduction](docs/forest_change_methods.md), and
 [the executed results](docs/forest_change_results.md).
 
+**Next session:** start with the [review priorities and handoff](docs/forest_change_handoff.md).
+Review comparable peer-reviewed studies first; audit the questioned patch data,
+add genuinely post-event SAR, then develop the locator inset and visualization work.
+
 ## Notebook sequence
 
 | Notebook | Role |
