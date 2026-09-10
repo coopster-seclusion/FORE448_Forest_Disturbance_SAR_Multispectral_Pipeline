@@ -36,7 +36,13 @@ def asset_plan(c):
             if not path.lower().endswith((".tif",".tiff")):continue
             if r["sensor"]=="sentinel1" and not path.endswith(("_VV.tif","_VH.tif","_mask.tif")):continue
             require(urlparse(u).scheme=="https" and urlparse(u).hostname in ALLOWED_HOSTS,"Untrusted asset URL")
-            target=c.path(c["paths"]["data"])/"raw"/r["sensor"]/r["epoch"]/r["scene_id"].replace(":","_")/Path(path).name
+            # Google Drive File Stream rejects some long OPERA path components.
+            # Keep the full source identity in the receipt while using a stable,
+            # compact scene directory and polarization filename on disk.
+            scene_key = "".join(ch if ch.isalnum() else "_" for ch in r["scene_id"])
+            scene_key = scene_key[:40] + "_" + hashlib.sha1(r["scene_id"].encode()).hexdigest()[:8]
+            asset_name = Path(path).stem.rsplit("_", 1)[-1] + Path(path).suffix
+            target=c.path(c["paths"]["data"])/"raw"/r["sensor"]/r["epoch"]/scene_key/asset_name
             plan.append({"scene_id":r["scene_id"],"product":r["product"],"epoch":r["epoch"],"url":u,"target":str(target.relative_to(c.root))})
     return plan
 
