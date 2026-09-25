@@ -167,6 +167,15 @@ Style samples produced for approval: `figures/final/F4_loss_map_slide.png`, `F5_
 - **Caveat:** the reference points were stratified by the optical map, which favours the optical indicators.
 - **Figures:** F7 SAR (`figures/final/F7_sar_slide.png`) and F8 AlphaEarth (`F8_alphaearth_slide.png`), built with `qgis/layout_sensors.py` on the shared template. Each shows a catchment map over the plantation canopy, zoom A with the optical loss outlined, and a chart panel from `scripts/fig_sensors.py`. F9 summary "Which sensor sees the slips?" (`F9_sensor_comparison_slide.png`). The AlphaEarth panel shows some intact points with very high 2022→23 change (cosine > 0.35), probably stands harvested or salvaged later in 2023. This illustrates the annual-mixing limitation.
 
+## 6f. Wrap-up of the 25 Sep session
+
+- F9 summary slide simplified: the V2 single-pair radar row and the "re-test" narrative were removed at the author's request. Radar now shows as "Sentinel-1 radar, VH/VV ratio" (0.69) and "VH" (0.59).
+- F10 technical pipeline slide (`scripts/fig_pipeline.py`): six stages (Acquire, Align, Baseline, Verify, Estimate, Communicate), the script names in each, the files handed on, and the tech stack.
+- **Portability:** paths now come from `scripts/v3cfg.py` (`V3_ROOT`, `V2_DATA`, `AOI`, `EE_PROJECT` from an env var or the git-ignored `ee_project.txt`). The catchment and NZ locator are copied into `aoi/`. Re-tested: all scripts compile, `s13` and `qgis/layout_maps.py` run.
+- **GitHub:** branch `v3-esk-canopy-loss` (built on `implement/esk-event-pipeline`) adds everything under `v3/`, and the root README points to V3. Pull request #1 into `main` is open for the author to review; not merged. Excluded: rasters, LiDAR tiles, chips, labelled workbooks and FCP data (licence).
+- **Presentation deck** (Claude Slides artifact, private until shared): 12 main slides (cover, question, F1, F2, F3a, F4, F5, native results table, F6, F9, limitations and takeaways, close) plus 5 backups (F4b, F7, F8, F10, T1). Speaker notes are split across three presenters, about 10 minutes in total. Group names are a placeholder on the cover.
+- Still to do: report-size figure versions, F3c aerial-example strip for the report, report drafting (due 2 Oct).
+
 ## 7. Workflow and tooling notes
 
 - Local Python 3.13 (rasterio, xarray, geopandas, scipy, scikit-image), Earth Engine Python API, QGIS 3.44 (PyQGIS for the review project).
