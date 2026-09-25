@@ -1,0 +1,22 @@
+{
+ "thresholds": {
+  "ndvi_pre_otsu": 0.6907499432563782,
+  "nbr_pre_otsu": 0.5291748046875,
+  "dndvi_median": 0.038646161556243896,
+  "dndvi_mad_sd": 0.03611428290605545,
+  "dndvi_cut_k2": -0.033582404255867004,
+  "dndvi_cut_k3": -0.06969668716192245,
+  "dndvi_cut_k4": -0.1058109700679779
+ },
+ "area_ha": {
+  "lcdb5_plantation_with_optical": 7867.52,
+  "open_at_event": 2413.04,
+  "standing_canopy_frame": 5454.4800000000005,
+  "mapped_loss_k2": 729.5500000000001,
+  "mapped_loss_k3": 542.75,
+  "mapped_loss_k4": 423.03000000000003
+ },
+ "loss_dnbr_agreement_pct": 99.36250575771534,
+ "mmu_pixels": 4,
+ "resolution_m": 10
+}

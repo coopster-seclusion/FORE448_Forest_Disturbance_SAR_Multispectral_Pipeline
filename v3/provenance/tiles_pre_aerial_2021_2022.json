@@ -1,0 +1,242 @@
+{
+ "collection": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/collection.json",
+ "n_items_total": 1832,
+ "n_intersecting": 47,
+ "tiles": [
+  {
+   "id": "BH38_5000_1009",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1009.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BH38_5000_1010",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1010.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BH39_5000_1001",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1001.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BH39_5000_1002",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1002.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0109",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0109.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0110",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0110.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0208",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0208.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0209",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0209.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0210",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0210.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0308",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0308.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0309",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0309.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0310",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0310.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0409",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0409.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0410",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0410.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0509",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0509.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0510",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0510.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0610",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0610.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0709",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0709.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0710",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0710.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ38_5000_0810",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0810.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0101",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0101.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0102",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0102.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0201",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0201.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0202",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0202.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0203",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0203.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0301",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0301.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0302",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0302.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0303",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0303.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0401",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0401.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0402",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0402.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0403",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0403.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0501",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0501.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0502",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0502.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0503",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0503.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0601",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0601.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0602",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0602.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0603",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0603.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0701",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0701.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0702",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0702.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0703",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0703.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0704",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0704.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0705",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0705.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0801",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0801.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0802",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0802.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0803",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0803.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0804",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0804.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  },
+  {
+   "id": "BJ39_5000_0805",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0805.tiff",
+   "datetime": "2021-11-20T11:00:00Z"
+  }
+ ]
+}

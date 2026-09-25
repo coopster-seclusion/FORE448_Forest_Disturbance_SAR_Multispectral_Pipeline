@@ -1,5 +1,10 @@
 # FORE448 - Cyclone Gabrielle forest change
 
+> **Current version: [V3](v3/README.md).** Pixel-level plantation canopy-loss mapping at 10 m with a multi-source plantation
+> baseline (AlphaEarth 2022 classifier + Forestry Catchment Planner), 160 blind reference points and sample-based area
+> estimates (1,037 ha lost, 95% CI 514–1,560), plus a Sentinel-1 and AlphaEarth comparison. The material below
+> documents the earlier optical-benchmark workflow (V1/V2), kept for traceability.
+
 The primary workflow is now a configuration-first, descriptive optical benchmark,
 followed by separate OPERA and HyP3 comparisons. It reuses the existing Esk pilot
 and downloads. It does not require the legacy five-class classifier, aerial

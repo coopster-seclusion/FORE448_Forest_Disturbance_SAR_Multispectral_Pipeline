@@ -1,0 +1,45 @@
+{
+ "holdout_confusion": [
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   403,
+   21,
+   19
+  ],
+  [
+   0,
+   6,
+   423,
+   42
+  ],
+  [
+   0,
+   4,
+   44,
+   412
+  ]
+ ],
+ "holdout_accuracy": 0.901018922852984,
+ "kappa": 0.8513990977257058,
+ "training_pool_ha": {
+  "1": 6454,
+  "2": 2547,
+  "3": 9666
+ },
+ "area_ha": {
+  "plantation": 9188,
+  "native": 5715,
+  "other": 11884
+ },
+ "plantation_outside_lcdb5_ha": 1947,
+ "plantation_outside_fcp_ha": 916,
+ "fcp_not_plantation_ha": 822,
+ "lcdb5_not_plantation_ha": 686,
+ "lcdb5_ha": 7927
+}

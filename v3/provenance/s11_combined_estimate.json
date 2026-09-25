@@ -1,0 +1,36 @@
+{
+ "n_first_used": 100,
+ "n_first_in_D1": 75,
+ "n_supplement_used": 58,
+ "n_supplement_unlabelled": 1,
+ "D1_mature_first_frame": {
+  "loss_ha": 299.41183333333333,
+  "ci95_ha": 236.76199950458522
+ },
+ "D2_young_and_new_mature": {
+  "loss_ha": 737.9250724637682,
+  "ci95_ha": 466.57988863547894
+ },
+ "young_only": {
+  "loss_ha": 658.3830724637681,
+  "ci95_ha": 464.64651359823364
+ },
+ "mature_total": {
+  "loss_ha": 378.9538333333333,
+  "ci95_ha": 240.53410213421213
+ },
+ "estate_total": {
+  "loss_ha": 1037.3369057971015,
+  "ci95_ha": 523.2141405662744
+ },
+ "D2_not_plantation_ha": {
+  "est": 430.6338695652175,
+  "ci95_ha": 373.2158836910066
+ },
+ "supplement_users_accuracy": {
+  "2": 0.8260869565217391,
+  "3": 0.5333333333333333,
+  "4": 1.0,
+  "5": 0.6
+ }
+}

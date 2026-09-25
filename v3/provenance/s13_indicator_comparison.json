@@ -1,0 +1,125 @@
+{
+ "n_points": 127,
+ "n_loss": 39,
+ "indicators": {
+  "Optical \u0394NDVI (10 m)": {
+   "auc_expected_direction": 0.8965617715617715,
+   "separation": 0.8965617715617715,
+   "separation_ci95": [
+    0.833326048951049,
+    0.9511012111975848
+   ],
+   "moves_as_expected": true,
+   "n": 127,
+   "n_loss": 39,
+   "median_loss": 0.27486902475357056,
+   "median_intact": -0.0368952751159668
+  },
+  "Optical dNBR (20 m)": {
+   "auc_expected_direction": 0.8581002331002331,
+   "separation": 0.8581002331002331,
+   "separation_ci95": [
+    0.756388888888889,
+    0.9455301019745855
+   ],
+   "moves_as_expected": true,
+   "n": 127,
+   "n_loss": 39,
+   "median_loss": 0.2584010362625122,
+   "median_intact": -0.009037137031555176
+  },
+  "SAR \u0394VH, V2 (single pair, 90 m)": {
+   "auc_expected_direction": 0.46576168929110107,
+   "separation": 0.5342383107088989,
+   "separation_ci95": [
+    0.4109099117174959,
+    0.6574414439009885
+   ],
+   "moves_as_expected": false,
+   "n": 124,
+   "n_loss": 39,
+   "median_loss": -0.48039618134498596,
+   "median_intact": -0.24683928489685059
+  },
+  "SAR \u0394VH, re-test (3 orbits, multi-date)": {
+   "auc_expected_direction": 0.5861236802413272,
+   "separation": 0.5861236802413272,
+   "separation_ci95": [
+    0.46999682361515477,
+    0.6920124299719889
+   ],
+   "moves_as_expected": true,
+   "n": 124,
+   "n_loss": 39,
+   "median_loss": -0.2662068009376526,
+   "median_intact": -0.5990371704101562
+  },
+  "SAR \u0394VV, re-test (3 orbits, multi-date)": {
+   "auc_expected_direction": 0.3996983408748115,
+   "separation": 0.6003016591251885,
+   "separation_ci95": [
+    0.46709085883525503,
+    0.7183512502077057
+   ],
+   "moves_as_expected": false,
+   "n": 124,
+   "n_loss": 39,
+   "median_loss": -0.9423914551734924,
+   "median_intact": -0.421955943107605
+  },
+  "SAR \u0394(VH/VV) ratio, re-test": {
+   "auc_expected_direction": 0.6877828054298644,
+   "separation": 0.6877828054298644,
+   "separation_ci95": [
+    0.5727680878552971,
+    0.7897581961272727
+   ],
+   "moves_as_expected": true,
+   "n": 124,
+   "n_loss": 39,
+   "median_loss": 0.7999927997589111,
+   "median_intact": -0.18190838396549225
+  },
+  "AlphaEarth 2022\u21922023 (10 m)": {
+   "auc_expected_direction": 0.7476689976689976,
+   "separation": 0.7476689976689976,
+   "separation_ci95": [
+    0.6587929600886917,
+    0.8291316526610644
+   ],
+   "moves_as_expected": true,
+   "n": 127,
+   "n_loss": 39,
+   "median_loss": 0.0772024542093277,
+   "median_intact": 0.040725767612457275
+  },
+  "AlphaEarth 2021\u21922022, normal year (10 m)": {
+   "auc_expected_direction": 0.6162587412587412,
+   "separation": 0.6162587412587412,
+   "separation_ci95": [
+    0.5063139432535985,
+    0.7199198003693077
+   ],
+   "moves_as_expected": true,
+   "n": 127,
+   "n_loss": 39,
+   "median_loss": 0.03269633650779724,
+   "median_intact": 0.017275895923376083
+  }
+ },
+ "alphaearth_normal_year": {
+  "threshold_cosine": 0.04523118585348129,
+  "canopy_ha_flagged": {
+   "cos_2021_2022": 2609,
+   "cos_2022_2023": 3976,
+   "cos_2023_2024": 2112
+  },
+  "canopy_ha": 8735
+ },
+ "sar_valid_orbits_at_points": [
+  3,
+  4,
+  13,
+  107
+ ]
+}
