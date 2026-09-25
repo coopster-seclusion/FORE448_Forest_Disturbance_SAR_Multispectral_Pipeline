@@ -1,102 +1,66 @@
-# FORE448 - Cyclone Gabrielle forest change
+# Esk plantation canopy loss after Cyclone Gabrielle: V3
 
-> **Current version: [V3](v3/README.md).** Pixel-level plantation canopy-loss mapping at 10 m with a multi-source plantation
-> baseline (AlphaEarth 2022 classifier + Forestry Catchment Planner), 160 blind reference points and sample-based area
-> estimates (1,037 ha lost, 95% CI 514–1,560), plus a Sentinel-1 and AlphaEarth comparison. The material below
-> documents the earlier optical-benchmark workflow (V1/V2), kept for traceability.
+Pixel-level mapping of plantation canopy loss in the Esk catchment (Hawke's Bay, New Zealand) after Cyclone Gabrielle (13–14 Feb 2023), with a design-based accuracy and area assessment and a comparison of optical, radar (Sentinel-1) and AlphaEarth embedding indicators. FORE448 group project, University of Canterbury, 2026.
 
-The primary workflow is now a configuration-first, descriptive optical benchmark,
-followed by separate OPERA and HyP3 comparisons. It reuses the existing Esk pilot
-and downloads. It does not require the legacy five-class classifier, aerial
-validation, LiDAR or ML. Optical is a benchmark, not ground truth.
+The earlier V1/V2 workflow (notebooks, `pipeline/` package, optical benchmark) is preserved under the git tag [`v2-archive`](../../tree/v2-archive).
 
-See [the recorded design](docs/forest_change_refactor.md),
-[run methods and reproduction](docs/forest_change_methods.md), and
-[the executed results](docs/forest_change_results.md).
+**Full methods, decisions and evidence:** [docs/V3_METHODS_AND_DECISIONS_LOG.md](docs/V3_METHODS_AND_DECISIONS_LOG.md)
 
-**Next session:** start with the [review priorities and handoff](docs/forest_change_handoff.md).
-Review comparable peer-reviewed studies first; audit the questioned patch data,
-add genuinely post-event SAR, then develop the locator inset and visualization work.
+## Key results
 
-## Notebook sequence
+| | Estimate (95% CI) |
+|---|---|
+| Plantation estate (AlphaEarth 2022 classifier + Forestry Catchment Planner) | 9,525 ha (LCDB5 2018/19: 7,927 ha; 2,072 ha added, 475 ha removed) |
+| Canopy loss, mature plantation | 379 ha (138–620), ≈ 7% |
+| Canopy loss, young stands and recent cutover | 658 ha (194–1,123), ≈ 21% |
+| **Canopy loss, whole estate** | **1,037 ha (514–1,560), ≈ 12% of canopy** |
+| Separation of verified loss vs intact canopy (AUC) | Sentinel-2 NDVI 0.90 · NBR 0.86 · AlphaEarth 0.75 · Sentinel-1 VH/VV 0.69 · VH 0.59 |
 
-| Notebook | Role |
-| --- | --- |
-| 00_data_inventory | Audit preserved inputs and missing bands |
-| 01_optical_retrieval | Reuse indices; retrieve only missing reflectance and acquisition tables |
-| 02_opera_retrieval | Check existing OPERA power and terrain masks |
-| 03_hyp3_retrieval | Check existing HyP3 power and documented terrain masks |
-| 04_build_stacks | Labelled xarray and compressed NetCDF persistence |
-| 05_change_detection | Continuous optical and SAR change |
-| 06_statistical_outputs | Paired hectares, forest summaries, shared-grid comparison, profiles |
-| 07_figures | Regenerate dated PNG/SVG figures from saved stacks and tables |
+Loss rises from about 4% of canopy on slopes under 15° to about 24% above 35°, and is about 20% within 20 m of a stream against about 7% beyond 200 m (map-based rates).
 
-Edit `forest_change` in `config.yaml` first. Defaults enable Landsat and Sentinel-2.
-Run 00, 01 and 04-07 for optical; 02/03 report that SAR is disabled. Then add
-`opera`, followed by `hyp3`, to `enabled_sensors`. Retrieval is disabled by default
-in notebook 01; completed exports are reused after their checksums/settings match.
-Other notebook stages explicitly rebuild their new-run outputs when executed.
-The original notebooks and their instructions are preserved in
-[notebooks/legacy](notebooks/legacy/README.md).
+## Pipeline
 
-## Run locally
+Run from the V3 folder, in this order. `scripts/v3cfg.py` holds the paths and settings: `V3_ROOT` (defaults to this folder), `V3_RES` (10 m default; 20 reproduces the first 20 m run), `V2_DATA` (V2 derived rasters, used by `s01` only) and `V3_SAMPLE`.
 
-Keep the checkout, runtime and working files under
-`G:\My Drive\FORE448\Group Project`. The existing interpreter is
-`..\work\.venv\Scripts\python.exe` (relative to the repository root).
+| Stage | Script | What it does | Main output |
+|---|---|---|---|
+| Acquire | `s00_find_tiles.py` | LINZ STAC search for DEM and reference-imagery tiles intersecting Esk | `provenance/tiles_*.json` |
+| | `s01a_s2_10m.py` | Sentinel-2 L2A COGs (Earth Search): SCL screening, per-scene NDVI, pre-event median | `data/s2_10m/*.tif` |
+| Align | `s01_build_stack.py`, `s01b_stack_10m.py` | One NZTM grid (20 m, then 10 m): V2 layers, LiDAR DEM, slope, aspect | `data/esk_v3_stack_10m.nc` |
+| | `s03_streams.py` | Priority-flood fill, D8 flow accumulation, streams (≥ 5 ha), distance to stream | `data/hydrology_10m.tif` |
+| Baseline | `s02_frame_and_loss.py` | First run: LCDB5 standing-canopy frame and ΔNDVI loss rule (median − 3·MAD) | `data/v3_classes_10m.tif` |
+| | `s08_gee_landuse.py` | Earth Engine: random forest on AlphaEarth 2022 embeddings (labels from FCP, Hansen, HBRC) | `data/landuse_2022_10m.tif` |
+| | `s09_estate_condition.py` | Multi-source estate; mature / young / open at event; loss per condition | `data/v3b_classes_10m.tif` |
+| Verify | `s04_sample.py`, `s10_sample_supplement.py`, `s10b_sample_supplement2.py` | Stratified random reference samples (fixed seeds, map class hidden) | `sample*/sample_key.csv` |
+| | `s05_chips.py`, `s06_label_sheet.py` | Before/after image chips and blind labelling workbook | `sample*/chips/`, `V3_labelling.xlsx` |
+| Estimate | `s07_accuracy_area.py`, `s11_combined_estimate.py` | Olofsson et al. (2014) accuracy and area with 95% CI; domain estimation across samples | `provenance/s11_combined_estimate.json` |
+| Compare | `s12_gee_sar_alphaearth.py` | Earth Engine: Sentinel-1 multi-orbit, multi-date change; AlphaEarth cosine change 2021–24 | `data/sar_gee_10m.tif`, `data/alphaearth_10m.tif` |
+| | `s13_indicator_comparison.py` | AUC with bootstrap intervals for every indicator at the reference points | `provenance/s13_indicator_comparison.json` |
+| Figures | `figstyle.py`, `fig_estimate.py`, `fig_extras.py`, `fig_sensors.py`, `fig_pipeline.py` | Charts and table previews in one shared style | `figures/final/*.png` |
+| | `qgis/layout_common.py`, `layout_loss_map.py`, `layout_maps.py`, `layout_sensors.py` | PyQGIS print-layout maps (run with OSGeo4W `python-qgis.bat`) | `figures/final/F1–F8*.png` |
+| | `qgis/build_review_project.py` | QGIS review project with all layers and streamed LINZ imagery | `qgis/Esk_V3_review.qgz` |
 
-```powershell
-..\work\.venv\Scripts\python.exe -m pip install -r requirements.txt
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run optical
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run temporal
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run sar --sensor opera
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run sar --sensor hyp3
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run figures
-```
+Earth Engine steps (`s08`, `s09`, `s12`) need an authenticated Earth Engine account and a Cloud project: set the `EE_PROJECT` environment variable, or put the project ID on one line in `ee_project.txt` (git-ignored).
 
-`optical --retrieve` retrieves only missing reflectance for the saved scene lists;
-`temporal` retrieves only when a matching verified CSV is absent. Load the existing
-external environment with `dotenv.load_dotenv(EXTERNAL_ENV_PATH, override=False)`
-in the same process if Earth Engine access is needed. Reuse existing OAuth;
-never copy credentials into Drive/Git. Existing SAR requires no network requests.
+## Setup
 
-```powershell
-..\work\.venv\Scripts\python.exe -m pytest -q
-..\work\.venv\Scripts\python.exe scripts/check_notebooks.py
-..\work\.venv\Scripts\python.exe scripts/execute_forest_notebooks.py
-..\work\.venv\Scripts\python.exe -m pipeline.forest_run verify
-```
+- Python 3.11+ with the packages in `requirements.txt`.
+- QGIS 3.44 (OSGeo4W) for the map layouts.
+- Internet access for Earth Search, LINZ open buckets and Earth Engine.
 
-`check_notebooks.py` validates JSON and syntax without side effects. The explicit
-execution script runs real cells in the project interpreter and saves executed
-copies under `outputs/forest_change/executed_notebooks/`. It avoids writing
-Jupyter connection keys to a filesystem that cannot enforce Windows ACLs.
-Pass `--sensors landsat sentinel2 opera hyp3` to execute all four paths.
+## Data not included in this repository
 
-## Output contract
+Large rasters (`data/`), the LiDAR DEM tiles, reference-image chips, and the Forestry Catchment Planner polygons are not committed. FCP is used in the analysis but its redistribution licence is unconfirmed; download it from the [FCP data page](https://www.docs.forestrycatchmentplanner.nz/forestry-stand-calculations-data). The reference labels (`sample*/V3_labelling.xlsx`) are kept locally. Everything else is regenerated by the scripts from open sources.
 
-- `data/stacks/forest_change/`: Landsat 30 m, Sentinel-2 10 m, separate OPERA 30 m
-  and HyP3 10 m stacks, plus a derived Sentinel-2 comparison at 30 m.
-- `outputs/forest_change/`: paired-valid CSVs, explicit exploratory change ranges,
-  exact histogram-bin CSVs, per-acquisition tables, profiles, GeoTIFF change layers,
-  PNG and vector SVG figures, executed notebooks and verification records.
-- `aoi/forest_change_patches.geojson` and `forest_change_transects.geojson`: saved,
-  editable geographic examples. These are provisional examples, not validation.
+## Class codes
 
-Delta NDVI is **post minus pre** (negative decline); dNBR, named `nbr_loss`, is
-**pre minus post** (positive decline). The existing legacy `dNBR` used the opposite
-sign and remains untouched. Median per-scene indices remain distinct from indices
-calculated from median reflectance. Sentinel-2 SWIR retains 20 m source support.
-The SAR pair is **21 January to 14 February 2023; the latter is during-event**.
-Normalized power change and dB log-ratio express the same ratio and are not
-independent evidence. Static LCDB 2018/19 forest types may have changed by 2023.
+`v3b_classes_10m.tif`: 1 open at event; 2 young, no loss; 3 young, loss; 4 mature, no loss; 5 mature, loss; 6 native, no loss; 7 native, loss.
+`v3_classes_10m.tif` (first run): 1 open at event; 2 standing canopy, no loss; 3 canopy loss.
 
-## Legacy and contribution policy
+## Data sources and licences
 
-Existing raw inputs, AOI, derived rasters and old outputs remain in place and are
-fingerprinted in the new run. The classifier modules and legacy CLI are retained
-for historical reproducibility. [Legacy documentation](docs/methods.md) describes
-that old workflow, not prerequisites for the new continuous maps.
+Copernicus Sentinel-2 L2A and Sentinel-1 GRD (ESA); Cloud Score+ (Google); LCDB5 (Manaaki Whenua, CC BY 4.0); Forestry Catchment Planner; AlphaEarth Foundations annual embeddings (Google DeepMind); Hansen Global Forest Change v1.13 (UMD, CC BY 4.0); Hawke's Bay LiDAR DEM 2020–21, HBRC aerial 0.3 m 2021–22, Chang Guang 0.5 m 21 Feb 2023 and HBRC 0.1 m Cyclone Gabrielle imagery (LINZ, CC BY 4.0); HBRC Biodiversity priority sites.
 
-Use only the owner's verified Git author/committer identity. Add no co-authors or
-other contributors. Push completed work only with the owner's authorization.
+## Generative AI
+
+Claude (Anthropic) assisted with pipeline design, code, QA and figures; see the methods log for the declaration. The project author made the study decisions and produced all reference labels.
