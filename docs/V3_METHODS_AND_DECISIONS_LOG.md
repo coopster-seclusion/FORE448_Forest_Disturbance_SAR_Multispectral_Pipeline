@@ -174,7 +174,10 @@ Style samples produced for approval: `figures/final/F4_loss_map_slide.png`, `F5_
 - **Portability:** paths now come from `scripts/v3cfg.py` (`V3_ROOT`, `V2_DATA`, `AOI`, `EE_PROJECT` from an env var or the git-ignored `ee_project.txt`). The catchment and NZ locator are copied into `aoi/`. Re-tested: all scripts compile, `s13` and `qgis/layout_maps.py` run.
 - **GitHub:** V3 merged to `main` (PRs #1, #2). At the author's request `main` was then reduced to V3 only: V3 moved from `v3/` to the repository root, V1/V2 files removed, and the earlier workflow preserved under the tag `v2-archive`. Excluded from the repo: rasters, LiDAR tiles, chips, labelled workbooks and FCP data (licence).
 - **Presentation deck** (Claude Slides artifact, private until shared): 12 main slides (cover, question, F1, F2, F3a, F4, F5, native results table, F6, F9, limitations and takeaways, close) plus 5 backups (F4b, F7, F8, F10, T1). Speaker notes are split across three presenters, about 10 minutes in total. Group names are a placeholder on the cover.
+- **F11 "How we checked the map"** (`qgis/layout_checks.py`, panels from `scripts/fig_checks.py`): map of all 160 reference points coloured by label, the V3-037 example chip, the four checking steps, and a label tally (Loss 39, No loss 88, No canopy before 21, Not plantation 10, Can't tell 2; `provenance/reference_label_counts.json`). Added to the deck after the loss map, with its own speaker notes; the talk is now about 11 minutes, so trim elsewhere if needed.
 - Still to do: report-size figure versions, F3c aerial-example strip for the report, report drafting (due 2 Oct).
+
+- **Session closed 25 Sep 2026.** Handoff and next-session plan (make the repo agent-ready for a new AOI; figure revisions after the group's check): `docs/SESSION_HANDOFF.md`.
 
 ## 7. Workflow and tooling notes
 

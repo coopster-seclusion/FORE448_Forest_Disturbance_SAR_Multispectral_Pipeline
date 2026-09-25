@@ -4,6 +4,8 @@ Pixel-level mapping of plantation canopy loss in the Esk catchment (Hawke's Bay,
 
 The earlier V1/V2 workflow (notebooks, `pipeline/` package, optical benchmark) is preserved under the git tag [`v2-archive`](../../tree/v2-archive).
 
+**Next steps and current state:** [docs/SESSION_HANDOFF.md](docs/SESSION_HANDOFF.md)
+
 **Full methods, decisions and evidence:** [docs/V3_METHODS_AND_DECISIONS_LOG.md](docs/V3_METHODS_AND_DECISIONS_LOG.md)
 
 ## Key results
@@ -36,8 +38,8 @@ Run from the V3 folder, in this order. `scripts/v3cfg.py` holds the paths and se
 | Estimate | `s07_accuracy_area.py`, `s11_combined_estimate.py` | Olofsson et al. (2014) accuracy and area with 95% CI; domain estimation across samples | `provenance/s11_combined_estimate.json` |
 | Compare | `s12_gee_sar_alphaearth.py` | Earth Engine: Sentinel-1 multi-orbit, multi-date change; AlphaEarth cosine change 2021–24 | `data/sar_gee_10m.tif`, `data/alphaearth_10m.tif` |
 | | `s13_indicator_comparison.py` | AUC with bootstrap intervals for every indicator at the reference points | `provenance/s13_indicator_comparison.json` |
-| Figures | `figstyle.py`, `fig_estimate.py`, `fig_extras.py`, `fig_sensors.py`, `fig_pipeline.py` | Charts and table previews in one shared style | `figures/final/*.png` |
-| | `qgis/layout_common.py`, `layout_loss_map.py`, `layout_maps.py`, `layout_sensors.py` | PyQGIS print-layout maps (run with OSGeo4W `python-qgis.bat`) | `figures/final/F1–F8*.png` |
+| Figures | `figstyle.py`, `fig_estimate.py`, `fig_extras.py`, `fig_sensors.py`, `fig_pipeline.py`, `fig_checks.py` | Charts and table previews in one shared style | `figures/final/*.png` |
+| | `qgis/layout_common.py`, `layout_loss_map.py`, `layout_maps.py`, `layout_sensors.py`, `layout_checks.py` | PyQGIS print-layout maps (run with OSGeo4W `python-qgis.bat`) | `figures/final/F1–F11*.png` |
 | | `qgis/build_review_project.py` | QGIS review project with all layers and streamed LINZ imagery | `qgis/Esk_V3_review.qgz` |
 
 Earth Engine steps (`s08`, `s09`, `s12`) need an authenticated Earth Engine account and a Cloud project: set the `EE_PROJECT` environment variable, or put the project ID on one line in `ee_project.txt` (git-ignored).
