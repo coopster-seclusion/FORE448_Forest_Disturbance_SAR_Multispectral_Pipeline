@@ -1,0 +1,1 @@
+Raw rasters are not downloaded during inventory. Local metadata, caches, processing manifests and derived rasters live here and are ignored by Git. Public inventory summaries are copied to docs/inventory/ for review. Credential files must never be stored in this tree.

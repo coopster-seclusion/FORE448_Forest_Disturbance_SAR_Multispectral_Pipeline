@@ -1,0 +1,47 @@
+{
+ "estate_ha": 9525,
+ "estate_by_agreement_ha": {
+  "1": 941,
+  "2": 1444,
+  "3": 7140
+ },
+ "condition_ha": {
+  "open": 712,
+  "young": 3185,
+  "mature": 5550,
+  "no_optical": 78
+ },
+ "mapped_loss_ha": {
+  "mature": 532,
+  "young": 291,
+  "native_context": 646
+ },
+ "loss_rate_pct": {
+  "mature": 9.6,
+  "young": 9.1,
+  "native": 12.2
+ },
+ "thresholds": {
+  "mature": {
+   "median": 0.0388413667678833,
+   "mad_sd": 0.035577256232500076,
+   "cut": -0.06969668716192245
+  },
+  "young": {
+   "median": 0.019442379474639893,
+   "mad_sd": 0.07953259348869324,
+   "cut": -0.21915540099143982
+  },
+  "native": {
+   "median": 0.01720505952835083,
+   "mad_sd": 0.055260270833969116,
+   "cut": -0.14857575297355652
+  }
+ },
+ "old_frame_overlap_ha": {
+  "old_frame": 5454,
+  "old_frame_in_new_mature": 4739,
+  "new_mature_outside_old_frame": 811
+ },
+ "hansen_loss_2017_22_in_estate_ha": 3421
+}

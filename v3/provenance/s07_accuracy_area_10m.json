@@ -1,0 +1,25 @@
+{
+ "n_used": 100,
+ "n_cant_tell": 0,
+ "n_unlabelled": 0,
+ "per_stratum_n": {
+  "2": 60,
+  "3": 40
+ },
+ "overall_accuracy": 0.9002473196345022,
+ "users_accuracy_loss": 0.45,
+ "users_accuracy_no_loss": 0.95,
+ "producers_accuracy_loss": 0.4986229747827791,
+ "users_accuracy_loss_tolerant_3x3": 0.875,
+ "frame_ha": 5454.4800000000005,
+ "mapped_loss_ha": 542.75,
+ "estimated_loss_ha": 489.824,
+ "estimated_loss_ci95_ha": 286.00005261128376,
+ "estimated_loss_pct_of_frame": 8.980214429239817,
+ "frame_error_no_canopy_before_pct": 12.0,
+ "loss_causes": {
+  "Slip or debris flow": 18,
+  "NaN": 2,
+  "Flood or silt": 1
+ }
+}

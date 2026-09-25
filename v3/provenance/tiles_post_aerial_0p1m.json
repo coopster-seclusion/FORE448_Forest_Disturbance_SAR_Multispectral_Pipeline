@@ -1,0 +1,1177 @@
+{
+ "collection": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/collection.json",
+ "n_items_total": 6158,
+ "n_intersecting": 234,
+ "tiles": [
+  {
+   "id": "BJ38_1000_2946",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_2946.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3047",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3047.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3048",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3048.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3146",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3146.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3147",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3147.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3148",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3148.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3149",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3149.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3150",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3150.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3246",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3246.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3247",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3247.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3248",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3248.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3249",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3249.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3250",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3250.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3346",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3346.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3347",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3347.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3348",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3348.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3349",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3349.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3350",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3350.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3446",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3446.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3447",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3447.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3448",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3448.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3449",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3449.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3450",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3450.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3545",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3545.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3546",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3546.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3547",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3547.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3548",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3548.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3549",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3549.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3550",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3550.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3647",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3647.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3648",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3648.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3649",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3649.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3650",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3650.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3747",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3747.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3748",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3748.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3749",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3749.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3750",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3750.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3848",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3848.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3849",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3849.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3850",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3850.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_3950",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_3950.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ38_1000_4050",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ38_1000_4050.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2306",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2306.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2307",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2307.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2406",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2406.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2407",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2407.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2408",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2408.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2409",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2409.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2410",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2410.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2411",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2411.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2412",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2412.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2413",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2413.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2414",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2414.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2415",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2415.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2506",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2506.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2507",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2507.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2508",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2508.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2509",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2509.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2510",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2510.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2511",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2511.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2512",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2512.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2513",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2513.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2514",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2514.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2515",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2515.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2605",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2605.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2606",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2606.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2607",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2607.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2608",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2608.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2609",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2609.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2610",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2610.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2611",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2611.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2612",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2612.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2613",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2613.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2614",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2614.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2705",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2705.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2706",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2706.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2707",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2707.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2708",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2708.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2709",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2709.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2710",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2710.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2711",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2711.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2712",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2712.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2713",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2713.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2805",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2805.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2806",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2806.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2807",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2807.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2808",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2808.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2809",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2809.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2810",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2810.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2811",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2811.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2812",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2812.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2813",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2813.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2904",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2904.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2905",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2905.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2906",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2906.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2907",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2907.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2908",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2908.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2909",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2909.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2910",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2910.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2911",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2911.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2912",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2912.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_2913",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_2913.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3004",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3004.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3005",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3005.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3006",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3006.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3007",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3007.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3008",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3008.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3009",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3009.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3010",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3010.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3011",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3011.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3012",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3012.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3013",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3013.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3104",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3104.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3105",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3105.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3106",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3106.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3107",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3107.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3108",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3108.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3109",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3109.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3110",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3110.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3111",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3111.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3112",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3112.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3113",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3113.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3114",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3114.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3201",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3201.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3205",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3205.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3206",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3206.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3207",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3207.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3208",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3208.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3209",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3209.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3210",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3210.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3211",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3211.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3212",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3212.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3213",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3213.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3214",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3214.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3301",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3301.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3302",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3302.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3306",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3306.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3307",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3307.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3308",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3308.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3309",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3309.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3310",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3310.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3311",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3311.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3312",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3312.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3313",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3313.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3314",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3314.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3315",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3315.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3316",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3316.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3318",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3318.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3319",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3319.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3401",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3401.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3402",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3402.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3403",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3403.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3407",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3407.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3408",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3408.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3409",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3409.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3410",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3410.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3411",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3411.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3412",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3412.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3413",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3413.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3414",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3414.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3415",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3415.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3416",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3416.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3417",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3417.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3418",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3418.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3419",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3419.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3420",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3420.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3421",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3421.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3422",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3422.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3501",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3501.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3502",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3502.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3503",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3503.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3508",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3508.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3509",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3509.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3510",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3510.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3511",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3511.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3512",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3512.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3513",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3513.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3514",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3514.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3515",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3515.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3516",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3516.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3517",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3517.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3518",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3518.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3519",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3519.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3520",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3520.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3521",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3521.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3522",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3522.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3601",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3601.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3602",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3602.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3603",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3603.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3608",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3608.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3609",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3609.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3610",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3610.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3611",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3611.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3612",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3612.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3613",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3613.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3614",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3614.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3615",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3615.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3616",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3616.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3617",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3617.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3618",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3618.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3619",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3619.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3620",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3620.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3621",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3621.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3622",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3622.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3701",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3701.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3702",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3702.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3703",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3703.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3712",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3712.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3713",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3713.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3714",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3714.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3715",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3715.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3716",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3716.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3717",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3717.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3718",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3718.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3719",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3719.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3720",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3720.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3721",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3721.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3722",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3722.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3723",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3723.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3801",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3801.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3802",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3802.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3803",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3803.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3813",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3813.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3814",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3814.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3815",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3815.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3816",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3816.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3817",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3817.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3818",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3818.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3819",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3819.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3820",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3820.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3822",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3822.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3901",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3901.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_3902",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_3902.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  },
+  {
+   "id": "BJ39_1000_4001",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay-cyclone-gabrielle_2023_0.1m/rgb/2193/BJ39_1000_4001.tiff",
+   "datetime": "2023-02-17T11:00:00Z"
+  }
+ ]
+}

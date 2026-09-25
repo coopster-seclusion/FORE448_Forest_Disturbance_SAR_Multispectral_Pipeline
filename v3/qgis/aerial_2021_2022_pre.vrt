@@ -1,0 +1,1079 @@
+<VRTDataset rasterXSize="64000" rasterYSize="108000">
+  <SRS dataAxisToSRSAxisMapping="2,1">PROJCS["NZGD2000 / New Zealand Transverse Mercator 2000",GEOGCS["NZGD2000",DATUM["New_Zealand_Geodetic_Datum_2000",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6167"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4167"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",173],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",1600000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Northing",NORTH],AXIS["Easting",EAST],AUTHORITY["EPSG","2193"]]</SRS>
+  <GeoTransform>  1.9168000000000000e+06,  2.9999999999999999e-01,  0.0000000000000000e+00,  5.6616000000000000e+06,  0.0000000000000000e+00, -2.9999999999999999e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">246</MDI>
+      <MDI key="STATISTICS_MEAN">58.359940585009</MDI>
+      <MDI key="STATISTICS_STDDEV">56.165497481186</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1009.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1010.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1001.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1002.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0109.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0110.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0208.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0209.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0210.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0308.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0309.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0310.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0409.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0410.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0509.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0510.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0610.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0709.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0710.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0810.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0101.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0102.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0201.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0202.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0203.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0301.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0302.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0303.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0401.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0402.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0403.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0501.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0502.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0503.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0601.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0602.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0603.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0701.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0702.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0703.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0704.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0705.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0801.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0802.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0803.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0804.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0805.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">67.718650022852</MDI>
+      <MDI key="STATISTICS_STDDEV">62.209531960594</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1009.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1010.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1001.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1002.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0109.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0110.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0208.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0209.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0210.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0308.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0309.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0310.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0409.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0410.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0509.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0510.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0610.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0709.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0710.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0810.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0101.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0102.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0201.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0202.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0203.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0301.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0302.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0303.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0401.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0402.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0403.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0501.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0502.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0503.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0601.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0602.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0603.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0701.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0702.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0703.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0704.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0705.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0801.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0802.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0803.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0804.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0805.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">249</MDI>
+      <MDI key="STATISTICS_MEAN">61.268013025594</MDI>
+      <MDI key="STATISTICS_STDDEV">54.630724639526</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1009.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH38_5000_1010.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1001.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BH39_5000_1002.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="0" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0109.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0110.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0208.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0209.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0210.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0308.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="0" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0309.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0310.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0409.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0410.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0509.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0510.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0610.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0709.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="8000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0710.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ38_5000_0810.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="16000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0101.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0102.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="12000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0201.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0202.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0203.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="24000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0301.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0302.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0303.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="36000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0401.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0402.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0403.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="48000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0501.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0502.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0503.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="60000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0601.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0602.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0603.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="72000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0701.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0702.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0703.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0704.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0705.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="84000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0801.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="24000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0802.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="32000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0803.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="40000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0804.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8000" RasterYSize="12000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="48000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2021-2022_0.3m/rgb/2193/BJ39_5000_0805.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="8000" ySize="12000" />
+      <DstRect xOff="56000" yOff="96000" xSize="8000" ySize="12000" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32</OverviewList>
+</VRTDataset>

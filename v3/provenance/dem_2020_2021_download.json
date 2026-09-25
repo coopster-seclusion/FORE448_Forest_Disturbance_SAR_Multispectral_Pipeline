@@ -1,0 +1,125 @@
+{
+ "downloaded_utc": "2026-09-24T22:12:12Z",
+ "licence": "CC BY 4.0, LINZ / Hawke's Bay Regional Council",
+ "files": [
+  {
+   "id": "BH38_10000_0505",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BH38_10000_0505.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 62607220,
+   "sha256": "02eddb2a58204cddd9d41b1825ca0c0c92fa644d65282f036b63605f97ea2550"
+  },
+  {
+   "id": "BH39_10000_0501",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BH39_10000_0501.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 61347513,
+   "sha256": "2e90f2de21b5917f60c005c15dc9790459036653544c989401912e5a42da82c0"
+  },
+  {
+   "id": "BJ38_10000_0104",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0104.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 61757922,
+   "sha256": "4d4e487ac36bd51dadef2225a2727c6ef64622245bc71c3d81eece2bdfa927c4"
+  },
+  {
+   "id": "BJ38_10000_0105",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0105.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 60742465,
+   "sha256": "658d4eae645aaeefffc80065217bf082625364901a6a73be45de665972f90f20"
+  },
+  {
+   "id": "BJ38_10000_0204",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0204.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 59480297,
+   "sha256": "cbd2ed38345f7fce5cfab4e4552465e9eeca8f4eb7dd38d54bf6d93dea155cbe"
+  },
+  {
+   "id": "BJ38_10000_0205",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0205.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 60395711,
+   "sha256": "4b6419e87c8de62768b690ad8f3928063c3b967943d1a1a568670e76db6c1167"
+  },
+  {
+   "id": "BJ38_10000_0305",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0305.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 60794612,
+   "sha256": "026875873f07de9b03e65ff9bc8e3f07d29349861044de2fcd8abbfd6b8c57af"
+  },
+  {
+   "id": "BJ38_10000_0405",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ38_10000_0405.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 59789367,
+   "sha256": "03a62e0cfcf1c8032bef6ed48b29df039adcb3e46bea080d2d4466a188d7d682"
+  },
+  {
+   "id": "BJ39_10000_0101",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0101.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 59567995,
+   "sha256": "1d70130faf1cacd1eb77650698fc0a1f6a2d830ac039e73398253dd0ddce6a58"
+  },
+  {
+   "id": "BJ39_10000_0102",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0102.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 60078684,
+   "sha256": "507ed85719a3a9447f09720bfa3d8303dabfa997d84bd36f86ed73c0a19be716"
+  },
+  {
+   "id": "BJ39_10000_0201",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0201.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 61056102,
+   "sha256": "770a2a04c4639771439f53ab9a3387b3d26dd87091edb0fd17c531e3e2ab775d"
+  },
+  {
+   "id": "BJ39_10000_0202",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0202.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 61318744,
+   "sha256": "33e52610d62d444c4bc85f1c75779a3bca141db2d72782a1e42d34fd14b32235"
+  },
+  {
+   "id": "BJ39_10000_0301",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0301.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 61467549,
+   "sha256": "11ddca8541b684f3bfd692472e5e27c8acf098a5c2aa44f09cc99e4a749b3f10"
+  },
+  {
+   "id": "BJ39_10000_0302",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0302.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 62659512,
+   "sha256": "e8367030a19501025d581e8158d23a32ba2d0405fd0b677c36e602bd3af84790"
+  },
+  {
+   "id": "BJ39_10000_0401",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0401.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 60540814,
+   "sha256": "aa1c067790a777f0741968df6616d4f1fc8fa867feb045970fc283a77a50b6a0"
+  },
+  {
+   "id": "BJ39_10000_0402",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0402.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 57089593,
+   "sha256": "20f1239a31512c603378d13a1b87c4d2c84d766851a14cae62bf29483e3a2385"
+  },
+  {
+   "id": "BJ39_10000_0403",
+   "href": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/hawkes-bay/hawkes-bay_2020-2021/dem_1m/2193/BJ39_10000_0403.tiff",
+   "datetime": "2020-11-10T11:00:00Z",
+   "bytes": 15967865,
+   "sha256": "5446782469044b9c1861be6edb276d7a212dc5bbc8f40fb2046f8d96d50a2fdf"
+  }
+ ]
+}

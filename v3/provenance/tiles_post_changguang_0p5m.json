@@ -1,0 +1,42 @@
+{
+ "collection": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/collection.json",
+ "n_items_total": 311,
+ "n_intersecting": 7,
+ "tiles": [
+  {
+   "id": "JL1KF01B_PMSL2_20230221054314_200135719_101_0022_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSL3_20230221054314_200135719_101_0023_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0023_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSL3_20230221054314_200135719_101_0024_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0024_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSL3_20230221054314_200135719_101_0025_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0025_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSR2_20230221054314_200135719_101_0022_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSR2_20230221054314_200135719_101_0023_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0023_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  },
+  {
+   "id": "JL1KF01B_PMSR2_20230221054314_200135719_101_0024_001_L3C_PSH",
+   "href": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0024_001_L3C_PSH.tiff",
+   "datetime": "2023-02-20T11:00:00Z"
+  }
+ ]
+}

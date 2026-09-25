@@ -1,0 +1,15 @@
+{
+ "kept": 7452,
+ "added": 2072,
+ "removed": 475,
+ "lcdb5": 7927,
+ "estate": 9525,
+ "catchment": 26786,
+ "estate_median_slope": 17.9,
+ "estate_pct_over_25deg": 27.7,
+ "added_by_condition_ha": {
+  "young": 1137,
+  "mature": 811,
+  "open": 97
+ }
+}

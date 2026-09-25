@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "plantation_east_west",
+        "selection": "East-west through first provisional forest patch; geography selected without change values"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            176.7610730721151,
+            -39.188381214835964
+          ],
+          [
+            176.80647945958665,
+            -39.18690455480566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "native_east_west",
+        "selection": "East-west through first provisional forest patch; geography selected without change values"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            176.76053682603816,
+            -39.17833221067325
+          ],
+          [
+            176.80593677746597,
+            -39.17685607597394
+          ]
+        ]
+      }
+    }
+  ]
+}

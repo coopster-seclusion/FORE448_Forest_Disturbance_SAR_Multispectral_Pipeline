@@ -1,0 +1,205 @@
+<VRTDataset rasterXSize="89618" rasterYSize="109800">
+  <SRS dataAxisToSRSAxisMapping="2,1">PROJCS["NZGD2000 / New Zealand Transverse Mercator 2000",GEOGCS["NZGD2000",DATUM["New_Zealand_Geodetic_Datum_2000",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6167"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4167"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",173],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",1600000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Northing",NORTH],AXIS["Easting",EAST],AUTHORITY["EPSG","2193"]]</SRS>
+  <GeoTransform>  1.9007615017269747e+06,  5.0058490075830797e-01,  0.0000000000000000e+00,  5.6722077344379351e+06,  0.0000000000000000e+00, -5.0058490075830797e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">27.604791580667</MDI>
+      <MDI key="STATISTICS_STDDEV">37.190373922876</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="37697" RasterYSize="36866" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <DstRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36761" RasterYSize="35689" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36760.5140172175" ySize="35689" />
+      <DstRect xOff="52849.276931515" yOff="27018.6468493008" xSize="36768.723068485" ySize="35696.9697696977" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36703" RasterYSize="35726" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36703" ySize="35726" />
+      <DstRect xOff="45893.9552954959" yOff="50519.5303143224" xSize="36710.109974497" ySize="35732.9207135351" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0025_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="36690" RasterYSize="35769" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36690" ySize="35768.9860652487" />
+      <DstRect xOff="38868.0170352547" yOff="74025.1476995711" xSize="36696.0172845931" ySize="35774.8523004289" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="37414" RasterYSize="36858" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37414" ySize="36858" />
+      <DstRect xOff="27876.7134609874" yOff="8883.47841693559" xSize="37418.4250532033" ySize="36862.3592936058" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="37366" RasterYSize="36764" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37366" ySize="36764" />
+      <DstRect xOff="20683.1687099579" yOff="33076.8133542937" xSize="37369.281859058" ySize="36767.2289853452" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="37433" RasterYSize="36821" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37433" ySize="36821" />
+      <DstRect xOff="13375.38700258" yOff="57231.0459723324" xSize="37435.1426331347" ySize="36823.1076027744" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">38.500049554731</MDI>
+      <MDI key="STATISTICS_STDDEV">43.640579852448</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="37697" RasterYSize="36866" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <DstRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="36761" RasterYSize="35689" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36760.5140172175" ySize="35689" />
+      <DstRect xOff="52849.276931515" yOff="27018.6468493008" xSize="36768.723068485" ySize="35696.9697696977" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="36703" RasterYSize="35726" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36703" ySize="35726" />
+      <DstRect xOff="45893.9552954959" yOff="50519.5303143224" xSize="36710.109974497" ySize="35732.9207135351" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0025_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="36690" RasterYSize="35769" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36690" ySize="35768.9860652487" />
+      <DstRect xOff="38868.0170352547" yOff="74025.1476995711" xSize="36696.0172845931" ySize="35774.8523004289" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="37414" RasterYSize="36858" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37414" ySize="36858" />
+      <DstRect xOff="27876.7134609874" yOff="8883.47841693559" xSize="37418.4250532033" ySize="36862.3592936058" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="37366" RasterYSize="36764" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37366" ySize="36764" />
+      <DstRect xOff="20683.1687099579" yOff="33076.8133542937" xSize="37369.281859058" ySize="36767.2289853452" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="37433" RasterYSize="36821" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37433" ySize="36821" />
+      <DstRect xOff="13375.38700258" yOff="57231.0459723324" xSize="37435.1426331347" ySize="36823.1076027744" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">36.444820964263</MDI>
+      <MDI key="STATISTICS_STDDEV">39.129208554532</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="37697" RasterYSize="36866" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <DstRect xOff="0" yOff="0" xSize="37697" ySize="36866" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="36761" RasterYSize="35689" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36760.5140172175" ySize="35689" />
+      <DstRect xOff="52849.276931515" yOff="27018.6468493008" xSize="36768.723068485" ySize="35696.9697696977" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="36703" RasterYSize="35726" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36703" ySize="35726" />
+      <DstRect xOff="45893.9552954959" yOff="50519.5303143224" xSize="36710.109974497" ySize="35732.9207135351" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSL3_20230221054314_200135719_101_0025_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="36690" RasterYSize="35769" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="36690" ySize="35768.9860652487" />
+      <DstRect xOff="38868.0170352547" yOff="74025.1476995711" xSize="36696.0172845931" ySize="35774.8523004289" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0022_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="37414" RasterYSize="36858" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37414" ySize="36858" />
+      <DstRect xOff="27876.7134609874" yOff="8883.47841693559" xSize="37418.4250532033" ySize="36862.3592936058" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0023_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="37366" RasterYSize="36764" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37366" ySize="36764" />
+      <DstRect xOff="20683.1687099579" yOff="33076.8133542937" xSize="37369.281859058" ySize="36767.2289853452" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsicurl/https://nz-imagery.s3-ap-southeast-2.amazonaws.com/new-zealand/north-island_2023_0.5m/rgb/2193/JL1KF01B_PMSR2_20230221054314_200135719_101_0024_001_L3C_PSH.tiff</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="37433" RasterYSize="36821" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="37433" ySize="36821" />
+      <DstRect xOff="13375.38700258" yOff="57231.0459723324" xSize="37435.1426331347" ySize="36823.1076027744" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

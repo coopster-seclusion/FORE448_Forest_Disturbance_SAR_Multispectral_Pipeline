@@ -1,0 +1,35 @@
+{
+ "source": "Earth Search sentinel-2-l2a (AWS open data)",
+ "pre": [
+  "1/S2B_60HVB_20230115_0_L2A",
+  "1/S2A_60HVB_20230120_0_L2A",
+  "1/S2B_60HVB_20230125_0_L2A",
+  "2/S2B_60HVB_20230204_0_L2A",
+  "2/S2A_60HVB_20230209_0_L2A"
+ ],
+ "post": [
+  "2/S2A_60HVB_20230219_0_L2A"
+ ],
+ "scl_excluded": [
+  0,
+  1,
+  3,
+  8,
+  9,
+  10,
+  11
+ ],
+ "scaling": "DN*0.0001 (offset already applied by Earth Search)",
+ "grid": [
+  3166,
+  1676,
+  [
+   10.0,
+   0.0,
+   1917880.0,
+   0.0,
+   -10.0,
+   5661380.0
+  ]
+ ]
+}

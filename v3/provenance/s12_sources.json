@@ -1,0 +1,39 @@
+{
+ "sar": {
+  "collection": "COPERNICUS/S1_GRD",
+  "orbits_scene_counts": {
+   "8": {
+    "pre": 5,
+    "post": 3
+   },
+   "81": {
+    "pre": 4,
+    "post": 3
+   },
+   "175": {
+    "pre": 5,
+    "post": 3
+   }
+  },
+  "pre": [
+   "2022-12-16",
+   "2023-02-13"
+  ],
+  "post": [
+   "2023-02-14",
+   "2023-03-18"
+  ],
+  "smoothing": "multi-temporal mean + 15 m radius focal mean",
+  "geometry_mask": "local incidence 20-65 deg (GLO-30)",
+  "combine": "mean of valid orbits"
+ },
+ "alphaearth": {
+  "collection": "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL",
+  "metric": "cosine distance",
+  "pairs": [
+   "cos_2021_2022",
+   "cos_2022_2023",
+   "cos_2023_2024"
+  ]
+ }
+}
