@@ -19,7 +19,7 @@ FIG = os.path.join(V3, "figures", "final")
 AOI = os.path.join(V3, "aoi", "esk_catchment.geojson")
 FONT, INK, INK2, FRAME = "Segoe UI", "#0b0b0b", "#52514e", "#9a988f"
 CREDIT = ("Data: Copernicus Sentinel-2 (ESA, via Earth Search); LINZ/HBRC aerial imagery 2021–22 and LiDAR DEM 2020–21, "
-          "Chang Guang 0.5 m imagery via LINZ (CC BY 4.0); Forestry Catchment Planner; LCDB5; AlphaEarth embeddings "
+          "Chang Guang 0.5 m imagery via LINZ (CC BY 4.0); Forestry Catchment Planner; LCDB v6.0 (Manaaki Whenua, CC BY 4.0); AlphaEarth embeddings "
           "(Google DeepMind). NZTM2000 (EPSG:2193). FORE448 group project, 2026.")
 
 _app = None

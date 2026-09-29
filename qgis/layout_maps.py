@@ -53,31 +53,37 @@ pg.credit(); pg.export("F1_study_area_slide.png")
 # ---------------- F3a baseline change ----------------
 ch = raster(prj, os.path.join(HERE, "baseline_change.tif"), "baseline change")
 paletted(ch, [(1, "#1baf7a", "Kept"), (2, "#2a78d6", "Added"), (3, "#e87ba4", "Removed")])
-lcdb = vector(prj, os.path.join(HERE, "lcdb5_exotic.gpkg"), "LCDB5")
+lcdb = vector(prj, os.path.join(HERE, "lcdb6_2018_plantation.gpkg"), "LCDB v6 2018/19")
 outline(lcdb, "#ffd400", 0.5)
 pre = raster(prj, os.path.join(HERE, "aerial_2021_2022_pre.vrt"), "aerial 2021-22"); brighten(pre)
 pg = Page(prj, "F3a")
-pg.titles("LCDB5 missed about 2,100 ha of plantation, over half of it young stands",
-          "Plantation estate rebuilt from an AlphaEarth 2022 classifier and Forestry Catchment Planner stands, compared with LCDB5 exotic forest (2018/19)")
+pg.titles(f"Once harvested land is counted, LCDB and our estate differ by about {round(a['added'], -1):,.0f} ha",
+          "Estate (AlphaEarth 2022 classifier + Forestry Catchment Planner) vs LCDB v6.0 exotic + harvested forest, 2018/19. "
+          "A consistency check: FCP stands come from LCDB")
 main = pg.map(10, 28, 96, 152, [aoi, ch, hs], EXT)
 pg.scalebar(main, 13, 170, 2.5, 2); pg.north(main, 97, 30)
 pg.picture(os.path.join(HERE, "f3a_area_bar.png"), 114, 30, 126, 52)
 pg.swatch(118, 86, "#1baf7a", f"Kept: in both ({a['kept']:,} ha)", w=110)
-pg.swatch(118, 93, "#2a78d6", f"Added: missed by LCDB5 ({a['added']:,} ha)", w=110)
-pg.swatch(118, 100, "#e87ba4", f"Removed: not plantation ({a['removed']:,} ha)", w=110)
-ad = a["added_by_condition_ha"]
-pg.text(f"Added area: {ad['young']:,} ha young stands, {ad['mature']:,} ha mature canopy and {ad['open']:,} ha open cutover. "
-        "Mostly stands replanted since 2018 that LCDB5 recorded as harvested or grassland.\n\n"
-        "Removed area: native gully and riparian vegetation and pasture edges inside LCDB5 polygons.\n\n"
-        "Method: random forest on AlphaEarth 2022 embeddings, trained on Forestry Catchment Planner stands, "
-        "never-cleared tree cover (Hansen) and open land. 90% hold-out accuracy; 11 of 12 aerial-checked blocks agree.",
+pg.swatch(118, 93, "#2a78d6", f"Added: estate only ({a['added']:,} ha)", w=110)
+pg.swatch(118, 100, "#e87ba4", f"Removed: LCDB only, not plantation ({a['removed']:,} ha)", w=110)
+ad, by = a["added_by_condition_ha"], a["added_by_2018_class_ha"]
+grass = by.get("High Producing Exotic Grassland", 0) + by.get("Low Producing Grassland", 0)
+scrub = sum(by.get(k, 0) for k in ("Manuka and/or Kanuka", "Broadleaved Indigenous Hardwoods", "Deciduous Hardwoods"))
+pg.text(f"Harvested blocks matter: {a['estate_in_lcdb6_harvested']:,} ha of the estate was 'Forest – Harvested' in "
+        f"2018/19; by the cyclone {a['estate_in_lcdb6_harvested_by_condition_ha']['young']:,} ha of it was young stands. "
+        "A mask of standing exotic forest alone misses them.\n\n"
+        f"Added area ({ad['mature']:,} ha mature, {ad['young']:,} ha young, {ad['open']:,} ha open): about {grass:,} ha was "
+        f"grassland in 2018/19 (planted since) and {scrub:,} ha native scrub or hardwoods (new planting, or native margins "
+        "the classifier took as plantation).\n\n"
+        "Removed area: native gully and riparian vegetation and pasture edges inside LCDB polygons.\n\n"
+        "Method: random forest on AlphaEarth 2022 embeddings trained on FCP stands; 11 of 12 aerial-checked blocks agree.",
         118, 110, 124, 64, 9.5, INK2)
 post = raster(prj, os.path.join(HERE, "satellite_0p5m_post.vrt"), "satellite 21 Feb 2023")
 zx = square(1922785, 5649095, 500)
-pg.text("Example B: young stand missed by LCDB5", 252, 28, 80, 6, 9.5, INK, bold=True)
+pg.text("Example B: harvested in 2018/19, then replanted", 252, 28, 80, 6, 9.5, INK, bold=True)
 z = pg.map(252, 35, 66, 66, [lcdb, pre], zx)
 z2 = pg.map(252, 108, 66, 66, [lcdb, post], zx)
-pg.text("2021–22: young planted rows, no LCDB5 polygon", 252, 101.5, 80, 5, 8.5, INK2)
+pg.text("2021–22: young rows in an LCDB 'harvested' polygon", 252, 101.5, 80, 5, 8.5, INK2)
 pg.text("21 Feb 2023: the same stand cut by slips", 252, 174.5, 80, 5, 8.5, INK2)
 pg.overview(main, z, "B")
 pg.text("B", 252.8, 35.6, 6, 6, 10, "white", bold=True)

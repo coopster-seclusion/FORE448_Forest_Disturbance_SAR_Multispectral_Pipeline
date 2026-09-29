@@ -20,7 +20,7 @@ OUT = os.path.join(V3, "figures", "final", "F4_loss_map_slide.png")
 FONT = "Segoe UI"
 INK, INK2 = "#0b0b0b", "#52514e"
 ZOOM_C, ZOOM_HALF = (1927960, 5643600), 750  # dense-loss window (1.5 km)
-est = json.load(open(os.path.join(V3, "provenance", "s11_combined_estimate.json")))
+est = json.load(open(os.path.join(V3, "provenance", "s17_final_estimate.json")))["primary_exclude_2022_harvest"]["total"]
 s09 = json.load(open(os.path.join(V3, "provenance", "s09_estate_condition.json")))
 
 app = QgsApplication([], False); app.initQgis()
@@ -87,8 +87,8 @@ def scalebar(m, x, y, units_km, segs):
 text("Cyclone Gabrielle stripped plantation canopy along gullies across the Esk estate", 10, 7, 320, 10, 19, bold=True)
 text(f"Mapped canopy loss from Sentinel-2 (10 m): 20 Feb 2023 vs 16 Jan–10 Feb 2023.   "
      f"Mapped {s09['mapped_loss_ha']['mature'] + s09['mapped_loss_ha']['young']:,} ha  ·  "
-     f"estimated {est['estate_total']['loss_ha']:,.0f} ha (95% CI {est['estate_total']['loss_ha'] - est['estate_total']['ci95_ha']:,.0f}–"
-     f"{est['estate_total']['loss_ha'] + est['estate_total']['ci95_ha']:,.0f})", 10, 18, 320, 7, 10.5, INK2)
+     f"estimated {est['loss_ha']:,.0f} ha (95% CI {est['ci95_ha'][0]:,.0f}–{est['ci95_ha'][1]:,.0f}) from 130 checked 30 m blocks",
+     10, 18, 320, 7, 10.5, INK2)
 
 # main map
 ext = QgsCoordinateTransform(aoi.crs(), prj.crs(), prj).transformBoundingBox(aoi.extent()); ext.grow(600)
@@ -133,7 +133,7 @@ text("Estate = AlphaEarth 2022 plantation class + FCP stands (native forest show
      "Loss = drop in NDVI larger than 3 × normal variation. Zoom location boxed on the main map.",
      114, 167, 214, 10, 8.5, INK2)
 text("Data: Copernicus Sentinel-2 (ESA, via Earth Search); LINZ/HBRC aerial imagery 2021–22 and LiDAR DEM 2020–21, "
-     "Chang Guang 0.5 m imagery via LINZ (CC BY 4.0); Forestry Catchment Planner; LCDB5; AlphaEarth embeddings (Google DeepMind). "
+     "Chang Guang 0.5 m imagery via LINZ (CC BY 4.0); Forestry Catchment Planner; LCDB v6.0 (Manaaki Whenua, CC BY 4.0); AlphaEarth embeddings (Google DeepMind). "
      "NZTM2000 (EPSG:2193). FORE448 group project, 2026.", 10, 182, 320, 7, 7, INK2)
 
 exp = QgsLayoutExporter(lay)

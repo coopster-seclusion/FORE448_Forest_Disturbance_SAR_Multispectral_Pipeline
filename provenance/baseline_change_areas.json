@@ -1,15 +1,44 @@
 {
- "kept": 7452,
- "added": 2072,
- "removed": 475,
- "lcdb5": 7927,
+ "lcdb_source": "LCDB v6.0 Class_2018, classes 71 (exotic forest) + 64 (forest - harvested)",
+ "kept": 8674,
+ "added": 851,
+ "removed": 542,
+ "lcdb6_2018": 9216,
+ "lcdb6_2018_exotic": 7944,
+ "lcdb6_2018_harvested": 1272,
  "estate": 9525,
  "catchment": 26786,
  "estate_median_slope": 17.9,
  "estate_pct_over_25deg": 27.7,
+ "estate_in_lcdb6_harvested": 1194,
+ "estate_in_lcdb6_harvested_by_condition_ha": {
+  "young": 908,
+  "mature": 219,
+  "open": 55
+ },
  "added_by_condition_ha": {
-  "young": 1137,
-  "mature": 811,
-  "open": 97
+  "young": 216,
+  "mature": 577,
+  "open": 43,
+  "no_optical": 15
+ },
+ "added_by_2018_class_ha": {
+  "Transport Infrastructure": 5,
+  "Lake or Pond": 12,
+  "High Producing Exotic Grassland": 309,
+  "Low Producing Grassland": 86,
+  "Manuka and/or Kanuka": 253,
+  "Broadleaved Indigenous Hardwoods": 158,
+  "Deciduous Hardwoods": 17
+ },
+ "superseded_lcdb5_class71_only": {
+  "kept": 7452,
+  "added": 2072,
+  "removed": 475,
+  "added_by_condition_ha": {
+   "young": 1137,
+   "mature": 811,
+   "open": 97
+  }
  }
 }

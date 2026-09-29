@@ -1,0 +1,91 @@
+{
+ "source": "LCDB v6.0 mainland, LRIS layer 123148, doi:10.26060/WM99-RY32, CC BY 4.0",
+ "zip_sha256": "91abb01494cff34cab48dc0241593594ff144aeedbf4b463eb5123282bbdaf42",
+ "polygons_in_aoi": 1049,
+ "aoi_ha": 26785.5,
+ "exotic_forest_71_ha": {
+  "2018": 7945.3,
+  "2023": 6053.9
+ },
+ "forest_harvested_64_ha": {
+  "2018": 1271.1,
+  "2023": 3151.9
+ },
+ "landslide_12_ha": {
+  "2018": 1.4,
+  "2023": 56.3
+ },
+ "top_transitions_2018_to_2023_ha": {
+  "High Producing Exotic Grassland -> High Producing Exotic Grassland": 12159.5,
+  "Exotic Forest -> Exotic Forest": 4928.3,
+  "Exotic Forest -> Forest - Harvested": 2997.4,
+  "Manuka and/or Kanuka -> Manuka and/or Kanuka": 2791.0,
+  "Forest - Harvested -> Exotic Forest": 1096.0,
+  "Low Producing Grassland -> Low Producing Grassland": 810.3,
+  "Broadleaved Indigenous Hardwoods -> Broadleaved Indigenous Hardwoods": 546.1,
+  "Indigenous Forest -> Indigenous Forest": 390.6,
+  "Deciduous Hardwoods -> Deciduous Hardwoods": 230.2,
+  "Orchard, Vineyard or Other Perennial Crop -> Orchard, Vineyard or Other Perennial Crop": 229.6,
+  "Forest - Harvested -> Forest - Harvested": 154.5,
+  "Short-rotation Cropland -> Short-rotation Cropland": 146.1,
+  "Gorse and/or Broom -> Gorse and/or Broom": 47.5,
+  "River -> River": 45.3,
+  "Manuka and/or Kanuka -> Landslide": 35.0,
+  "Manuka and/or Kanuka -> Gravel and Rock": 23.7,
+  "Built-up Area (settlement) -> Built-up Area (settlement)": 22.1,
+  "Lake or Pond -> Lake or Pond": 20.8,
+  "High Producing Exotic Grassland -> Exotic Forest": 19.0,
+  "Exotic Forest -> Landslide": 17.3,
+  "Forest - Harvested -> Low Producing Grassland": 13.4,
+  "Low Producing Grassland -> Exotic Forest": 7.5,
+  "Gravel and Rock -> Gravel and Rock": 6.8,
+  "Manuka and/or Kanuka -> Low Producing Grassland": 5.6,
+  "Forest - Harvested -> High Producing Exotic Grassland": 5.4
+ },
+ "v5_vs_v6_2018_exotic_ha": {
+  "v5": 7927,
+  "v6": 7944,
+  "both": 7803,
+  "v5_only": 124,
+  "v6_only": 141
+ },
+ "estate_vs_v6_2018_exotic_or_harvested_ha": {
+  "estate": 9447,
+  "v6_71_64": 9216,
+  "overlap": 8611,
+  "estate_only": 836,
+  "v6_only": 605
+ },
+ "v6_2023_share_by_map_class_pct": {
+  "mature_loss": {
+   "ha": 532,
+   "exotic": 62.3,
+   "harvested": 17.2,
+   "landslide_or_rock": 3.2
+  },
+  "mature_no_loss": {
+   "ha": 5018,
+   "exotic": 80.7,
+   "harvested": 9.7,
+   "landslide_or_rock": 0.0
+  },
+  "young_loss": {
+   "ha": 291,
+   "exotic": 27.9,
+   "harvested": 64.4,
+   "landslide_or_rock": 0.1
+  },
+  "young_no_loss": {
+   "ha": 2894,
+   "exotic": 38.5,
+   "harvested": 54.4,
+   "landslide_or_rock": 0.0
+  },
+  "open": {
+   "ha": 712,
+   "exotic": 11.0,
+   "harvested": 82.7,
+   "landslide_or_rock": 0.0
+  }
+ }
+}
