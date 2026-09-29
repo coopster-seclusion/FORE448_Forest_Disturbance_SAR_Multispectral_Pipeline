@@ -22,6 +22,7 @@ Dates are 2026 (NZ time). Scripts are in `V3/scripts/`, outputs in `V3/data/`, p
 | Cloud Score+ mask (from V2), NBR (20 m, V2) | Same scenes | Cloud screening, canopy test | V2 derived rasters |
 | Hawke's Bay LiDAR 1 m DEM | Nov 2020–Jan 2021 | Slope, streams | LINZ `nz-elevation` bucket, 17 tiles, CC BY 4.0 |
 | LCDB5 exotic forest (class 71) | 2018/19 | Original plantation frame (see §6) | V2 mask |
+| LCDB v6.0 exotic (71) and harvested (64) forest | 2018/19; 2023/24 | Estate check (F3a, source agreement), post-event context (§6g) | LRIS layer 123148, author download, clipped by `s14` |
 | FCP plantation age-class polygons V1 | Boundaries LCDB5-based; ages to 2024 | Plantation estate, planting year | Public S3, 42.9 MB, SHA-256 `6b9832d6…` (used, not redistributed) |
 | Hansen Global Forest Change v1.13 | 2001–2024 | Harvest dating, training labels | Earth Engine |
 | AlphaEarth annual embeddings | 2022 | Pre-event land-use classifier | Earth Engine (user Cloud project) |
@@ -86,7 +87,7 @@ Earth Engine note: whole-catchment `computePixels` exceeded the user memory limi
 ### 6a. Rebuilt baseline results (25 Sep)
 
 - **Classifier, second pass:** hold-out 90% (kappa 0.85) against the noisier but broader labels; plantation 9,188 ha, native 5,715 ha, other 11,884 ha. Agrees with 11 of 12 aerial-checked blocks (was 9 of 12); the remaining case is a kānuka block split about 50/50. Main residual confusion is native scrub vs pasture with scattered trees.
-- **Estate** (`s09_estate_condition.py`) = classifier plantation ∪ (FCP where the classifier does not say native): **9,525 ha**. Source agreement: all three sources 7,140 ha, two 1,444 ha, one 941 ha (`data/estate_agreement_10m.tif`).
+- **Estate** (`s09_estate_condition.py`) = classifier plantation ∪ (FCP where the classifier does not say native): **9,525 ha**. Source agreement: all three sources 7,140 ha, two 1,444 ha, one 941 ha (`data/estate_agreement_10m.tif`). *Superseded 27 Sep (§6g): with LCDB v6 2018/19 exotic + harvested as the third source, all three 8,261 ha, two 424 ha, one 840 ha.*
 - **Condition at event:** mature 5,550 ha, young 3,185 ha, open 712 ha, no optical data 78 ha. Hansen shows 3,421 ha of estate cleared 2017–22.
 - **Mapped loss:** mature 532 ha (same −0.070 cut as the first run), young 291 ha (own noise threshold −0.219; young stands are spectrally noisier, so this is conservative), native forest 646 ha (context only, not part of the plantation estimate).
 - **Independent check from the first sample:** 25 of the 100 labelled points fall outside the new mature domain. The reassignments match the labeller's own notes, written before the new layers existed. All 7 points noted as clear-cut or younger rows are now young stands (Hansen clearing 2017–22). 5 of 7 points noted as native vegetation are now native.
@@ -179,16 +180,132 @@ Style samples produced for approval: `figures/final/F4_loss_map_slide.png`, `F5_
 
 - **Session closed 25 Sep 2026.** Handoff and next-session plan (make the repo agent-ready for a new AOI; figure revisions after the group's check): `docs/SESSION_HANDOFF.md`.
 
+## 6g. LCDB version check (27 Sep)
+
+**Concern raised by the project author:** LCDB v6.0 (Manaaki Whenua, released Oct 2025, time steps to summer 2023/24; LRIS layer 123148, doi:10.26060/WM99-RY32) exists, but the pipeline used v5.0. The v5 mask came from V2, which read the GNS Science mirror (`gis.gns.cri.nz/.../LCDB/LandCover`, v5 only), class 71 exotic forest only. V2 had noted v6 but set it aside because its newest epoch is post-event; that decision was not carried into this log.
+
+**Check** (`scripts/s14_lcdb6_clip.py` → `data/lcdb6_esk.gpkg`, `provenance/s14_lcdb6_clip.json`; v6 GPKG downloaded by the author from LRIS):
+- **v5 vs v6 2018/19 exotic forest:** 7,927 vs 7,944 ha; 7,803 ha in both. v6 barely revised 2018/19 in Esk, so the first-run frame and the first 100-point sample stand.
+- **Why young stands were missed:** v6 maps 1,271 ha of "Forest – Harvested" (class 64) in 2018/19, which the class-71 mask excluded; 1,096 ha of it is exotic forest again by 2023/24. This is the class choice, not the version.
+- **Independent check of the rebuilt estate:** v6 2018/19 exotic + harvested (71 | 64) = 9,216 ha vs the estate 9,447 ha (optical-valid classes); overlap 8,611 ha.
+- **2023/24 epoch vs the loss map:** 2018→2023 exotic → harvested 2,997 ha; exotic → landslide 17 ha; all landslide in Esk 2023/24 56 ha. Inside mapped mature loss, v6 2023 is 3.2% landslide/rock (0.0% in mature no-loss) and 17% harvested (10% in no-loss). LCDB records slip damage, salvage and routine harvest as "Forest – Harvested" at a 1 ha minimum mapping unit about a year after the event, so it cannot separate cyclone loss from harvesting. Used as context, not validation.
+
+**F3a is wrong as worded.** Its "added, missed by LCDB5" area (2,072 ha) by v6 2018/19 class: Forest – Harvested 1,177; high/low producing grassland 366; mānuka/kānuka 233; broadleaved indigenous hardwoods 149; exotic forest 104 (v5/v6 boundary edits); other 43. LCDB did not miss most of it; the class-71-only mask left out harvested land. Example B (1922785, 5649095) sits in a 2018/19 "Forest – Harvested" polygon (exotic forest by 2023/24), so "no LCDB5 polygon" is incorrect. Against v6 2018/19 classes 71 | 64: kept 8,674 ha, added 851 ha (mature 577, young 216, open 43, no optical 15), removed 542 ha. By v6 2018/19 class, the corrected added area is grassland 395 ha (probably planted since), mānuka/kānuka and hardwoods 428 ha, water 12 ha. The scrub share is consistent with the estate commission in gully margins found by the supplement's "Not plantation" labels (§6c). The estate, samples and loss estimates do not depend on this comparison.
+
+**Fixes applied (27 Sep, at the author's request):**
+1. **F3a rebuilt** (`scripts/s15_baseline_lcdb6.py`, `qgis/layout_maps.py`): compared with LCDB v6.0 2018/19 exotic + harvested forest. Title "Our estate matches LCDB's 2018/19 plantation land on 91% of its area"; bar 8,674 kept / 851 added / 542 removed; text states that 1,194 ha of the estate was "Forest – Harvested" in 2018/19, of which 908 ha was young stands at the event (219 mature, 55 open); Example B retitled "harvested in 2018/19, then replanted". Zoom outlines are v6 exotic and harvested polygons (`qgis/lcdb6_2018_plantation.gpkg`). Old LCDB5 versions of the F3a raster, bar, numbers and slide kept in `qgis/superseded_lcdb5/`; the old numbers are also kept under `superseded_lcdb5_class71_only` in `provenance/baseline_change_areas.json`.
+2. **T1, F2 and credit lines:** LCDB row now "LCDB v6.0 exotic & harvested forest, 2018/19; 2023/24, estate check; post-event context". F2 step 1 method reads "Forestry Catchment Planner + AlphaEarth 2022 classifier, checked against LCDB v6". The shared map credit (`qgis/layout_common.py`, `layout_loss_map.py`, `layout_sensors.py`) cites LCDB v6.0 (Manaaki Whenua, CC BY 4.0). All maps (F1, F3a, F4, F4b, F7, F8, F11), F2, F6 and T1 re-rendered; only credits and F3a content changed.
+3. **F1** reads `baseline_change_areas.json` for catchment, estate and slope facts only; those keys are unchanged.
+4. **Source agreement** (`s09_estate_condition.py`) now uses the v6 2018/19 71 | 64 raster (`data/lcdb6_2018_plantation_10m.tif`, written by `s14`). Rerun: only `estate_by_agreement_ha` changed (3 sources 8,261 ha, 2 sources 424 ha, 1 source 840 ha); `v3b_classes_10m.tif` is identical, so loss maps, samples and estimates are unchanged. README pipeline table and data credit updated.
+- **Deck** (version 6): new images for study-area, workflow, baseline, loss-map, checks and backups b-native, b-sar, b-alphaearth, b-data; baseline speaker notes rewritten; workflow, b-data, takeaways and close text now cite LCDB v6 (takeaway: "a standing-forest-only mask misses ~900 ha of young stands").
+- Not changed: the first-run frame (`s02`) and the first 100-point sample stay on LCDB5 class 71; that is the design the sample was drawn under, and v5 and v6 2018/19 exotic forest agree on 7,803 of about 7,930 ha.
+
+## 6h. External gut check and location sensitivity (27 Sep)
+
+**Trigger:** QA review. Manaaki Whenua's rapid assessment for MfE (McMillan et al. 2023, LC4292, Table 2) maps 61 ha of landslide scars on exotic forest and 105 ha on harvested forest in the Esk catchment (166 ha), against this study's 1,037 ha of plantation canopy loss.
+
+**What MW measured:** new bare ground from Sentinel-2 (visible-band brightening) on LUC class 6–7 land, split into scar (top 25% of each clump's elevation range) and debris tail; only scars are tabulated. Green but damaged canopy is not counted.
+
+**Checks run:**
+1. MW-style replication on our data (post NDVI < 0.30–0.40, pre NDVI ≥ 0.5, visible brightening, 2-px clumps, 25% scar rule): new bare ground in the estate 93–244 ha, scar part 17–43 ha. 57% of the 823 ha mapped loss still had post NDVI ≥ 0.5.
+2. Independent automated inventory: Notti (2026), PANDA Sentinel-2 potential shallow landslides, Zenodo 22661524, `data/raw/notti2026/PL_NZ_2023.gpkg` (CC BY 4.0). In Esk 753 ha, of which 249 ha in the estate (186 ha in canopy classes). It overlaps 126 ha of our mapped loss and covers 8% of Loss-labelled reference points (18% within one pixel).
+3. Estimate decomposition: six Loss points in map no-loss strata (V3-009, V3-040, S-015, S-032, S-037, S2-007) contribute 667 of 1,037 ha (young no-loss stratum: 126 ha per point). None shows an NDVI drop at its own pixel; five show a drop of −0.15 to −0.27 in an adjacent pixel. None falls in a Notti polygon.
+4. Sensitivity (post hoc, not adopted): one-pixel tolerance in both directions (20 points reclassified) gives 506 ha (95% CI 384–628); loss anywhere in the 30 m square for all points gives 1,790 ha (1,123–2,457).
+
+**Reading:** bare-ground measures agree at roughly 150–250 ha on plantation land. The strict canopy-loss estimate is sensitive to one-pixel positional disagreement between the 10 m grid and the 0.3–0.5 m reference imagery, and that error is asymmetric (a near-miss adds 82–126 ha in no-loss strata but removes only 13–19 ha in loss strata).
+
+**Response:** blind pixel-level re-check (`scripts/s16_recheck_pack.py`, `sample_recheck/`): the 20 reclassified points plus 10 random decoys, renamed R-01..R-30, 200 m and 60 m chips, judged on the 10 m square only under a rule written before labelling. The re-check labels will replace the originals for those 30 points, whichever direction they move.
+
+**Re-check result (27 Sep, `scripts/s16b_recheck_estimate.py`, `provenance/s16_recheck_estimate.json`):** 30 points labelled blind by the project author. Decoys 9 of 10 unchanged (S-012, mature-loss stratum, relabelled No loss, "native veg"); targets 15 of 20 unchanged. Changes: S2-007, S-015 and V3-040 Loss → No loss (three of the six high-weight points); V3-059 No loss → Loss; V3-020 No loss → Can't tell (dropped). V3-009, S-032 and S-037 stay Loss (S-037 low confidence, offset seen); together they still carry 334 ha. Offset noted at 3 points.
+
+| | Before re-check | After re-check |
+|---|---|---|
+| Mature plantation | 379 ha (138–620) | 287 ha (105–470), ≈ 5% of 5,550 ha |
+| Young stands / recent cutover | 658 ha (194–1,123) | 407 ha (58–756), ≈ 13% of 3,185 ha |
+| **Whole estate** | **1,037 ha (514–1,560)** | **694 ha (300–1,088)**, ≈ 8% of 8,735 ha |
+
+As fixed before labelling, the re-check labels replace the originals. The post-hoc one-pixel rule (506 ha) was not adopted: most commission-side points kept their No loss label, so the rule was too generous in that direction. Remaining gap to bare-ground measures (≈ 150–250 ha) is definitional (green but damaged canopy, debris and silt counted as loss) plus three points without an NDVI drop at the pixel.
+
+## 6i. 30 m block reassessment (protocol approved 27 Sep)
+
+**Why:** the pixel-level reference design could not separate real omission from positional mismatch (§6h). Protocol written and approved before any sampling or labelling: `docs/PROTOCOL_30m_block_reassessment.md` (option A, plus a model-assisted ML estimate as a secondary analysis).
+
+**Step 1, sample and offsets** (`scripts/s17_blocks_sample.py`, `provenance/s17_blocks_sample.json`, `sample_blocks/block_key.csv`): 108,312 blocks of 30 m contain estate canopy (9,748 ha of blocks). Six strata (mature/young × map loss none/some/most); 130 blocks sampled (35/20/10 each), seed 20230301. Positional offset between the 0.5 m satellite image and Sentinel-2 (phase correlation, 290 m windows): 129 of 130 measured; median 8.7 m, 90th percentile 22 m, mean vector 4.0 m east and 8.0 m south, direction spread 35.5°. The pre-set rule (median > 5 m and spread < 45°) applied, so blocks are drawn at their local offset on the 0.5 m panels. Offsets are spatially coherent (pairs within 500 m differ by a median of 5.0 m, pairs over 4 km by 8.6 m) and unrelated to slope (r = −0.03). This confirms a real misregistration of about one pixel between the reference imagery and the Sentinel-2 grid.
+
+**Step 2, chips and workbooks** (`scripts/s17b_block_chips.py`): 150 m and 45 m panels, 16 numbered dots, estate-outside dots grey; `sample_blocks/V3_blocks_labelling.xlsx` (130 blocks) and `V3_blocks_interp2.xlsx` (30 blocks, seed 20230302) with drop-downs and count checks.
+
+**Step 3, estimator** (`scripts/s17c_block_estimate.py`): dry run with map values as synthetic labels recovers the mapped loss (847 ha, 95% CI 791–899, against 823 ha; mature 536 vs 532, young 311 vs 291).
+
+**Labelling aids (27 Sep):** click-to-label page (`s17d_label_tool.py`, amendment 3); chip fix with smoothed offsets and recentred close-ups (amendment 4); rule-based pre-filled suggestions from reference-image colour with 25 withheld blocks as an anchoring check (`s17f`, `s17g`, amendment 5; in-sample dot agreement 73%).
+
+**Block labels and estimate (27 Sep, `s17c_block_estimate.py`, `s17h_block_checks.py`; provenance `s17_block_estimate.json`, `s17_block_checks.json`):** interpreter 1 labelled all 130 blocks (117 OK, 13 Can't tell, mostly cutover where replanting was unclear).
+
+| | Loss | 95% CI (bootstrap) | Plantation canopy (labelled) | Share |
+|---|---|---|---|---|
+| Mature | 194 ha | 82–306 (99–318) | 4,514 ha | 4.3% |
+| Young | 470 ha | 222–718 (261–727) | 2,019 ha | 23.3% |
+| **Total** | **664 ha** | **392–936 (425–942)** | 6,533 ha | 10.2% |
+
+- Can't tell blocks kept with their dots as marked: 718 ha (426–1,011).
+- Block-level map vs reference loss fraction: bias +0.02, RMSE 0.36, agreement at the 50% cut 80%. *Superseded by the correction below: bias +0.049, RMSE 0.324, agreement 82% (`s17_block_estimate.json`).*
+- Labelled plantation canopy (6,533 ha) is 25% below the map's canopy classes (8,735 ha): native vegetation, cutover and roads inside the estate.
+- Young no-loss stratum contributes 317 of 664 ha (11 of 23 suggested blocks with loss, 0 of 7 unsuggested; hypergeometric P ≈ 0.025). Most lost dots in those blocks were marked against the suggestion (suggested "none"), so anchoring towards loss is not evident, but the difference is flagged; interpreter 2 (no suggestions) will test it.
+- Suggestions: 1,504 dots, 60% agreement with final labels; of 117 dots labelled lost, 57 were suggested lost.
+- Harvest between images: B-119 and B-125 had pre-storm Sentinel-2 NDVI 0.64 and 0.69 (vegetated just before the storm), so they are kept as storm loss.
+- Minor rule inconsistency: B-006, B-016, B-056 (noted as fresh cutover) have 1–2 dots marked canopy then lost (about 26 ha of weight).
+- **Correction (27 Sep):** the project author rechecked B-006, B-016 and B-056 and set them to all no canopy (fresh cutover). Original export kept as `sample_blocks/v3_blocks_interp1_export_before_fix.csv`. Revised estimate: mature 194 ha (82–306), 4.3%; young 444 ha (194–694), 22.3%; **total 638 ha (364–912; bootstrap 395–918), 9.8% of 6,507 ha labelled plantation canopy**. Can't tell blocks kept: 696 ha (401–990). The table above is superseded by these figures.
+- Comparison: pixel strict 1,037 ha (514–1,560) → pixel re-check 694 ha (300–1,088) → block design 664 ha (392–936). Bare-ground measures 150–250 ha.
+
+**Sanity check with interpreter 2 (27 Sep):** a group member labelled 30 blocks with no suggestions (28 usable by both). Mean absolute difference in lost fraction 0.047 of a block; kappa on any loss 0.55 (24 of 30 agree). Interpreter 2 marked more loss than interpreter 1 on the shared blocks, so the suggestions did not inflate interpreter 1's loss. Disagreements: B-001 (harvest timing), B-013, B-023, B-070 (plantation/native edge), B-074 (offset), plus B-092 and B-110 (Can't tell for interpreter 1).
+
+**Recent-harvest issue (found from interpreter 2's note on B-001):** the high-resolution "before" image is the 2021–22 aerial. Stands harvested after it look like mature canopy there, but by January 2023 they were cutover with green regrowth or seedlings (pre-storm NDVI 0.55–0.75), which are not visible at 0.3–0.5 m. 64 of interpreter 1's 199 lost dots (32%) and 32 of interpreter 2's 70 fall on Hansen loss-year 2021–22 pixels; only 6 and 1 lost dots were bare (NDVI < 0.5) just before the storm. Sensitivity (interpreter 1, dots on Hansen-harvested pixels set to no canopy):
+
+| Rule | Total | Mature | Young / recent cutover |
+|---|---|---|---|
+| As labelled | 638 ha (364–912) | 194 ha, 4.3% | 444 ha, 22.3% |
+| Exclude 2022 harvest | 466 ha (277–654) | 194 ha, 4.3% | 272 ha, 15.2% |
+| Exclude 2021–22 harvest | 399 ha (233–566) | 194 ha, 4.3% | 206 ha, 12.7% |
+| Exclude 2020–22 harvest | 337 ha (197–478) | 194 ha, 4.3% | 144 ha, 11.1% |
+
+Mature loss is unaffected; young stands exceed mature in every variant. **Decision (27 Sep, project author): primary estimate = exclude 2022 harvest, 466 ha (277–654)** (protocol amendment 7); 638 and 399 ha reported as bounds. Visual explanation made for the author: B-015 (mature, no harvest), B-041 (older harvest, replanted), B-001 (harvested 2022).
+
+## 6j. Final numbers, cleanup, figures and group deck proposal (27 Sep)
+
+- **Final estimate** (`scripts/s17i_final_estimate.py`, `provenance/s17_final_estimate.json`): 466 ha (277–654), 7.4% (4.9–10.4) of 6,302 ha plantation canopy; mature 194 ha (82–306), 4.3% (2.1–6.9); young and recent cutover 272 ha (120–423), 15.2% (8.1–23.3). Share CIs by bootstrap within strata.
+- **Cleanup:** superseded material moved to `archive/` (first-run LCDB5 comparison, pixel re-check, 20 m sample, first block chips, draft figures and scripts), see `archive/README.md`. The pixel sample stays in place for the sensor comparison. `v3cfg.py` points the 20 m sample at `archive/sample_20m`.
+- **Figures regenerated** on the final numbers: F5 and T2 (`fig_estimate.py`), F11 block design (`fig_checks.py`, `qgis/layout_checks.py`; pixel version in `archive/pixel_sample_figures/`), new F12 testing-the-estimate (`fig_iterations.py`), new F13 2022-harvest explainer (`fig_harvest_explainer.py`), F2 and T1 text (`fig_extras.py`), F10 pipeline stages (`fig_pipeline.py`), F3a title ("Once harvested land is counted, LCDB and our estate differ by about 850 ha"; consistency, not independent proof; the optimistic 90% hold-out figure removed), F4 subtitle (final estimate).
+- **Group deck proposal** (`scripts/build_group_deck.py` → `presentation/FORE448_Esk_V3_proposal.pptx`): the group's storm slides 1–4 kept (slide 1 image replaced by the V3 study-area map), slides 5–11 replaced by method (F2, F3a, F4, F11, F12) and results (native headline and table, F5, F6, takeaways and limitations, close) in the house style, with backups (F9, F13, F4b, F1, T1, F10, F7, F8). Speaker notes on every new slide, about 10 minutes across three presenters. Source copy of the group deck: `presentation/group_deck_source_2026-09-27.pptx`.
+- **Share deck revisions (27 Sep, on the project author's reorganised `presentation/FORE448_Esk_V3_proposal_share.pptx`, backup `_share_before_abc.pptx`):** (a) calibration framing in the notes: the Sentinel-2 map finds where, the block check corrects how much; the map overstated mature loss about 2.7× (532 vs 194 ha) and total loss about 75% (823 vs 466 ha); the threshold was set without labels, so the check stays independent. "Training" is kept for future work only. (b) New backup F14 (`scripts/fig_comparison.py`): why other estimates are smaller, with a plan-view slip diagram (scar / debris tail / flattened, buried, silted canopy) and which part each source counts. (c) Takeaways slide: "Next step: train a high-resolution loss model on the ~1,870 labelled dots, tested on unseen blocks." Notes rewritten for slides moved into the main talk (study area, AlphaEarth, radar, sensor summary, pipeline, native forest).
+- **Simple editable deck (27 Sep, at the project author's request; full-slide figures made the text too small):** `scripts/build_simple_deck.py` → `presentation/FORE448_Esk_V3_simple.pptx` (24 slides: group storm slides 1–4 from the share deck, 12 main slides, 8 backups). One idea per slide, takeaway titles, 3–4 real PowerPoint bullets (18–20 pt, editable), one clean visual per slide from `figures/clean/` (`scripts/fig_clean.py`: charts without titles or footnotes at 16 pt, and map crops), native editable workflow shapes, baseline bar chart and results table. Backups keep the full figures. Speaker notes on every slide.
+- **Before-panel dots fixed (27 Sep, project author):** in the example-block chip and the F13 explainer, the before panel wrongly showed lost dots in orange; before now shows all canopy dots green, with loss only in the after panel. Scripts fixed (`fig_checks.py`, `fig_harvest_explainer.py`); the images were recoloured directly to avoid a slow re-download of the imagery, and are identical to what the fixed scripts draw. F11 re-rendered; images swapped into both decks in place with `scripts/swap_deck_images.py` (keeps hand edits).
+- **Maps added to the simple deck (27 Sep, project author):** location map (New Zealand locator plus the catchment with estate, main streams and Napier) replaces the picture on slide 5; new slide 12 "Where canopy was lost across the catchment" shows every mapped loss area (plantation 823 ha orange, native about 650 ha blue; map-based). Figures from `scripts/fig_maps_clean.py`, inserted in place with `scripts/add_map_slides.py` (keeps hand edits). Deck now 25 slides.
+
+## 6k. The 851 ha "added" estate is mostly classifier edge (27 Sep)
+
+**Trigger:** the project author noticed the "not in LCDB" class on the new slide 7 map follows roads and gullies.
+**Check** (estate ∩ LCDB v6 2018/19 class 0, 851 ha): 836 ha comes from the AlphaEarth classifier alone (FCP 15 ha). 589 ha lies within 20 m of the strip edge and 483 ha is in patches under 5 ha. LCDB 2018/19 class: grassland 395 ha, mānuka/kānuka and hardwoods 428 ha. Only about 160 ha is in blocks of 5 ha or more on 2018/19 grassland (plausible new planting).
+**Cause:** 10 m pixels at forest edges mix canopy with roads, pasture verges and riparian scrub; the classifier's 5 × 5 majority filter (50 m) then absorbs narrow gaps between forest blocks into plantation.
+**Effect:** the headline estimate (466 ha) is unaffected, because block labels judged each dot plantation or not. The map-based terrain findings hold with these pixels removed (within 20 m of a stream 19% vs 7% beyond 200 m; slope < 15° 4% vs > 35° 24%). 108 ha of the 823 ha mapped loss sits in these strips. The estate total (9,525 ha) includes them; report it as an upper bound on plantation land and describe the edge effect as a limitation. Slide 7 of the simple deck states this.
+
+## 6l. Deliverables, reference check and repository sync (28–30 Sep)
+
+- **Final deck** `presentation/FORE448_Esk_V3_FINAL.pptx` (24 slides), edited by hand from the simple deck; numbers checked against `provenance/*.json`. Plain-English summary: `presentation/WHAT_WE_DID.md`.
+- **Terrain rates recomputed** (`fig_extras.compute_terrain_rates`, 29 Sep): mature / young loss 4.3 / 5.7% below 15°, 24.3 / 21.3% above 35°; 20.2 / 21.0% within 20 m of a stream, 7.2 / 6.8% beyond 200 m. They match F6 and the deck.
+- **Methods outlines for the report** (full and condensed Word versions, kept on the group drive, not in the repository). Block accuracy is quoted from the corrected estimate (§6i). Protocol amendment 1 (model-assisted estimate from the labelled dots) was **not run**; it is reported as future work.
+- **References checked against Crossref, DataCite, arXiv and the source documents** (30 Sep). Corrections: the Barnes et al. (2014) title ends "…for digital elevation models"; LCDB v6.0 is cited as Law (2025), per its DOI record; the AlphaEarth paper is Brown et al. (2025), arXiv:2507.22291. Full details were added for McMillan et al. (2023, LC4292) and Notti (2026, doi:10.5281/zenodo.22661524). The deck's Massey et al. (2025) citation is *Landslides* 22(12), 3953–3972; its abstract does not mention harvest age, so the deck's "3–5 years after harvest" point needs checking against the full text before the report uses it.
+- **Code fix:** `s17g_suggest.py` read its in-sample check from a local download; it now reads `sample_blocks/v3_blocks_interp1_export.csv` for B-001 to B-003. The suggestions file is unchanged (the check only prints).
+- **Repository:** README rewritten around the final result and the five-step workflow; `.gitignore` extended (sample blocks, decks, archive imagery). Everything since 25 Sep committed.
+
 ## 7. Workflow and tooling notes
 
 - Local Python 3.13 (rasterio, xarray, geopandas, scipy, scikit-image), Earth Engine Python API, QGIS 3.44 (PyQGIS for the review project).
 - Parallel HTTP reads with GDAL hung on Windows; chip rendering was rewritten to read sequentially with timeouts.
 - QGIS review project `qgis/Esk_V3_review.qgz` (built by `qgis/build_review_project.py`). Point layers are GeoPackage snapshots: after labelling, refresh them by re-joining the workbooks (see `qgis/refresh_labels.py`; circles = first 100, squares = supplement, diamonds = young top-up, coloured by label).
-- `v3cfg.py` switches resolution (`V3_RES=10` default, `20` reproduces the first run; the 20 m sample is kept in `sample_20m_superseded/`).
+- `v3cfg.py` switches resolution (`V3_RES=10` default, `20` reproduces the first run; the 20 m sample is kept in `archive/sample_20m/`).
 
 ## 8. GenAI use (for the declaration)
 
-Claude (Anthropic) assisted with pipeline design, Python and Earth Engine code, data retrieval, QA checks, figures, and drafting this log. Sub-agents rendered some figures. The project author made the study decisions, raised the LCDB5 baseline concern, and produced all 100 reference labels. All numbers come from the scripts listed above and can be re-run.
+Claude (Anthropic) assisted with pipeline design, Python and Earth Engine code, data retrieval, QA checks, figures, and drafting this log. Sub-agents rendered some figures. The project author made the study decisions and raised the LCDB5 baseline concern. All reference labels were made by humans: the project author labelled all pixel-sample points and all 130 blocks, and a second group member labelled 30 blocks independently. All numbers come from the scripts listed above and can be re-run.
 
 ## References to cite
 
