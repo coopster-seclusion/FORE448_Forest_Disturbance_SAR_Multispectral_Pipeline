@@ -17,11 +17,11 @@ from v3cfg import V3
 # =====================================================================
 STEPS = [
     ("1", "Define the forest", "Which land was plantation before the storm?",
-     "LCDB5 + Forestry Catchment Planner + AlphaEarth 2022 classifier"),
+     "Forestry Catchment Planner + AlphaEarth 2022 classifier, checked against LCDB v6"),
     ("2", "Map the change", "Did the canopy lose greenness?",
      "Sentinel-2 10 m, NDVI drop > 3× normal variation"),
     ("3", "Check it", "Is the map right?",
-     "158 random points checked on 0.3–0.5 m imagery"),
+     "130 random 30 m blocks checked on 0.3–0.5 m imagery by two people"),
     ("4", "Estimate area", "How much, and how sure?",
      "Sample-corrected hectares with 95% CI"),
     ("5", "Explain the pattern", "Where did it happen?",
@@ -73,7 +73,7 @@ def make_f2():
                                      facecolor=GRID, edgecolor="none", zorder=1))
     ax.text(left + 0.012, (band_y0 + band_y1) / 2 + 0.028, "Open data", fontsize=10.5, fontweight="bold",
             color=INK2, va="center", ha="left")
-    datasets = ["Sentinel-2 L2A", "LCDB5", "Forestry Catchment Planner", "AlphaEarth embeddings",
+    datasets = ["Sentinel-2 L2A", "LCDB v6.0", "Forestry Catchment Planner", "AlphaEarth embeddings",
                 "Hansen Global Forest Change", "HB LiDAR 1 m", "LINZ aerial & satellite imagery"]
     ax.text(left + 0.012, (band_y0 + band_y1) / 2 - 0.022, "  ·  ".join(datasets), fontsize=10.5,
             color=INK, va="center", ha="left")
@@ -199,7 +199,7 @@ T1_ROWS = [
      "Canopy condition, loss map", "ESA Copernicus via\nEarth Search (open)"),
     ("Cloud Score+ / scene\nclassification", "same scenes", "10–20 m", "Cloud screening",
      "Google / ESA (CC BY 4.0)"),
-    ("LCDB5 exotic forest", "2018/19", "1 ha MMU", "Plantation estate\n(one of three sources)",
+    ("LCDB v6.0 exotic &\nharvested forest", "2018/19; 2023/24", "1 ha MMU", "Estate check;\npost-event context",
      "Manaaki Whenua (CC BY 4.0)"),
     ("Forestry Catchment\nPlanner stands", "boundaries 2018/19,\nages to 2024", "polygons",
      "Plantation estate,\nplanting year", "FCP (public download)"),
@@ -208,7 +208,7 @@ T1_ROWS = [
     ("Copernicus GLO-30 DEM", "2011–2015", "30 m", "Radar layover /\nshadow mask", "ESA Copernicus (open)"),
     ("AlphaEarth annual\nembeddings", "2021–2024\n(2022 for classifier)", "10 m",
      "Plantation / native / other\nclassifier; change comparison", "Google DeepMind via\nEarth Engine"),
-    ("Hansen Global Forest\nChange v1.13", "2001–2024", "30 m", "Harvest dating, native\ntraining labels",
+    ("Hansen Global Forest\nChange v1.13", "2001–2024", "30 m", "Harvest dating, labels;\n2022 harvest = cutover",
      "Univ. of Maryland\n(CC BY 4.0)"),
     ("Hawke's Bay LiDAR DEM", "Nov 2020 – Jan 2021", "1 m → 10 m", "Slope, streams",
      "LINZ / HBRC (CC BY 4.0)"),
