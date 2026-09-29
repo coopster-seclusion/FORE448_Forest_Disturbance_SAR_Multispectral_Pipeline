@@ -15,4 +15,4 @@ PX_HA = RES * RES / 1e4
 MMU_PX = {20: 2, 10: 4}[RES]          # 0.08 ha at 20 m, 0.04 ha at 10 m
 STREAM_HA = 5.0                        # contributing area defining a stream
 STACK = f"{V3}/data/esk_v3_stack{SUF}.nc"
-SAMPLE = os.environ.get("V3_SAMPLE") or (f"{V3}/sample" if RES == 10 else f"{V3}/sample_20m_superseded")
+SAMPLE = os.environ.get("V3_SAMPLE") or (f"{V3}/sample" if RES == 10 else f"{V3}/archive/sample_20m")
