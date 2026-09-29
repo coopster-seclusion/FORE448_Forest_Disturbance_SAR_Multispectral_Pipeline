@@ -23,6 +23,25 @@ FORE448 group project, University of Canterbury, 2026: Max Aitken, Ashan Barr, S
 
 All numbers come from `provenance/s17_final_estimate.json` and the other JSON files in `provenance/`, which the scripts write.
 
+## Pipeline at a glance
+
+```mermaid
+flowchart TB
+    IN["<b>Open data</b><br/>Sentinel-2 · Sentinel-1 · AlphaEarth · Forestry Catchment Planner<br/>LCDB v6 · Hansen GFC · LiDAR DEM · 0.1–0.5 m aerial and satellite imagery"]
+    S1["<b>1 · Define the forest</b><br/>land-use classifier + FCP stands → 9,525 ha estate;<br/>mature / young / open at the storm<br/><i>s08 · s14 · s09 · s15</i>"]
+    S2["<b>2 · Map the change</b><br/>Sentinel-2 ΔNDVI below median − 3·MAD per stand class<br/>→ 823 ha mapped (thresholds set without labels)<br/><i>s01a · s01b · s09</i>"]
+    S3["<b>3 · Check it</b><br/>130 blocks of 30 m in 6 strata; offset measured;<br/>16 dots each labelled blind by 2 interpreters<br/><i>s17 · s17b–s17g</i>"]
+    S4["<b>4 · Estimate area</b><br/>stratified estimator (Olofsson et al. 2014)<br/>→ <b>466 ha lost (95% CI 277–654)</b><br/><i>s17c · s17h · s17i</i>"]
+    S5["<b>5 · Explain the pattern</b><br/>loss by slope and distance to stream;<br/>Sentinel-1 and AlphaEarth comparison<br/><i>s03 · s12 · s13 · fig_extras</i>"]
+    ML["<b>ML dataset</b><br/>2,080 labelled dots · 173 features<br/><i>s18 → dataset/</i>"]
+
+    IN --> S1 --> S2 --> S3 --> S4 --> S5
+    S3 --> ML
+    S4 -. "reproduces 466 ha" .-> ML
+```
+
+The map shows **where** loss happened; the blind sample corrects **how much**. The loss thresholds never see the labels, so the sample is an independent check on the map.
+
 ## Approach
 
 | Step | What was done | Scripts |
@@ -32,21 +51,36 @@ All numbers come from `provenance/s17_final_estimate.json` and the other JSON fi
 | 3. Check it | 130 blocks of 30 × 30 m in six strata, labelled blind with 16 dots each on before/after imagery; positional offset between imagery and Sentinel-2 measured and corrected; second interpreter on 30 blocks | `s17`–`s17h` |
 | 4. Estimate area | Stratified estimator (Olofsson et al., 2014) with 95% confidence intervals; bootstrap intervals for shares | `s17c`, `s17i` |
 | 5. Explain the pattern | Loss rates by slope and distance to stream from the 2020–21 LiDAR DEM; sensor comparison with Sentinel-1 and AlphaEarth | `s03`, `s12`, `s13`, `fig_extras` |
+| Extend | Labelled dots and blocks exported as an ML dataset with satellite, terrain and embedding features | `s18` |
 
 The sampling protocol was fixed before any block was sampled or labelled, and every later change is recorded as a dated amendment: [docs/PROTOCOL_30m_block_reassessment.md](docs/PROTOCOL_30m_block_reassessment.md). The full record of methods, decisions and supporting evidence is in [docs/V3_METHODS_AND_DECISIONS_LOG.md](docs/V3_METHODS_AND_DECISIONS_LOG.md). Methods outlines for the report are in [condensed (2 pages + references)](docs/V3_Methods_Outline_condensed.docx) and [full](docs/V3_Methods_Outline_for_Report.docx) versions.
+
+## ML dataset
+
+[`dataset/`](dataset/README.md) holds the labelled reference sample as tables ready for machine learning:
+- 2,080 dots and 130 blocks, with labels from both interpreters, sampling strata, design weights and spatial cross-validation folds.
+- 173 features per dot: Sentinel-2, Sentinel-1, terrain, hydrology, high-resolution colour and the 64-band AlphaEarth embeddings for 2022 and 2023.
+
+The builder (`scripts/s18_ml_dataset.py`) checks itself: the stratified estimate recomputed from the dataset must reproduce the published 466 ha. The data card explains how to weight and split the data correctly. Released under CC BY 4.0.
+
+## Working on this repository
+
+[`AGENTS.md`](AGENTS.md) sets out the rules for anyone, human or coding agent, who extends or forks the pipeline: protocol first, map frozen before sampling, human-only labels, provenance for every number. It also covers the checks to run after a change, what to change for a new area or event, and how to add labels or features to the dataset.
 
 ## Repository layout
 
 ```
 aoi/            catchment boundary and New Zealand outlines
-scripts/        pipeline (s00–s17i), figures (fig_*), slide decks (build_*, polish_*, swap_*, add_*)
+scripts/        pipeline (s00–s18), figures (fig_*), slide decks (build_*, polish_*, swap_*, add_*)
 qgis/           PyQGIS map layouts and the QGIS review project builder
 provenance/     JSON written by the scripts: sources, thresholds, areas, estimates, checks
 figures/final/  report and slide figures (F1–F14, T1–T2)
 figures/clean/  simplified visuals used in the editable slide deck
 docs/           methods and decisions log, sampling protocol, methods outlines (Word), session handoff
 presentation/   plain-English summary of the study (the decks themselves are not committed)
+dataset/        ML-ready labelled dots and blocks with features, and the data card
 archive/        superseded scripts and provenance, kept for the audit trail
+AGENTS.md       rules and checklists for extending or forking the pipeline
 ```
 
 ## Running the pipeline
@@ -67,6 +101,7 @@ Run from the repository root in the order below. `scripts/v3cfg.py` holds paths 
 | | `s17b_block_chips.py` | Blind before/after chips with 16-dot grids; labelling workbooks | `sample_blocks/chips/`, `*.xlsx` |
 | Label | `s17d_label_tool.py`, `s17f_dot_features.py`, `s17g_suggest.py`, `s17e_import_labels.py` | Click-to-label page, colour-rule suggestions (25 blocks withheld), label import. Labelling itself is manual. | `sample_blocks/dot_labels_*.csv` |
 | Estimate | `s17c_block_estimate.py`, `s17h_block_checks.py`, `s17i_final_estimate.py` | Stratified estimate, block-level map accuracy, interpreter agreement, anchoring checks, 2022-harvest rule and bounds | `provenance/s17_final_estimate.json` |
+| Dataset | `s18_ml_dataset.py` | Dots and blocks with labels, design weights, folds and features; AlphaEarth embeddings from Earth Engine; checks itself against s17i | `dataset/*.csv`, `provenance/s18_ml_dataset.json` |
 | Compare | `s12_gee_sar_alphaearth.py` | Earth Engine: Sentinel-1 multi-orbit change; AlphaEarth cosine change 2021–24 | `data/sar_gee_10m.tif`, `data/alphaearth_10m.tif` |
 | | `s13_indicator_comparison.py` | AUC with bootstrap intervals for each indicator | `provenance/s13_indicator_comparison.json` |
 | Figures | `figstyle.py`, `fig_*.py` | Charts, tables and slide visuals in one shared style | `figures/final/`, `figures/clean/` |
@@ -75,7 +110,7 @@ Run from the repository root in the order below. `scripts/v3cfg.py` holds paths 
 
 The first-iteration pixel-level samples (`s02`, `s04`–`s07`, `s10`, `s10b`, `s11`) are kept because their reference points are still used by the sensor comparison (`s13`). Their estimates are superseded by the block design; see [archive/README.md](archive/README.md).
 
-Earth Engine steps (`s08`, `s09`, `s12`) need an authenticated Earth Engine account and a Cloud project: set the `EE_PROJECT` environment variable, or put the project ID on one line in `ee_project.txt` (git-ignored).
+Earth Engine steps (`s08`, `s09`, `s12`, `s18`) need an authenticated Earth Engine account and a Cloud project: set the `EE_PROJECT` environment variable, or put the project ID on one line in `ee_project.txt` (git-ignored).
 
 ## Setup
 

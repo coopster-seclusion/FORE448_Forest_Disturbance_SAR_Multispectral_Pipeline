@@ -10,6 +10,7 @@ Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_D
 - **Estate:** 9,525 ha, an upper bound (the 851 ha not in LCDB v6 is mostly classifier edge; log §6k). LCDB v6.0 replaced LCDB5 for the estate check (log §6g).
 - **Superseded:** 1,037 ha (first pixel sample) and 694 ha (pixel re-check). Material is in `archive/`; the pixel points are still used by the sensor comparison (`s13`).
 - **Presentation (28 Sep):** final deck `presentation/FORE448_Esk_V3_FINAL.pptx` (24 slides, edited by hand after `build_simple_deck.py`). The plain-English summary is `presentation/WHAT_WE_DID.md`. The earlier Claude Slides artifact is out of date (it still shows 1,037 ha).
+- **ML dataset (30 Sep):** `dataset/` (2,080 labelled dots, 130 blocks, 173 features including AlphaEarth embeddings), built by `s18_ml_dataset.py`; the rules for forks are in `AGENTS.md`. Next step: the model-assisted estimate (protocol amendment 1) using spatial folds and design weights.
 - **Deadline:** report due Fri 2 Oct 2026, 5 pm.
 - **Repository:** GitHub `main` is in sync with this folder as of 30 Sep (see log §6l). Decks, labels, chips and rasters stay on the group drive (git-ignored); the two methods outlines are committed.
 
