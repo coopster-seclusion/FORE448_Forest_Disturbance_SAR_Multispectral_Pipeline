@@ -296,6 +296,18 @@ Mature loss is unaffected; young stands exceed mature in every variant. **Decisi
 - **Code fix:** `s17g_suggest.py` read its in-sample check from a local download; it now reads `sample_blocks/v3_blocks_interp1_export.csv` for B-001 to B-003. The suggestions file is unchanged (the check only prints).
 - **Repository:** README rewritten around the final result and the five-step workflow; `.gitignore` extended (sample blocks, decks, archive imagery). Everything since 25 Sep committed.
 
+## 6m. ML dataset, AGENTS.md and README diagram (30 Sep)
+
+- **ML dataset** (`scripts/s18_ml_dataset.py` → `dataset/esk_gabrielle_dots.csv`, 2,080 dots × 190 columns; `dataset/esk_gabrielle_blocks.csv`, 130 blocks; `provenance/s18_ml_dataset.json`). Contents:
+  - dot labels from both interpreters, the colour-rule suggestion and whether it was shown, and the primary label with amendment 7 applied;
+  - stratum, design weight N_h / n_h, and five spatial folds (k-means on block centres, seed 20230306);
+  - features at the 10 m pixel under each dot: Sentinel-2, Sentinel-1, terrain, hydrology, map and classifier classes, Hansen loss year, the 0.3/0.5 m colour features (s17f), and the 64-band AlphaEarth embeddings for 2022 and 2023 (Earth Engine `sampleRegions`, 10 m).
+
+  Checks: the stratified estimate recomputed from the dataset reproduces s17i exactly (466 ha, 277–654; mature 194, young 272). ΔNDVI separates lost from standing canopy dots with AUC 0.88. The cosine distance from the pulled embeddings matches the existing AlphaEarth change layer (r = 0.99). Released in the repository under CC BY 4.0 at the project author's decision, with a data card (`dataset/README.md`) covering the sampling design, weighting, spatial splits and label caveats. The AlphaEarth embeddings are CC BY 4.0 with the required attribution.
+- **AGENTS.md:** rules for extending or forking the pipeline (provenance for every number, protocol first, map frozen before sampling, human-only labels, blind labelling), the checks to run after a change, the hard-wired values to lift for a new area or event, and how to add labels or features to the dataset.
+- **README:** Mermaid block diagram of the pipeline (five steps, scripts and data flow), plus the dataset and AGENTS sections.
+- The stale `docs/V3_Methods_Outline_condensed_v2.docx` was deleted.
+
 ## 7. Workflow and tooling notes
 
 - Local Python 3.13 (rasterio, xarray, geopandas, scipy, scikit-image), Earth Engine Python API, QGIS 3.44 (PyQGIS for the review project).

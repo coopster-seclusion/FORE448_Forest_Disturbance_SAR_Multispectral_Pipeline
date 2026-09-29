@@ -1,0 +1,56 @@
+{
+ "dots": 2080,
+ "dot_columns": 190,
+ "blocks": 130,
+ "block_columns": 36,
+ "label_i1": {
+  "can": 1013,
+  "none": 667,
+  "lost": 252,
+  "out": 148
+ },
+ "label_primary": {
+  "can": 959,
+  "none": 620,
+  "cant_tell": 208,
+  "out": 148,
+  "lost": 145
+ },
+ "dots_with_label_i2": 480,
+ "blocks_ok": 117,
+ "folds_blocks": {
+  "1": 22,
+  "2": 21,
+  "3": 23,
+  "4": 33,
+  "5": 31
+ },
+ "fold_seed": 20230306,
+ "estimate_check": {
+  "mature": {
+   "loss_ha": 194,
+   "ci95_ha": [
+    82,
+    306
+   ]
+  },
+  "young": {
+   "loss_ha": 272,
+   "ci95_ha": [
+    120,
+    423
+   ]
+  },
+  "total": {
+   "loss_ha": 466,
+   "ci95_ha": [
+    277,
+    654
+   ]
+  }
+ },
+ "sha256": {
+  "dots": "dbca8bc1a52ac7bb1f901a7e360724e71b9a1dbfb79d5fe94f41c55fd9d2459d",
+  "blocks": "c5a8c41a07e92e1c85a730e5bfb542fb94562f1aa4f130ff906a6b7fbf07ec5d"
+ }
+}
