@@ -1,6 +1,6 @@
 # Session handoff (last updated 30 Sep 2026)
 
-Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_DECISIONS_LOG.md](V3_METHODS_AND_DECISIONS_LOG.md). Methods outlines for the report writer are Word files on the group drive (`docs/V3_Methods_Outline_*.docx`, not in git).
+Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_DECISIONS_LOG.md](V3_METHODS_AND_DECISIONS_LOG.md). Methods outlines for the report writer: [condensed](V3_Methods_Outline_condensed.docx) and [full](V3_Methods_Outline_for_Report.docx) (Word).
 
 ## Where things stand
 
@@ -11,7 +11,7 @@ Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_D
 - **Superseded:** 1,037 ha (first pixel sample) and 694 ha (pixel re-check). Material is in `archive/`; the pixel points are still used by the sensor comparison (`s13`).
 - **Presentation (28 Sep):** final deck `presentation/FORE448_Esk_V3_FINAL.pptx` (24 slides, edited by hand after `build_simple_deck.py`). The plain-English summary is `presentation/WHAT_WE_DID.md`. The earlier Claude Slides artifact is out of date (it still shows 1,037 ha).
 - **Deadline:** report due Fri 2 Oct 2026, 5 pm.
-- **Repository:** GitHub `main` is in sync with this folder as of 30 Sep (see log §6l). Decks, Word files, labels, chips and rasters stay on the group drive (git-ignored).
+- **Repository:** GitHub `main` is in sync with this folder as of 30 Sep (see log §6l). Decks, labels, chips and rasters stay on the group drive (git-ignored); the two methods outlines are committed.
 
 ## Open items for the report
 

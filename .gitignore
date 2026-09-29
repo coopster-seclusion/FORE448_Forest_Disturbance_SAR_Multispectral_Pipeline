@@ -18,6 +18,8 @@ ee_project.txt
 # presentations and bundles (large; kept on the group drive)
 *.pptx
 *.docx
+!docs/V3_Methods_Outline_for_Report.docx
+!docs/V3_Methods_Outline_condensed.docx
 *.zip
 
 # superseded material: keep the README, scripts and provenance JSON, not chips, imagery or labels

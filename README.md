@@ -33,7 +33,7 @@ All numbers come from `provenance/s17_final_estimate.json` and the other JSON fi
 | 4. Estimate area | Stratified estimator (Olofsson et al., 2014) with 95% confidence intervals; bootstrap intervals for shares | `s17c`, `s17i` |
 | 5. Explain the pattern | Loss rates by slope and distance to stream from the 2020–21 LiDAR DEM; sensor comparison with Sentinel-1 and AlphaEarth | `s03`, `s12`, `s13`, `fig_extras` |
 
-The sampling protocol was fixed before any block was sampled or labelled, and every later change is recorded as a dated amendment: [docs/PROTOCOL_30m_block_reassessment.md](docs/PROTOCOL_30m_block_reassessment.md). The full record of methods, decisions and supporting evidence is in [docs/V3_METHODS_AND_DECISIONS_LOG.md](docs/V3_METHODS_AND_DECISIONS_LOG.md).
+The sampling protocol was fixed before any block was sampled or labelled, and every later change is recorded as a dated amendment: [docs/PROTOCOL_30m_block_reassessment.md](docs/PROTOCOL_30m_block_reassessment.md). The full record of methods, decisions and supporting evidence is in [docs/V3_METHODS_AND_DECISIONS_LOG.md](docs/V3_METHODS_AND_DECISIONS_LOG.md). Methods outlines for the report are in [condensed (2 pages + references)](docs/V3_Methods_Outline_condensed.docx) and [full](docs/V3_Methods_Outline_for_Report.docx) versions.
 
 ## Repository layout
 
@@ -44,7 +44,7 @@ qgis/           PyQGIS map layouts and the QGIS review project builder
 provenance/     JSON written by the scripts: sources, thresholds, areas, estimates, checks
 figures/final/  report and slide figures (F1–F14, T1–T2)
 figures/clean/  simplified visuals used in the editable slide deck
-docs/           methods and decisions log, sampling protocol, session handoff
+docs/           methods and decisions log, sampling protocol, methods outlines (Word), session handoff
 presentation/   plain-English summary of the study (the decks themselves are not committed)
 archive/        superseded scripts and provenance, kept for the audit trail
 ```
