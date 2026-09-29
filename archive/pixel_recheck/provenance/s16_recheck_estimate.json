@@ -1,0 +1,107 @@
+{
+ "original": {
+  "mature": {
+   "loss_ha": 379,
+   "ci95_ha": 241,
+   "range": [
+    138,
+    619
+   ]
+  },
+  "young": {
+   "loss_ha": 658,
+   "ci95_ha": 465,
+   "range": [
+    194,
+    1123
+   ]
+  },
+  "total": {
+   "loss_ha": 1037,
+   "ci95_ha": 523,
+   "range": [
+    514,
+    1561
+   ]
+  }
+ },
+ "after_recheck": {
+  "mature": {
+   "loss_ha": 287,
+   "ci95_ha": 182,
+   "range": [
+    105,
+    470
+   ]
+  },
+  "young": {
+   "loss_ha": 407,
+   "ci95_ha": 349,
+   "range": [
+    58,
+    756
+   ]
+  },
+  "total": {
+   "loss_ha": 694,
+   "ci95_ha": 394,
+   "range": [
+    300,
+    1088
+   ]
+  }
+ },
+ "changed_points": [
+  {
+   "point_id": "S2-007",
+   "recheck_id": "R-03",
+   "reason": "omission, no NDVI drop at pixel",
+   "label": "Loss",
+   "pixel_label": "No loss",
+   "confidence": "Low"
+  },
+  {
+   "point_id": "S-015",
+   "recheck_id": "R-08",
+   "reason": "omission, no NDVI drop at pixel",
+   "label": "Loss",
+   "pixel_label": "No loss",
+   "confidence": "High"
+  },
+  {
+   "point_id": "V3-040",
+   "recheck_id": "R-10",
+   "reason": "omission, no NDVI drop at pixel",
+   "label": "Loss",
+   "pixel_label": "No loss",
+   "confidence": "High"
+  },
+  {
+   "point_id": "V3-059",
+   "recheck_id": "R-22",
+   "reason": "commission, loss in 30 m square",
+   "label": "No loss",
+   "pixel_label": "Loss",
+   "confidence": "High"
+  },
+  {
+   "point_id": "S-012",
+   "recheck_id": "R-26",
+   "reason": "decoy",
+   "label": "Loss",
+   "pixel_label": "No loss",
+   "confidence": "High"
+  },
+  {
+   "point_id": "V3-020",
+   "recheck_id": "R-28",
+   "reason": "commission, loss in 30 m square",
+   "label": "No loss",
+   "pixel_label": "Can't tell",
+   "confidence": "Low"
+  }
+ ],
+ "decoy_agreement": "9 of 10",
+ "target_agreement": "15 of 20",
+ "offset_seen": 3
+}
