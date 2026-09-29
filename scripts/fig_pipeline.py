@@ -16,13 +16,14 @@ STAGES = [
       ("s03_streams.py", "LiDAR DEM → priority-flood fill → D8 flow → streams, distance")]),
     ("Baseline", "#bfe6d5",
      [("s08_gee_landuse.py", "Random forest on AlphaEarth 2022 (labels: FCP, Hansen, HBRC)"),
-      ("s09_estate_\ncondition.py", "Estate = classifier + FCP; mature / young / open; ΔNDVI < median − 3·MAD")]),
+      ("s09_estate_\ncondition.py", "Estate = classifier + FCP; mature / young / open; ΔNDVI < median − 3·MAD"),
+      ("s14 · s15\nlcdb6_*.py", "LCDB v6 clip; estate vs LCDB 2018/19 exotic + harvested")]),
     ("Verify", "#a9dcc6",
-     [("s04 · s10 · s10b\nsample*.py", "Stratified random pixels, fixed seeds, map class hidden"),
-      ("s05_chips.py\ns06_label_sheet.py", "Before/after chips → blind Excel workbook"),
-      ("Human labelling", "160 points: loss / no loss / no canopy / not plantation")]),
+     [("s17_blocks_\nsample.py", "130 random 30 m blocks, 6 strata; image offset by phase correlation"),
+      ("s17b · s17d\nchips, label page", "Shifted before/after chips → blind click-to-label page"),
+      ("Human labelling", "16 dots per block, two interpreters (30 blocks repeated)")]),
     ("Estimate", "#8fd2b6",
-     [("s07 · s11\n*_estimate.py", "Olofsson stratified estimators, domain totals, 95% CI"),
+     [("s17c · s17h · s17i\n*_estimate.py", "Stratified estimator, bootstrap CI, checks; 2022 harvest (Hansen) = cutover"),
       ("s13_indicator_\ncomparison.py", "AUC + bootstrap for optical, SAR, AlphaEarth")]),
     ("Communicate", "#6fc6a1",
      [("fig_*.py · figstyle.py", "Charts & tables, one shared style"),
@@ -63,7 +64,7 @@ for i, (name, col, boxes) in enumerate(STAGES):
 
 # hand-off files along the bottom
 handoffs = ["tiles_*.json\ns2_pre/post_10m.tif", "esk_v3_stack_10m.nc\nhydrology_10m.tif", "landuse_2022_10m.tif\nv3b_classes_10m.tif",
-            "sample_key.csv\nV3_labelling.xlsx", "s11_combined_estimate.json\ns13_indicator_comparison.json", "figures/final/*.png\nqgis/*.qgz"]
+            "block_key.csv\ndot labels (CSV)", "s17_final_estimate.json\ns13_indicator_comparison.json", "figures/final/*.png\nqgis/*.qgz"]
 for i, h in enumerate(handoffs):
     x = left + i * (w + gap)
     ax.text(x + w / 2, 0.108, h, ha="center", va="center", fontsize=9, family=MONO, color=INK2, linespacing=1.4)

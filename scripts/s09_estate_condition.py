@@ -1,7 +1,7 @@
 """V3 step 9: multi-source plantation estate, condition at the event, and loss by condition.
 
 Estate = AlphaEarth 2022 plantation class, plus FCP polygons the classifier does not call native
-(keeps 2022 cutover that is still plantation land use). Source agreement (classifier, FCP, LCDB5)
+(keeps 2022 cutover that is still plantation land use). Source agreement (classifier, FCP, LCDB v6 2018/19 exotic + harvested; raster from s14)
 is stored as a confidence band.
 Condition at event (Jan-Feb 2023 Sentinel-2, Hansen v1.13 loss year):
   mature = pre NDVI >= 0.69 and NBR >= 0.53 (V3 Otsu thresholds) and no Hansen loss 2017-2022
@@ -25,7 +25,8 @@ ds = xr.open_dataset(f"{V3}/data/esk_v3_stack_10m.nc", engine="scipy").load()
 A = Affine(*ds.attrs["transform"]); H, W = ds.aoi.shape
 aoi = ds.aoi.values == 1
 ok = aoi & (ds.optical_valid.values == 1)
-lcdb = ds.lcdb5_exotic_forest.values == 1
+with rasterio.open(f"{V3}/data/lcdb6_2018_plantation_10m.tif") as r:
+    lcdb = r.read(1) > 0
 with rasterio.open(f"{V3}/data/landuse_2022_10m.tif") as r:
     lu = r.read(1)
 with rasterio.open(f"{V3}/data/fcp_yearEst_10m.tif") as r:
@@ -76,7 +77,7 @@ with rasterio.open(f"{V3}/data/v3b_classes_10m.tif", "w", dtype="uint8", nodata=
     d.update_tags(1, values="1 open at event; 2 young no loss; 3 young loss; 4 mature no loss; 5 mature loss; 6 native no loss; 7 native loss")
 with rasterio.open(f"{V3}/data/estate_agreement_10m.tif", "w", dtype="uint8", nodata=0, **prof) as d:
     d.write(np.where(estate, agree, 0).astype("uint8"), 1)
-    d.update_tags(1, values="number of sources calling the pixel plantation: AlphaEarth 2022 classifier, FCP, LCDB5 (0 = not estate)")
+    d.update_tags(1, values="number of sources calling the pixel plantation: AlphaEarth 2022 classifier, FCP, LCDB v6 2018/19 71|64 (0 = not estate)")
 
 ha = lambda m: round(float(m.sum()) * PX_HA)
 old = rasterio.open(f"{V3}/data/v3_classes_10m.tif").read(1)

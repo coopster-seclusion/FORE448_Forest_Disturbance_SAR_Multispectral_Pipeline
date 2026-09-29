@@ -1,0 +1,220 @@
+{
+ "reported": {
+  "loss_ha": 638,
+  "ci95": [
+   364,
+   912
+  ],
+  "n": 117
+ },
+ "suggestions": {
+  "blocks_with": 102,
+  "dots": 1504,
+  "dot_agreement": 0.6,
+  "crosstab": {
+   "can": {
+    "can": 425,
+    "lost": 27,
+    "none": 60
+   },
+   "lost": {
+    "can": 32,
+    "lost": 56,
+    "none": 29
+   },
+   "none": {
+    "can": 312,
+    "lost": 141,
+    "none": 422
+   }
+  }
+ },
+ "anchoring_by_stratum": {
+  "lostf|mature_most|No": 0.0,
+  "lostf|mature_none|No": 0.0,
+  "lostf|mature_some|No": 0.1,
+  "lostf|young_most|No": null,
+  "lostf|young_none|No": 0.0,
+  "lostf|young_some|No": 0.208,
+  "lostf|mature_most|Yes": 0.219,
+  "lostf|mature_none|Yes": 0.011,
+  "lostf|mature_some|Yes": 0.096,
+  "lostf|young_most|Yes": 0.24,
+  "lostf|young_none|Yes": 0.12,
+  "lostf|young_some|Yes": 0.273,
+  "canf|mature_most|No": 0.0,
+  "canf|mature_none|No": 0.866,
+  "canf|mature_some|No": 0.662,
+  "canf|young_most|No": null,
+  "canf|young_none|No": 0.571,
+  "canf|young_some|No": 0.604,
+  "canf|mature_most|Yes": 0.445,
+  "canf|mature_none|Yes": 0.783,
+  "canf|mature_some|Yes": 0.717,
+  "canf|young_most|Yes": 0.625,
+  "canf|young_none|Yes": 0.5,
+  "canf|young_some|Yes": 0.489
+ },
+ "unsuggested_only": {
+  "loss_ha": 135,
+  "ci95": [
+   52,
+   219
+  ],
+  "n": 26
+ },
+ "suggested_only": {
+  "loss_ha": 756,
+  "ci95": [
+   412,
+   1101
+  ],
+  "n": 91
+ },
+ "cant_tell": {
+  "blocks": [
+   {
+    "block_id": "B-010",
+    "stratum": "mature_most",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "shaded in before  looks like native veg"
+   },
+   {
+    "block_id": "B-075",
+    "stratum": "young_none",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "before = cut over may have been replanted"
+   },
+   {
+    "block_id": "B-076",
+    "stratum": "young_some",
+    "canopy_before": 16,
+    "lost_after": 0,
+    "notes": "looks like a fresh replant"
+   },
+   {
+    "block_id": "B-080",
+    "stratum": "young_some",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "before = cut over  looks like it could have been replanted after = slip"
+   },
+   {
+    "block_id": "B-086",
+    "stratum": "young_most",
+    "canopy_before": 3,
+    "lost_after": 3,
+    "notes": "after = clear cut happened"
+   },
+   {
+    "block_id": "B-087",
+    "stratum": "young_some",
+    "canopy_before": 16,
+    "lost_after": 7,
+    "notes": "before = cut over looks like it was replanted"
+   },
+   {
+    "block_id": "B-092",
+    "stratum": "young_most",
+    "canopy_before": 16,
+    "lost_after": 14,
+    "notes": "fresh replant"
+   },
+   {
+    "block_id": "B-095",
+    "stratum": "young_most",
+    "canopy_before": 16,
+    "lost_after": 13,
+    "notes": "young plantation "
+   },
+   {
+    "block_id": "B-106",
+    "stratum": "young_most",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "fresh cut over "
+   },
+   {
+    "block_id": "B-110",
+    "stratum": "young_none",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "fresh cutover"
+   },
+   {
+    "block_id": "B-121",
+    "stratum": "young_none",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "in cutover can't tell if replanted - slips"
+   },
+   {
+    "block_id": "B-123",
+    "stratum": "young_none",
+    "canopy_before": 16,
+    "lost_after": 16,
+    "notes": "clear cut between before and after?"
+   },
+   {
+    "block_id": "B-126",
+    "stratum": "young_none",
+    "canopy_before": 0,
+    "lost_after": 0,
+    "notes": "cut over can't tell if replanted"
+   }
+  ],
+  "estimate_if_kept": {
+   "loss_ha": 696,
+   "ci95": [
+    401,
+    990
+   ],
+   "n": 130
+  }
+ },
+ "harvest_between_images": [
+  {
+   "block_id": "B-086",
+   "status": "Can't tell",
+   "lost_after": "",
+   "stratum": "young_most",
+   "ndvi_pre_block_mean": 0.742,
+   "notes": "after = clear cut happened"
+  },
+  {
+   "block_id": "B-119",
+   "status": "OK",
+   "lost_after": 3.0,
+   "stratum": "young_none",
+   "ndvi_pre_block_mean": 0.636,
+   "notes": "clear cut between before and after"
+  },
+  {
+   "block_id": "B-123",
+   "status": "Can't tell",
+   "lost_after": "",
+   "stratum": "young_none",
+   "ndvi_pre_block_mean": 0.737,
+   "notes": "clear cut between before and after?"
+  },
+  {
+   "block_id": "B-125",
+   "status": "OK",
+   "lost_after": 16.0,
+   "stratum": "young_some",
+   "ndvi_pre_block_mean": 0.694,
+   "notes": "clear cut between before and after - slips"
+  }
+ ],
+ "estimate_if_pre_storm_harvest_removed": {
+  "blocks": [],
+  "loss_ha": 638,
+  "ci95": [
+   364,
+   912
+  ],
+  "n": 117
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "primary_exclude_2022_harvest": {
+  "mature": {
+   "loss_ha": 194,
+   "ci95_ha": [
+    82,
+    306
+   ],
+   "canopy_ha": 4512,
+   "share_pct": 4.3,
+   "share_ci95_pct": [
+    2.1,
+    6.9
+   ]
+  },
+  "young": {
+   "loss_ha": 272,
+   "ci95_ha": [
+    120,
+    423
+   ],
+   "canopy_ha": 1790,
+   "share_pct": 15.2,
+   "share_ci95_pct": [
+    8.1,
+    23.3
+   ]
+  },
+  "total": {
+   "loss_ha": 466,
+   "ci95_ha": [
+    277,
+    654
+   ],
+   "canopy_ha": 6302,
+   "share_pct": 7.4,
+   "share_ci95_pct": [
+    4.9,
+    10.4
+   ]
+  }
+ },
+ "as_labelled": {
+  "mature": {
+   "loss_ha": 194,
+   "ci95_ha": [
+    82,
+    306
+   ],
+   "canopy_ha": 4514,
+   "share_pct": 4.3,
+   "share_ci95_pct": [
+    2.1,
+    6.9
+   ]
+  },
+  "young": {
+   "loss_ha": 444,
+   "ci95_ha": [
+    194,
+    694
+   ],
+   "canopy_ha": 1993,
+   "share_pct": 22.3,
+   "share_ci95_pct": [
+    12.2,
+    35.3
+   ]
+  },
+  "total": {
+   "loss_ha": 638,
+   "ci95_ha": [
+    364,
+    912
+   ],
+   "canopy_ha": 6507,
+   "share_pct": 9.8,
+   "share_ci95_pct": [
+    6.2,
+    14.3
+   ]
+  }
+ },
+ "exclude_2021_22_harvest": {
+  "mature": {
+   "loss_ha": 194,
+   "ci95_ha": [
+    82,
+    306
+   ],
+   "canopy_ha": 4512,
+   "share_pct": 4.3,
+   "share_ci95_pct": [
+    2.1,
+    6.9
+   ]
+  },
+  "young": {
+   "loss_ha": 206,
+   "ci95_ha": [
+    82,
+    329
+   ],
+   "canopy_ha": 1620,
+   "share_pct": 12.7,
+   "share_ci95_pct": [
+    6.5,
+    19.9
+   ]
+  },
+  "total": {
+   "loss_ha": 399,
+   "ci95_ha": [
+    233,
+    566
+   ],
+   "canopy_ha": 6132,
+   "share_pct": 6.5,
+   "share_ci95_pct": [
+    4.2,
+    9.2
+   ]
+  }
+ },
+ "context": {
+  "blocks_sampled": 130,
+  "blocks_used": 117,
+  "cant_tell": 13,
+  "interpreter_agreement": {
+   "n": 28,
+   "mean_abs_diff_lost_fraction": 0.047,
+   "kappa_any_loss": 0.55
+  },
+  "block_map_accuracy": {
+   "bias_map_minus_ref": 0.049,
+   "rmse": 0.324,
+   "agree_binary_ge50pct": 0.821
+  },
+  "offset_median_m": 8.7,
+  "offset_p90_m": 22.0,
+  "earlier_estimates_ha": {
+   "pixel_strict": [
+    1037,
+    514,
+    1560
+   ],
+   "pixel_recheck": [
+    694,
+    300,
+    1088
+   ],
+   "blocks_as_labelled": [
+    638,
+    364,
+    912
+   ]
+  },
+  "bare_ground_ha": {
+   "MW_scars_2023": 166,
+   "Notti_PL_in_estate": 249,
+   "bare_replication_in_estate": [
+    93,
+    244
+   ]
+  }
+ }
+}

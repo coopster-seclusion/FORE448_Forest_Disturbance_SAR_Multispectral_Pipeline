@@ -3,7 +3,7 @@ data/
 sample/
 sample_supplement/
 sample_supplement2/
-sample_20m_superseded/
+sample_blocks/
 figures/drafts/
 figures/qa/
 qgis/*.tif
@@ -14,3 +14,17 @@ qgis/*.csv
 __pycache__/
 *.pyc
 ee_project.txt
+
+# presentations and bundles (large; kept on the group drive)
+*.pptx
+*.docx
+*.zip
+
+# superseded material: keep the README, scripts and provenance JSON, not chips, imagery or labels
+archive/**/*.png
+archive/**/*.tif
+archive/**/*.gpkg
+archive/**/*.xlsx
+archive/**/*.csv
+qgis/superseded_lcdb5/
+*.aux.xml

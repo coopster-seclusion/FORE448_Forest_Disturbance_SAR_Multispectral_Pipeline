@@ -1,14 +1,24 @@
-# Session handoff (last updated 25 Sep 2026)
+# Session handoff (last updated 30 Sep 2026)
 
-Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_DECISIONS_LOG.md](V3_METHODS_AND_DECISIONS_LOG.md).
+Start here next session. Full history, decisions and evidence: [V3_METHODS_AND_DECISIONS_LOG.md](V3_METHODS_AND_DECISIONS_LOG.md). Methods outlines for the report writer are Word files on the group drive (`docs/V3_Methods_Outline_*.docx`, not in git).
 
 ## Where things stand
 
-- **Analysis complete for the Esk catchment.** Plantation canopy loss 1,037 ha (95% CI 514–1,560): mature 379 ha (≈7%), young stands and recent cutover 658 ha (≈21%). 160 blind reference points. Loss rises with slope and is highest beside streams. Sensor separation (AUC): Sentinel-2 NDVI 0.90, NBR 0.86, AlphaEarth 0.75, Sentinel-1 VH/VV 0.69.
-- **Figures** (all in `figures/final/`): F1 study area, F2 workflow, F3a baseline change, F4 plantation loss, F4b native loss, F5 estimate, F6 terrain, F7 SAR, F8 AlphaEarth, F9 sensor comparison, F10 technical pipeline, F11 reference checks, T1 data, T2 results. Style is approved; do not redesign.
-- **Presentation deck:** Claude Slides artifact "Esk Cyclone Gabrielle Canopy Loss" (owner's claude.ai gallery). 13 main slides + 5 backups, speaker notes for three presenters (about 11 minutes). The cover still has a "[Group member names]" placeholder, and the deck is private until shared.
-- **Repository:** `main` holds V3 only. V1/V2 is preserved at tag `v2-archive`.
-- **Deadlines:** presentation Mon 28 Sep 2026; report due Fri 2 Oct 2026, 5 pm.
+- **Analysis final (27 Sep).** Primary estimate from the 30 m block design (protocol `PROTOCOL_30m_block_reassessment.md`, amendments 1–7): plantation canopy loss **466 ha (95% CI 277–654), 7.4% of plantation canopy**. Mature 194 ha (82–306), 4.3%; young stands and recent cutover 272 ha (120–423), 15.2%. Dots on Hansen loss-year 2022 pixels count as no canopy before (amendment 7, post hoc). Bounds: 638 ha as labelled; 399 ha excluding 2021–22 harvest. Source: `provenance/s17_final_estimate.json`.
+- **Reference data:** 130 blocks (117 usable, 13 Can't tell), 16 dots each, labelled blind by the project author; a second group member labelled 30 (mean lost-fraction difference 0.047, kappa 0.55). Median offset between the reference imagery and Sentinel-2 is 8.7 m, measured and corrected on the chips.
+- **Map:** 823 ha mapped loss (mature 532, young 291); the sample corrects it to 466 ha. Terrain rates are map-based: about 5% of canopy below 15° to 24% above 35°; 20% within 20 m of a stream vs 7% beyond 200 m.
+- **Estate:** 9,525 ha, an upper bound (the 851 ha not in LCDB v6 is mostly classifier edge; log §6k). LCDB v6.0 replaced LCDB5 for the estate check (log §6g).
+- **Superseded:** 1,037 ha (first pixel sample) and 694 ha (pixel re-check). Material is in `archive/`; the pixel points are still used by the sensor comparison (`s13`).
+- **Presentation (28 Sep):** final deck `presentation/FORE448_Esk_V3_FINAL.pptx` (24 slides, edited by hand after `build_simple_deck.py`). The plain-English summary is `presentation/WHAT_WE_DID.md`. The earlier Claude Slides artifact is out of date (it still shows 1,037 ha).
+- **Deadline:** report due Fri 2 Oct 2026, 5 pm.
+- **Repository:** GitHub `main` is in sync with this folder as of 30 Sep (see log §6l). Decks, Word files, labels, chips and rasters stay on the group drive (git-ignored).
+
+## Open items for the report
+
+- The methods log §6i quotes block accuracy as bias +0.02, RMSE 0.36, 80%. Those figures are from before the B-006/016/056 correction; `s17_block_estimate.json` has the current values (+0.049, 0.324, 82%).
+- Protocol amendment 1 (a model-assisted random forest on the labelled dots) was not run. Report it as future work.
+- The final deck's Massey et al. (2025) citation is now complete (log §6l), but its harvest-age point still needs checking against the full text. The deck's claim that steep and streamside land held about three-quarters of the loss has no source: recompute it with defined cut-offs or drop it.
+- Report-size (6.5-inch) figure versions and native Word tables for T1/T2 are still to do.
 
 ## Next session goals
 
@@ -38,7 +48,7 @@ Proposed steps:
 6. **Add a `run_all` entry point** (Makefile or `run_pipeline.py`) with stage flags, plus a short "new AOI" walkthrough in the README. The human labelling step stays manual and is clearly marked.
 7. Optional: a tiny test AOI and a smoke test that runs stages 1–3 in a few minutes.
 
-### 2. Figure and table revisions after the group's sanity check
+### 2. Figure and table revisions (deck done; report versions outstanding)
 
 - Collect feedback against the deck and `figures/final/`. Each figure is produced by one script, so changes stay local:
   - maps F1, F3a, F4b: `qgis/layout_maps.py`

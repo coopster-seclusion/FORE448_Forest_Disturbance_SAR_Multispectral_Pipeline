@@ -1,0 +1,32 @@
+{
+ "blocks_in_population": 108312,
+ "canopy_px_lost_to_grid_trim": 0,
+ "stratum_sizes_blocks": {
+  "mature_most": 5269,
+  "mature_none": 54237,
+  "mature_some": 6654,
+  "young_most": 2904,
+  "young_none": 35218,
+  "young_some": 4030
+ },
+ "stratum_sizes_ha": {
+  "mature_most": 474,
+  "mature_none": 4881,
+  "mature_some": 599,
+  "young_most": 261,
+  "young_none": 3170,
+  "young_some": 363
+ },
+ "sample_n": 130,
+ "offsets_ok": 129,
+ "offset_status": {
+  "ok": 129,
+  "shift > 30 m": 1
+ },
+ "offset_median_m": 8.7,
+ "offset_p90_m": 22.0,
+ "offset_mean_e_m": 4.0,
+ "offset_mean_n_m": -8.0,
+ "direction_spread_deg": 35.5,
+ "apply_local_shift_on_chips": true
+}

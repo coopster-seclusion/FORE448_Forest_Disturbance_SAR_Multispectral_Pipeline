@@ -80,6 +80,6 @@ sensor_page("F8", "AlphaEarth flagged the cyclone year, but it mostly sees routi
             "same Sentinel-1 and Sentinel-2 data.",
             136, "F8_alphaearth_slide.png",
             credit="Data: AlphaEarth Foundations annual satellite embeddings (Google DeepMind, via Google Earth Engine); Sentinel-2 "
-                   "loss outline (this study); LINZ/HBRC LiDAR DEM 2020–21 (CC BY 4.0); Forestry Catchment Planner; LCDB5. "
+                   "loss outline (this study); LINZ/HBRC LiDAR DEM 2020–21 (CC BY 4.0); Forestry Catchment Planner; LCDB v6.0 (Manaaki Whenua, CC BY 4.0). "
                    "NZTM2000 (EPSG:2193). FORE448 group project, 2026.")
 stop()

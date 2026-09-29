@@ -1,0 +1,53 @@
+{
+ "n_used": 117,
+ "n_cant_tell": 13,
+ "mature": {
+  "loss_ha": 194,
+  "ci95": [
+   82,
+   306
+  ],
+  "bootstrap95": [
+   99.0,
+   318.0
+  ],
+  "canopy_ha": 4514,
+  "share_pct": 4.3
+ },
+ "young": {
+  "loss_ha": 444,
+  "ci95": [
+   194,
+   694
+  ],
+  "bootstrap95": [
+   231.0,
+   707.0
+  ],
+  "canopy_ha": 1993,
+  "share_pct": 22.3
+ },
+ "total": {
+  "loss_ha": 638,
+  "ci95": [
+   364,
+   912
+  ],
+  "bootstrap95": [
+   395.0,
+   918.0
+  ],
+  "canopy_ha": 6507,
+  "share_pct": 9.8
+ },
+ "block_accuracy": {
+  "bias_map_minus_ref": 0.049,
+  "rmse": 0.324,
+  "agree_binary_ge50pct": 0.821
+ },
+ "interpreter_agreement": {
+  "n": 28,
+  "mean_abs_diff_lost_fraction": 0.047,
+  "kappa_any_loss": 0.55
+ }
+}
